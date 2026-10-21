@@ -1,5 +1,6 @@
-import { auth } from "@/lib/auth-server";
+import { sessionClaims } from "@/lib/auth-server";
 import { redirect } from "next/navigation";
+import { AdminRedirect } from "@/components/layout/admin-redirect";
 import { Sidebar } from "@/components/layout/sidebar";
 import { DashboardHeader } from "@/components/layout/dashboard-header";
 import { MobileBottomNav } from "@/components/layout/mobile-bottom-nav";
@@ -10,7 +11,7 @@ export default async function DashboardLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const { userId } = await auth();
+  const { userId, role } = await sessionClaims();
 
   if (!userId) {
     redirect("/sign-in");
@@ -18,6 +19,7 @@ export default async function DashboardLayout({
 
   return (
     <div className="min-h-screen bg-background">
+      <AdminRedirect isAdmin={role === "ADMIN"} />
       <DashboardHeader />
 
       <div className="flex min-h-[calc(100vh-56px)]">
