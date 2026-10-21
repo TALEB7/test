@@ -1,0 +1,535 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * THE COMMUNIUM — design system
+ * Look:   clean SaaS. White + warm grays, near-black ink, logo red #E4082C as the single accent.
+ * Tokens: src/styles/tokens.css (raw values). This file maps them to the shadcn HSL variables
+ *         and restyles the shared component classes. Legacy class names (ygo-*, gem-*, rarity-*,
+ *         fantasy-*) are kept so existing pages keep working; they now render in the new look.
+ * Motion: short, ease-out, transform/opacity only, honours reduced motion.
+ */
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;          /* white */
+    --foreground: 30 4% 10%;          /* sand-900 #1a1918 */
+    --card: 0 0% 100%;
+    --card-foreground: 30 4% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 30 4% 10%;
+    --primary: 350 93% 46%;           /* logo red #E4082C */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 45 13% 94%;          /* sand-100 */
+    --secondary-foreground: 30 4% 10%;
+    --muted: 40 20% 96.5%;            /* sand-50 */
+    --muted-foreground: 40 5% 34%;    /* sand-600, 7:1 on white */
+    --accent: 45 13% 94%;
+    --accent-foreground: 30 4% 10%;
+    --destructive: 350 93% 46%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 40 11% 89%;             /* sand-200 */
+    --input: 38 9% 82%;               /* sand-300 */
+    --ring: 350 93% 46%;
+    --radius: 1rem;
+
+    /* Legacy aliases kept for existing classes */
+    --gold: 350 93% 46%;
+    --gold-bright: 350 94% 64%;
+    --gold-deep: 350 92% 39%;
+    --gold-glow: rgb(228 8 44 / 0.16);
+    --surface-gradient: var(--surface-raised);
+    --glow-border: var(--line-strong);
+    --glow-border-hover: var(--red-300);
+    --frame-highlight: rgb(255 255 255 / 0.8);
+    --shadow-card: var(--shadow-sm);
+    --shadow-card-hover: var(--shadow-lg);
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    -webkit-tap-highlight-color: transparent;
+    scroll-padding-top: calc(var(--nav-height) + 16px);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  body {
+    @apply bg-background text-foreground selection:bg-primary/20;
+    font-family: var(--font-body);
+    font-feature-settings: 'ss01', 'cv11';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  html[lang='ar'] body {
+    font-family: var(--font-arabic), var(--font-body);
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: var(--tracking-snug);
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Keyboard focus — red ring, keyboard users only */
+  :focus-visible {
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  :focus:not(:focus-visible) {
+    outline: none;
+  }
+
+  .tabular-nums,
+  [data-numeric] {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@layer components {
+  /* ── Inputs ─────────────────────────────────────────────────────────── */
+  .form-input {
+    @apply w-full border border-input bg-card px-4 py-3 text-sm placeholder:text-muted-foreground/80 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50;
+    border-radius: var(--radius-sm);
+    transition:
+      border-color var(--dur-fast) var(--ease-out),
+      box-shadow var(--dur-fast) var(--ease-out);
+  }
+  .form-input:hover:not(:disabled):not(:focus) {
+    border-color: var(--sand-400);
+  }
+  .form-input:focus,
+  .surface-input:focus {
+    border-color: hsl(var(--primary));
+    box-shadow: var(--ring-red);
+  }
+
+  .surface-input {
+    @apply border border-input bg-background text-sm focus:outline-none;
+    border-radius: var(--radius-sm);
+    transition: border-color var(--dur-fast) var(--ease-out), box-shadow var(--dur-fast) var(--ease-out);
+  }
+
+  /* ── Cards ──────────────────────────────────────────────────────────
+     White surface, 1px warm border, soft layered shadow. Only interactive
+     cards (links, buttons, .card-interactive) lift on hover. */
+  .card,
+  .premium-card,
+  .ygo-card {
+    @apply relative overflow-hidden border text-card-foreground;
+    background: var(--surface-raised);
+    border-color: var(--line);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    transition:
+      border-color var(--dur-base) var(--ease-out),
+      box-shadow var(--dur-base) var(--ease-out),
+      transform var(--dur-base) var(--ease-out);
+  }
+  @media (hover: hover) and (pointer: fine) {
+    a.card:hover,
+    a.premium-card:hover,
+    a.ygo-card:hover,
+    button.ygo-card:hover,
+    .card-interactive:hover {
+      transform: translateY(-2px);
+      border-color: var(--line-strong);
+      box-shadow: var(--shadow-lg);
+    }
+  }
+  a.card:active,
+  a.ygo-card:active,
+  button.ygo-card:active,
+  .card-interactive:active {
+    transform: translateY(0) scale(0.99);
+  }
+
+  .surface-card {
+    @apply border border-border bg-card;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-xs);
+  }
+
+  /* Subtle panel on gray: for nested blocks inside cards */
+  .card-subtle {
+    background: var(--surface-subtle);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+  }
+
+  /* Red-highlighted card (featured plan, active item) */
+  .card-featured,
+  .card-mythic {
+    @apply relative;
+    border: 1px solid var(--red-300);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-red-lg);
+  }
+
+  /* ── Buttons ────────────────────────────────────────────────────────
+     Pill shape, crisp hover lift, press scale. Legacy names map onto:
+     ygo-btn-gold → primary (red), ygo-btn-blue → dark, brushed-metal-btn → outline. */
+  .btn,
+  .btn-primary,
+  .btn-dark,
+  .btn-outline,
+  .btn-ghost,
+  .ygo-btn-gold,
+  .ygo-btn-blue,
+  .brushed-metal-btn {
+    @apply relative inline-flex select-none items-center justify-center gap-2 whitespace-nowrap px-6 py-3 text-sm font-semibold disabled:pointer-events-none disabled:opacity-50;
+    border-radius: var(--radius-pill);
+    border: 1px solid transparent;
+    letter-spacing: 0;
+    transition:
+      transform var(--dur-fast) var(--ease-out),
+      box-shadow var(--dur-base) var(--ease-out),
+      background-color var(--dur-base) var(--ease-out),
+      border-color var(--dur-base) var(--ease-out),
+      color var(--dur-base) var(--ease-out);
+  }
+  .btn:active,
+  .btn-primary:active,
+  .btn-dark:active,
+  .btn-outline:active,
+  .btn-ghost:active,
+  .ygo-btn-gold:active,
+  .ygo-btn-blue:active,
+  .brushed-metal-btn:active {
+    transform: scale(0.97);
+  }
+
+  .btn-primary,
+  .ygo-btn-gold {
+    color: #fff;
+    background: var(--red-500);
+    border-color: var(--red-600);
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.22), var(--shadow-red);
+  }
+  .btn-dark,
+  .ygo-btn-blue {
+    color: #fff;
+    background: var(--sand-900);
+    border-color: var(--sand-950);
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.12), var(--shadow-md);
+  }
+  .btn-outline,
+  .brushed-metal-btn {
+    color: var(--sand-900);
+    background: var(--sand-0);
+    border-color: var(--line);
+    box-shadow: var(--shadow-sm);
+  }
+  .btn-ghost {
+    color: var(--sand-700);
+    background: transparent;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .btn-primary:hover,
+    .ygo-btn-gold:hover {
+      background: var(--red-600);
+      transform: translateY(-1px);
+      box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.22), 0 2px 4px rgb(158 7 32 / 0.2), 0 14px 32px -10px rgb(228 8 44 / 0.55);
+    }
+    .btn-dark:hover,
+    .ygo-btn-blue:hover {
+      background: var(--sand-800);
+      transform: translateY(-1px);
+      box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.12), var(--shadow-lg);
+    }
+    .btn-outline:hover,
+    .brushed-metal-btn:hover {
+      border-color: var(--line-strong);
+      transform: translateY(-1px);
+      box-shadow: var(--shadow-md);
+    }
+    .btn-ghost:hover {
+      color: var(--sand-900);
+      background: var(--sand-100);
+    }
+  }
+  .btn-sm {
+    @apply px-4 py-2 text-[13px];
+  }
+  .btn-lg {
+    @apply px-7 py-3.5 text-[15px];
+  }
+
+  .gold-pill {
+    @apply rounded-full bg-primary px-3 py-1 text-[11px] font-semibold uppercase text-primary-foreground;
+    letter-spacing: var(--tracking-label);
+  }
+
+  /* ── Eyebrow — small pill with a red dot, above headings ─────────── */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-[13px] font-medium;
+    color: var(--red-600);
+  }
+  .eyebrow-pill {
+    @apply inline-flex items-center gap-2 rounded-full px-3 py-1 text-[13px] font-medium;
+    color: var(--red-700);
+    background: var(--red-50);
+    border: 1px solid var(--red-100);
+  }
+  .eyebrow-pill::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 999px;
+    background: var(--red-500);
+  }
+
+  /* Mono label ("CONVERSION / 01") */
+  .label-mono {
+    font-family: var(--font-code);
+    font-size: 11px;
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+    color: var(--sand-500);
+  }
+
+  /* Italic serif accent at the end of headlines */
+  .accent-serif {
+    font-family: var(--font-accent);
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: var(--red-500);
+  }
+
+  /* ── Avatar ─────────────────────────────────────────────────────── */
+  .avatar-glow {
+    @apply relative flex shrink-0 items-center justify-center overflow-hidden rounded-full;
+    background: var(--sand-100);
+    box-shadow: 0 0 0 2px var(--sand-0), 0 0 0 3px var(--line);
+    transition: box-shadow var(--dur-base) var(--ease-out);
+  }
+
+  .ygo-tokens {
+    @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-semibold;
+    font-variant-numeric: tabular-nums;
+    background: var(--red-50);
+    color: var(--red-700);
+    border: 1px solid var(--red-100);
+  }
+
+  /* Stat tile */
+  .stat-tile,
+  .ygo-stat {
+    @apply relative overflow-hidden border px-4 py-3 text-card-foreground;
+    font-variant-numeric: tabular-nums;
+    background: var(--surface-raised);
+    border-color: var(--line);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-xs);
+  }
+
+  .ygo-accent-line {
+    height: 1px;
+    background: var(--line);
+  }
+
+  /* Divider with centred content */
+  .ornament-divider {
+    @apply relative flex items-center gap-3;
+    color: var(--red-500);
+  }
+  .ornament-divider::before,
+  .ornament-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--line);
+  }
+
+  /* Section label inside app pages */
+  .ygo-section-title {
+    @apply relative inline-flex items-center gap-2 text-base font-semibold text-foreground;
+    letter-spacing: var(--tracking-snug);
+  }
+  .ygo-section-title::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 999px;
+    background: var(--red-500);
+  }
+
+  /* ── Badges (flat, soft) ─────────────────────────────────────────── */
+  .gem-badge,
+  .badge-soft {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-medium;
+    border: 1px solid transparent;
+  }
+  .gem-badge-gold,
+  .gem-badge-ruby,
+  .badge-red {
+    background: var(--red-50);
+    color: var(--red-700);
+    border-color: var(--red-100);
+  }
+  .gem-badge-emerald,
+  .badge-green {
+    background: var(--success-50);
+    color: var(--success-600);
+    border-color: rgb(18 134 63 / 0.15);
+  }
+  .gem-badge-sapphire,
+  .badge-blue {
+    background: var(--info-50);
+    color: var(--info-600);
+    border-color: rgb(29 95 209 / 0.15);
+  }
+  .gem-badge-amethyst,
+  .badge-neutral {
+    background: var(--sand-100);
+    color: var(--sand-700);
+    border-color: var(--line);
+  }
+
+  /* Plan / tier labels */
+  .rarity-normal,
+  .rarity-rare,
+  .rarity-super {
+    background: var(--sand-100);
+    color: var(--sand-700);
+    border: 1px solid var(--line);
+  }
+  .rarity-ultra {
+    background: var(--red-500);
+    color: #fff;
+    border: 1px solid var(--red-600);
+  }
+
+  .ygo-nav-active {
+    @apply relative font-semibold text-foreground;
+  }
+  .ygo-nav-active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    border-radius: 2px;
+    background: hsl(var(--primary));
+  }
+
+  .ygo-banner {
+    border-radius: var(--radius-lg);
+  }
+
+  .tab-pill-active {
+    @apply bg-foreground font-semibold text-background shadow-sm;
+  }
+  .tab-pill-inactive {
+    @apply text-muted-foreground hover:bg-accent hover:text-foreground;
+  }
+
+  .fantasy-border {
+    @apply relative border border-border;
+  }
+
+  /* Former game effects: kept as no-ops so markup stays valid */
+  .ygo-shimmer,
+  .holographic-shimmer,
+  .vibrant-glow,
+  .particle-bg {
+    @apply relative;
+  }
+  .gold-glow {
+    box-shadow: var(--shadow-red);
+  }
+
+  /* ── App background: faint grid fading out from the top ─────────── */
+  .app-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-color: var(--surface-page);
+    background-image: var(--pattern-grid);
+    background-size: var(--pattern-grid-size);
+    -webkit-mask-image: linear-gradient(180deg, #000 0, transparent 520px);
+    mask-image: linear-gradient(180deg, #000 0, transparent 520px);
+  }
+}
+
+@layer utilities {
+  .ease-out-quint {
+    transition-timing-function: var(--ease-out);
+  }
+
+  .bg-grid {
+    background-image: var(--pattern-grid);
+    background-size: var(--pattern-grid-size);
+  }
+  .bg-dots {
+    background-image: var(--pattern-dots);
+    background-size: var(--pattern-dots-size);
+  }
+  .mask-fade-x {
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+    mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+  }
+  .mask-fade-b {
+    -webkit-mask-image: linear-gradient(180deg, #000 55%, transparent);
+    mask-image: linear-gradient(180deg, #000 55%, transparent);
+  }
+
+  /* Staggered entrance for lists/grids: add .stagger to the parent */
+  @media (prefers-reduced-motion: no-preference) {
+    .stagger > * {
+      animation: rise-in 420ms var(--ease-out) both;
+    }
+    .stagger > *:nth-child(2) { animation-delay: 40ms; }
+    .stagger > *:nth-child(3) { animation-delay: 80ms; }
+    .stagger > *:nth-child(4) { animation-delay: 120ms; }
+    .stagger > *:nth-child(5) { animation-delay: 160ms; }
+    .stagger > *:nth-child(6) { animation-delay: 200ms; }
+    .stagger > *:nth-child(n + 7) { animation-delay: 240ms; }
+  }
+
+  /* Page entrance: short fade + rise (fade only under reduced motion) */
+  .page-enter {
+    animation: page-in 260ms var(--ease-out) both;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .page-enter { animation-name: fade-in; }
+  }
+  @keyframes page-in {
+    from { opacity: 0; transform: translateY(6px); }
+  }
+  @keyframes fade-in {
+    from { opacity: 0; }
+  }
+
+  @keyframes rise-in {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+/* Respect users who prefer less motion — keep fades, drop movement */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+    scroll-behavior: auto !important;
+  }
+}

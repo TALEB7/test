@@ -1,0 +1,132 @@
+/*
+ * Landing page motion + patterns. Values come from tokens.css.
+ * Everything here is CSS-only (driven by tiny IntersectionObserver hooks)
+ * and switches off under prefers-reduced-motion.
+ */
+
+/* ── Scroll reveal: fade + rise, staggered with --reveal-delay ───────── */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity var(--dur-reveal) var(--ease-out),
+    transform var(--dur-reveal) var(--ease-out);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+[data-reveal].is-in {
+  opacity: 1;
+  transform: none;
+}
+
+/* ── Live dot ───────────────────────────────────────────────────────── */
+.lp-live-dot {
+  position: relative;
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: var(--success-600);
+}
+.lp-live-dot::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: inherit;
+  animation: lp-ping 2.4s var(--ease-out) infinite;
+}
+.lp-live-dot--red { background: var(--red-500); }
+@keyframes lp-ping {
+  0% { transform: scale(1); opacity: 0.55; }
+  70%, 100% { transform: scale(2.8); opacity: 0; }
+}
+
+/* ── Marquee: two copies of the track, translate by -50% ─────────────── */
+.lp-marquee {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+}
+.lp-marquee__track {
+  display: flex;
+  width: max-content;
+  animation: lp-marquee var(--marquee-duration, 40s) linear infinite;
+}
+.lp-marquee--reverse .lp-marquee__track { animation-direction: reverse; }
+.lp-marquee:hover .lp-marquee__track,
+.lp-marquee:focus-within .lp-marquee__track { animation-play-state: paused; }
+@keyframes lp-marquee {
+  to { transform: translateX(-50%); }
+}
+[dir='rtl'] .lp-marquee__track { animation-name: lp-marquee-rtl; }
+@keyframes lp-marquee-rtl {
+  to { transform: translateX(50%); }
+}
+
+/* ── Orbit (tool chips around the central card) ─────────────────────── */
+.lp-orbit {
+  animation: lp-spin var(--orbit-duration, 80s) linear infinite;
+}
+.lp-orbit--reverse { animation-direction: reverse; }
+/* chips counter-rotate so their labels stay upright */
+.lp-orbit > .lp-orbit__item > * {
+  animation: lp-spin var(--orbit-duration, 80s) linear infinite reverse;
+}
+.lp-orbit--reverse > .lp-orbit__item > * { animation-direction: normal; }
+@keyframes lp-spin {
+  to { rotate: 360deg; }
+}
+
+/* ── Soft floating for hero badges ──────────────────────────────────── */
+.lp-float {
+  animation: lp-float 6s ease-in-out infinite;
+}
+.lp-float--late { animation-delay: -3s; }
+@keyframes lp-float {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 0 -6px; }
+}
+
+/* ── Bar chart grow-in ──────────────────────────────────────────────── */
+.lp-bar {
+  transform-origin: bottom;
+  transform: scaleY(0.08);
+  transition: transform 900ms var(--ease-out);
+  transition-delay: var(--bar-delay, 0ms);
+}
+.is-in .lp-bar { transform: scaleY(1); }
+
+/* ── Accordion: grid-rows trick for a smooth height animation ───────── */
+.lp-collapse {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows var(--dur-slow) var(--ease-out);
+}
+.lp-collapse[data-open='true'] { grid-template-rows: 1fr; }
+.lp-collapse > div { overflow: hidden; }
+
+/* ── Steps rail progress ────────────────────────────────────────────── */
+.lp-progress {
+  transform-origin: top;
+  transition: transform 500ms var(--ease-out);
+}
+
+/* ── Section glows ──────────────────────────────────────────────────── */
+.lp-glow {
+  position: absolute;
+  pointer-events: none;
+  border-radius: 999px;
+  background: var(--glow-red);
+  filter: blur(8px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] { opacity: 1; transform: none; transition: none; }
+  .lp-live-dot::after,
+  .lp-marquee__track,
+  .lp-orbit,
+  .lp-orbit > .lp-orbit__item > *,
+  .lp-float { animation: none; }
+  .lp-marquee { overflow-x: auto; }
+  .lp-bar { transform: none; transition: none; }
+  .lp-collapse, .lp-progress { transition: none; }
+}

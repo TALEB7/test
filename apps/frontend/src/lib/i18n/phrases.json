@@ -1,0 +1,6262 @@
+{
+ " · basé sur le marché": {
+  "ar": " · حسب السوق",
+  "en": " · based on the market",
+  "fr": " · basé sur le marché"
+ },
+ " ✅ Tête": {
+  "ar": " ✅ في الصدارة",
+  "en": " ✅ Leading",
+  "fr": " ✅ En tête"
+ },
+ " ❌ Surenchéri": {
+  "ar": " ❌ تم تجاوز مزايدتك",
+  "en": " ❌ Outbid",
+  "fr": " ❌ Surenchéri"
+ },
+ "$/Mois": {
+  "ar": "$/شهر",
+  "en": "$/month",
+  "fr": "$/mois"
+ },
+ "(Hôte)": {
+  "ar": "(المضيف)",
+  "en": "(Host)",
+  "fr": "(Hôte)"
+ },
+ "+15 outils.": {
+  "ar": "+15 أداة.",
+  "en": "+15 tools.",
+  "fr": "+15 outils."
+ },
+ "+60 ce mois-ci": {
+  "ar": "+60 هذا الشهر",
+  "en": "+60 this month",
+  "fr": "+60 ce mois-ci"
+ },
+ "0 $/an": {
+  "ar": "0 $/سنة",
+  "en": "$0/year",
+  "fr": "0 $/an"
+ },
+ "0 MAD/mois": {
+  "ar": "0 درهم/شهر",
+  "en": "0 MAD/month",
+  "fr": "0 MAD/mois"
+ },
+ "12 000 MAD": {
+  "ar": "12 000 درهم",
+  "en": "12,000 MAD",
+  "fr": "12 000 MAD"
+ },
+ "12 groupes actifs": {
+  "ar": "12 مجموعة نشطة",
+  "en": "12 active groups",
+  "fr": "12 groupes actifs"
+ },
+ "150 Tks/mois": {
+  "ar": "150 Tks شهريًا",
+  "en": "150 Tks/month",
+  "fr": "150 Tks/mois"
+ },
+ "2 non lus": {
+  "ar": "2 غير مقروءة",
+  "en": "2 unread",
+  "fr": "2 non lus"
+ },
+ "2/3 validés": {
+  "ar": "2/3 مقبولة",
+  "en": "2/3 approved",
+  "fr": "2/3 validés"
+ },
+ "200 MAD/an": {
+  "ar": "200 درهم/سنة",
+  "en": "200 MAD/year",
+  "fr": "200 MAD/an"
+ },
+ "3 domaines": {
+  "ar": "3 مجالات",
+  "en": "3 areas",
+  "fr": "3 domaines"
+ },
+ "37 $": {
+  "ar": "37 $",
+  "en": "$37",
+  "fr": "37 $"
+ },
+ "4 $/an": {
+  "ar": "4 $/سنة",
+  "en": "$4/year",
+  "fr": "4 $/an"
+ },
+ "4 étapes.": {
+  "ar": "4 خطوات.",
+  "en": "4 steps.",
+  "fr": "4 étapes."
+ },
+ "5 annonces actives": {
+  "ar": "5 إعلانات نشطة",
+  "en": "5 active listings",
+  "fr": "5 annonces actives"
+ },
+ "50 Tks offerts": {
+  "ar": "50 Tks مجانًا",
+  "en": "50 free Tks",
+  "fr": "50 Tks offerts"
+ },
+ "500 MAD/an": {
+  "ar": "500 درهم/سنة",
+  "en": "500 MAD/year",
+  "fr": "500 MAD/an"
+ },
+ "500 Tks/mois": {
+  "ar": "500 Tks شهريًا",
+  "en": "500 Tks/month",
+  "fr": "500 Tks/mois"
+ },
+ "6 sem.": {
+  "ar": "6 أسابيع",
+  "en": "6 wks",
+  "fr": "6 sem."
+ },
+ "72 h": {
+  "ar": "72 ساعة",
+  "en": "72 h",
+  "fr": "72 h"
+ },
+ "8+ caractères": {
+  "ar": "8 أحرف على الأقل",
+  "en": "8+ characters",
+  "fr": "8+ caractères"
+ },
+ "9 500 MAD/mois": {
+  "ar": "9 500 درهم/شهر",
+  "en": "9,500 MAD/month",
+  "fr": "9 500 MAD/mois"
+ },
+ "Abonnement": {
+  "ar": "الاشتراك",
+  "en": "Subscription",
+  "fr": "Abonnement"
+ },
+ "About": {
+  "ar": "نبذة",
+  "en": "About",
+  "fr": "À propos"
+ },
+ "Accepter": {
+  "ar": "قبول",
+  "en": "Accept",
+  "fr": "Accepter"
+ },
+ "Accompagnement complet": {
+  "ar": "مرافقة كاملة",
+  "en": "Full support",
+  "fr": "Accompagnement complet"
+ },
+ "Accueil": {
+  "ar": "الرئيسية",
+  "en": "Home",
+  "fr": "Accueil"
+ },
+ "Accès de base": {
+  "ar": "وصول أساسي",
+  "en": "Basic access",
+  "fr": "Accès de base"
+ },
+ "Accès marchés & appels d'offres": {
+  "ar": "الولوج إلى الأسواق وطلبات العروض",
+  "en": "Access to markets & tenders",
+  "fr": "Accès marchés & appels d'offres"
+ },
+ "Accès marchés publics": {
+  "ar": "الولوج إلى الصفقات العمومية",
+  "en": "Public procurement access",
+  "fr": "Accès marchés publics"
+ },
+ "Accès sur candidature": {
+  "ar": "الدخول عبر الترشّح",
+  "en": "Access by application",
+  "fr": "Accès sur candidature"
+ },
+ "Accès sur candidature uniquement": {
+  "ar": "الدخول عبر الترشّح فقط",
+  "en": "Access by application only",
+  "fr": "Accès sur candidature uniquement"
+ },
+ "Accédez à des privilèges exclusifs dès aujourd'hui": {
+  "ar": "استفد من امتيازات حصرية ابتداءً من اليوم",
+  "en": "Get exclusive perks starting today",
+  "fr": "Accédez à des privilèges exclusifs dès aujourd'hui"
+ },
+ "Actions recommandées": {
+  "ar": "الإجراءات الموصى بها",
+  "en": "Recommended actions",
+  "fr": "Actions recommandées"
+ },
+ "Activation Instantanée": {
+  "ar": "تفعيل فوري",
+  "en": "Instant activation",
+  "fr": "Activation instantanée"
+ },
+ "Activer la caméra": {
+  "ar": "تشغيل الكاميرا",
+  "en": "Turn camera on",
+  "fr": "Activer la caméra"
+ },
+ "Activer le micro": {
+  "ar": "تشغيل الميكروفون",
+  "en": "Unmute",
+  "fr": "Activer le micro"
+ },
+ "Activer les alertes": {
+  "ar": "تفعيل التنبيهات",
+  "en": "Turn on alerts",
+  "fr": "Activer les alertes"
+ },
+ "Actualiser": {
+  "ar": "تحديث",
+  "en": "Refresh",
+  "fr": "Actualiser"
+ },
+ "Actuel": {
+  "ar": "الحالي",
+  "en": "Current",
+  "fr": "Actuel"
+ },
+ "Adhésion": {
+  "ar": "العضوية",
+  "en": "Membership",
+  "fr": "Adhésion"
+ },
+ "Adhésion annuelle": {
+  "ar": "عضوية سنوية",
+  "en": "Annual membership",
+  "fr": "Adhésion annuelle"
+ },
+ "Admin": {
+  "ar": "الإدارة",
+  "en": "Admin",
+  "fr": "Admin"
+ },
+ "Adresse": {
+  "ar": "العنوان",
+  "en": "Address",
+  "fr": "Adresse"
+ },
+ "Adresse & Contact": {
+  "ar": "العنوان والتواصل",
+  "en": "Address & contact",
+  "fr": "Adresse & contact"
+ },
+ "Adresse Email": {
+  "ar": "البريد الإلكتروني",
+  "en": "Email address",
+  "fr": "Adresse email"
+ },
+ "Adresse complète": {
+  "ar": "العنوان الكامل",
+  "en": "Full address",
+  "fr": "Adresse complète"
+ },
+ "Adresse du siège social *": {
+  "ar": "عنوان المقر الاجتماعي *",
+  "en": "Registered office address *",
+  "fr": "Adresse du siège social *"
+ },
+ "Adresse email": {
+  "ar": "البريد الإلكتروني",
+  "en": "Email address",
+  "fr": "Adresse email"
+ },
+ "Adresse physique": {
+  "ar": "العنوان الفعلي",
+  "en": "Street address",
+  "fr": "Adresse physique"
+ },
+ "Afficher l'email": {
+  "ar": "إظهار البريد الإلكتروني",
+  "en": "Show email",
+  "fr": "Afficher l'email"
+ },
+ "Afficher le mot de passe": {
+  "ar": "إظهار كلمة المرور",
+  "en": "Show password",
+  "fr": "Afficher le mot de passe"
+ },
+ "Afficher le téléphone": {
+  "ar": "إظهار الهاتف",
+  "en": "Show phone",
+  "fr": "Afficher le téléphone"
+ },
+ "Afficher les {n} compétences →": {
+  "ar": "عرض كل المهارات ({n})",
+  "en": "Show all {n} skills →",
+  "fr": "Afficher les {n} compétences →"
+ },
+ "Afficher mes connexions": {
+  "ar": "إظهار علاقاتي",
+  "en": "Show my connections",
+  "fr": "Afficher mes connexions"
+ },
+ "Afficher moins": {
+  "ar": "عرض أقل",
+  "en": "Show less",
+  "fr": "Afficher moins"
+ },
+ "Agenda & Formations": {
+  "ar": "الأجندة والتدريبات",
+  "en": "Agenda & training",
+  "fr": "Agenda & formations"
+ },
+ "Agriculture & Agroalimentaire": {
+  "ar": "الفلاحة والصناعات الغذائية",
+  "en": "Agriculture & food",
+  "fr": "Agriculture & agroalimentaire"
+ },
+ "Agroalimentaire": {
+  "ar": "الصناعات الغذائية",
+  "en": "Agri-food",
+  "fr": "Agroalimentaire"
+ },
+ "Aide": {
+  "ar": "المساعدة",
+  "en": "Help",
+  "fr": "Aide"
+ },
+ "Ajouter": {
+  "ar": "إضافة",
+  "en": "Add",
+  "fr": "Ajouter"
+ },
+ "Ajouter Effectif": {
+  "ar": "إضافة منصب",
+  "en": "Add a role",
+  "fr": "Ajouter un poste"
+ },
+ "Ajouter Langue": {
+  "ar": "إضافة لغة",
+  "en": "Add a language",
+  "fr": "Ajouter une langue"
+ },
+ "Ajouter Matériel": {
+  "ar": "إضافة معدات",
+  "en": "Add equipment",
+  "fr": "Ajouter du matériel"
+ },
+ "Ajouter un commentaire...": {
+  "ar": "أضف تعليقًا...",
+  "en": "Add a comment...",
+  "fr": "Ajouter un commentaire..."
+ },
+ "Ajouter un tag...": {
+  "ar": "أضف وسمًا...",
+  "en": "Add a tag...",
+  "fr": "Ajouter un tag..."
+ },
+ "Ajouter un événement": {
+  "ar": "إضافة فعالية",
+  "en": "Add an event",
+  "fr": "Ajouter un événement"
+ },
+ "Ajouter une catégorie": {
+  "ar": "إضافة فئة",
+  "en": "Add a category",
+  "fr": "Ajouter une catégorie"
+ },
+ "Ajouter une couverture": {
+  "ar": "إضافة صورة غلاف",
+  "en": "Add a cover",
+  "fr": "Ajouter une couverture"
+ },
+ "Ajouter une formation": {
+  "ar": "إضافة تدريب",
+  "en": "Add a training",
+  "fr": "Ajouter une formation"
+ },
+ "Ajouter une photo": {
+  "ar": "إضافة صورة",
+  "en": "Add a photo",
+  "fr": "Ajouter une photo"
+ },
+ "Ajouter une photo de couverture": {
+  "ar": "إضافة صورة غلاف",
+  "en": "Add a cover photo",
+  "fr": "Ajouter une photo de couverture"
+ },
+ "Ajouter une photo de profil": {
+  "ar": "إضافة صورة الملف الشخصي",
+  "en": "Add a profile photo",
+  "fr": "Ajouter une photo de profil"
+ },
+ "Ajouter une réunion": {
+  "ar": "إضافة اجتماع",
+  "en": "Add a meeting",
+  "fr": "Ajouter une réunion"
+ },
+ "Ajouter à ma collection": {
+  "ar": "أضف إلى مجموعتي",
+  "en": "Add to my collection",
+  "fr": "Ajouter à ma collection"
+ },
+ "Ajoutez un nouvel espace de discussion pour la communauté.": {
+  "ar": "أضف فضاء نقاش جديدًا للمجتمع.",
+  "en": "Add a new discussion space for the community.",
+  "fr": "Ajoutez un nouvel espace de discussion pour la communauté."
+ },
+ "Ajuster la photo": {
+  "ar": "ضبط الصورة",
+  "en": "Adjust photo",
+  "fr": "Ajuster la photo"
+ },
+ "Alertes": {
+  "ar": "التنبيهات",
+  "en": "Alerts",
+  "fr": "Alertes"
+ },
+ "Alertes actives": {
+  "ar": "التنبيهات النشطة",
+  "en": "Active alerts",
+  "fr": "Alertes actives"
+ },
+ "Aller publier →": {
+  "ar": "انشر الآن",
+  "en": "Go post →",
+  "fr": "Aller publier →"
+ },
+ "Analytics avancés": {
+  "ar": "تحليلات متقدمة",
+  "en": "Advanced analytics",
+  "fr": "Analytics avancés"
+ },
+ "Anniversaire": {
+  "ar": "تاريخ الميلاد",
+  "en": "Birthday",
+  "fr": "Anniversaire"
+ },
+ "Annonce introuvable": {
+  "ar": "الإعلان غير موجود",
+  "en": "Listing not found",
+  "fr": "Annonce introuvable"
+ },
+ "Annonce non trouvée": {
+  "ar": "الإعلان غير موجود",
+  "en": "Listing not found",
+  "fr": "Annonce non trouvée"
+ },
+ "Annonces": {
+  "ar": "الإعلانات",
+  "en": "Listings",
+  "fr": "Annonces"
+ },
+ "Annonces actives": {
+  "ar": "الإعلانات النشطة",
+  "en": "Active listings",
+  "fr": "Annonces actives"
+ },
+ "Annonces en vente": {
+  "ar": "إعلانات للبيع",
+  "en": "Listings for sale",
+  "fr": "Annonces en vente"
+ },
+ "Annonces illimitées": {
+  "ar": "إعلانات غير محدودة",
+  "en": "Unlimited listings",
+  "fr": "Annonces illimitées"
+ },
+ "Annonces publiées": {
+  "ar": "الإعلانات المنشورة",
+  "en": "Published listings",
+  "fr": "Annonces publiées"
+ },
+ "Annonces similaires": {
+  "ar": "إعلانات مشابهة",
+  "en": "Similar listings",
+  "fr": "Annonces similaires"
+ },
+ "Annuler": {
+  "ar": "إلغاء",
+  "en": "Cancel",
+  "fr": "Annuler"
+ },
+ "Appel découverte · 30 min": {
+  "ar": "مكالمة تعريفية · 30 دقيقة",
+  "en": "Discovery call · 30 min",
+  "fr": "Appel découverte · 30 min"
+ },
+ "Appliquer ce prix": {
+  "ar": "طبّق هذا السعر",
+  "en": "Apply this price",
+  "fr": "Appliquer ce prix"
+ },
+ "Approuvée": {
+  "ar": "مقبول",
+  "en": "Approved",
+  "fr": "Approuvée"
+ },
+ "Article": {
+  "ar": "مقال",
+  "en": "Article",
+  "fr": "Article"
+ },
+ "Article sans titre": {
+  "ar": "مقال بدون عنوان",
+  "en": "Untitled article",
+  "fr": "Article sans titre"
+ },
+ "Article à mettre aux enchères": {
+  "ar": "المنتج المعروض للمزاد",
+  "en": "Item to auction",
+  "fr": "Article à mettre aux enchères"
+ },
+ "Artisanat & Tradition": {
+  "ar": "الصناعة التقليدية والتراث",
+  "en": "Crafts & tradition",
+  "fr": "Artisanat & tradition"
+ },
+ "Associé / Actionnaire": {
+  "ar": "شريك / مساهم",
+  "en": "Partner / shareholder",
+  "fr": "Associé / actionnaire"
+ },
+ "Attached": {
+  "ar": "مرفق",
+  "en": "Attached",
+  "fr": "Pièce jointe"
+ },
+ "Attestation Taxe Professionnelle / ICE": {
+  "ar": "شهادة الضريبة المهنية / ICE",
+  "en": "Business tax certificate / ICE",
+  "fr": "Attestation taxe professionnelle / ICE"
+ },
+ "Attributs": {
+  "ar": "السمات",
+  "en": "Attributes",
+  "fr": "Attributs"
+ },
+ "Aucun avis pour le moment": {
+  "ar": "لا توجد تقييمات بعد",
+  "en": "No reviews yet",
+  "fr": "Aucun avis pour le moment"
+ },
+ "Aucun document": {
+  "ar": "لا توجد مستندات",
+  "en": "No documents",
+  "fr": "Aucun document"
+ },
+ "Aucun dossier KYB en attente.": {
+  "ar": "لا توجد ملفات KYB قيد الانتظار.",
+  "en": "No pending KYB files.",
+  "fr": "Aucun dossier KYB en attente."
+ },
+ "Aucun fichier partagé par ce membre pour le moment.": {
+  "ar": "لم يشارك هذا العضو أي ملفات بعد.",
+  "en": "This member has not shared any files yet.",
+  "fr": "Aucun fichier partagé par ce membre pour le moment."
+ },
+ "Aucun forum disponible": {
+  "ar": "لا توجد منتديات متاحة",
+  "en": "No forums available",
+  "fr": "Aucun forum disponible"
+ },
+ "Aucun mentor disponible": {
+  "ar": "لا يوجد مرشدون متاحون",
+  "en": "No mentors available",
+  "fr": "Aucun mentor disponible"
+ },
+ "Aucun projet ajouté pour le moment.": {
+  "ar": "لم تتم إضافة أي مشروع بعد.",
+  "en": "No projects added yet.",
+  "fr": "Aucun projet ajouté pour le moment."
+ },
+ "Aucun résultat": {
+  "ar": "لا توجد نتائج",
+  "en": "No results",
+  "fr": "Aucun résultat"
+ },
+ "Aucun secteur d'intérêt ajouté.": {
+  "ar": "لم تتم إضافة أي قطاع اهتمام.",
+  "en": "No sectors of interest added.",
+  "fr": "Aucun secteur d'intérêt ajouté."
+ },
+ "Aucun utilisateur trouvé": {
+  "ar": "لم يتم العثور على أي مستخدم",
+  "en": "No users found",
+  "fr": "Aucun utilisateur trouvé"
+ },
+ "Aucune activité pour le moment.": {
+  "ar": "لا يوجد نشاط حتى الآن.",
+  "en": "No activity yet.",
+  "fr": "Aucune activité pour le moment."
+ },
+ "Aucune alerte de prix": {
+  "ar": "لا توجد تنبيهات أسعار",
+  "en": "No price alerts",
+  "fr": "Aucune alerte de prix"
+ },
+ "Aucune annonce": {
+  "ar": "لا توجد إعلانات",
+  "en": "No listings",
+  "fr": "Aucune annonce"
+ },
+ "Aucune annonce en ligne dans le Marketplace.": {
+  "ar": "لا توجد إعلانات في السوق.",
+  "en": "No listings on the Marketplace.",
+  "fr": "Aucune annonce en ligne dans le Marketplace."
+ },
+ "Aucune annonce trouvée": {
+  "ar": "لم يتم العثور على إعلانات",
+  "en": "No listings found",
+  "fr": "Aucune annonce trouvée"
+ },
+ "Aucune compétence ajoutée.": {
+  "ar": "لم تتم إضافة أي مهارة بعد.",
+  "en": "No skills added yet.",
+  "fr": "Aucune compétence ajoutée."
+ },
+ "Aucune conversation": {
+  "ar": "لا توجد محادثات",
+  "en": "No conversations",
+  "fr": "Aucune conversation"
+ },
+ "Aucune demande envoyée": {
+  "ar": "لا توجد طلبات مرسلة",
+  "en": "No requests sent",
+  "fr": "Aucune demande envoyée"
+ },
+ "Aucune demande reçue": {
+  "ar": "لا توجد طلبات واردة",
+  "en": "No requests received",
+  "fr": "Aucune demande reçue"
+ },
+ "Aucune discussion": {
+  "ar": "لا توجد نقاشات",
+  "en": "No discussions",
+  "fr": "Aucune discussion"
+ },
+ "Aucune donnée disponible. Cliquez sur Actualiser.": {
+  "ar": "لا توجد بيانات. انقر على تحديث.",
+  "en": "No data available. Click Refresh.",
+  "fr": "Aucune donnée disponible. Cliquez sur Actualiser."
+ },
+ "Aucune expérience ajoutée.": {
+  "ar": "لم تتم إضافة أي خبرة.",
+  "en": "No experience added.",
+  "fr": "Aucune expérience ajoutée."
+ },
+ "Aucune expérience enregistrée.": {
+  "ar": "لم تتم إضافة أي خبرة بعد.",
+  "en": "No experience added yet.",
+  "fr": "Aucune expérience enregistrée."
+ },
+ "Aucune formation ajoutée.": {
+  "ar": "لم تتم إضافة أي تعليم.",
+  "en": "No education added.",
+  "fr": "Aucune formation ajoutée."
+ },
+ "Aucune formation enregistrée.": {
+  "ar": "لم تتم إضافة أي تعليم بعد.",
+  "en": "No education added yet.",
+  "fr": "Aucune formation enregistrée."
+ },
+ "Aucune liste de comparaison": {
+  "ar": "لا توجد قوائم مقارنة",
+  "en": "No comparison lists",
+  "fr": "Aucune liste de comparaison"
+ },
+ "Aucune mise pour le moment. Soyez le premier !": {
+  "ar": "لا توجد مزايدات بعد. كن الأول!",
+  "en": "No bids yet. Be the first!",
+  "fr": "Aucune mise pour le moment. Soyez le premier !"
+ },
+ "Aucune musique": {
+  "ar": "لا توجد موسيقى",
+  "en": "No music",
+  "fr": "Aucune musique"
+ },
+ "Aucune notification": {
+  "ar": "لا توجد إشعارات",
+  "en": "No notifications",
+  "fr": "Aucune notification"
+ },
+ "Aucune photo": {
+  "ar": "لا توجد صور",
+  "en": "No photos",
+  "fr": "Aucune photo"
+ },
+ "Aucune présentation rédigée pour le moment.": {
+  "ar": "لا توجد نبذة حتى الآن.",
+  "en": "No summary written yet.",
+  "fr": "Aucune présentation rédigée pour le moment."
+ },
+ "Aucune publication sur le fil d'actualité pour le moment.": {
+  "ar": "لا توجد منشورات حتى الآن.",
+  "en": "No posts yet.",
+  "fr": "Aucune publication sur le fil d'actualité pour le moment."
+ },
+ "Aucune recherche sauvegardée": {
+  "ar": "لا توجد عمليات بحث محفوظة",
+  "en": "No saved searches",
+  "fr": "Aucune recherche sauvegardée"
+ },
+ "Aucune session planifiée": {
+  "ar": "لا توجد جلسات مبرمجة",
+  "en": "No sessions scheduled",
+  "fr": "Aucune session planifiée"
+ },
+ "Aucune suggestion": {
+  "ar": "لا توجد اقتراحات",
+  "en": "No suggestions",
+  "fr": "Aucune suggestion"
+ },
+ "Aucune vidéo": {
+  "ar": "لا توجد فيديوهات",
+  "en": "No videos",
+  "fr": "Aucune vidéo"
+ },
+ "Audit de cybersécurité": {
+  "ar": "تدقيق الأمن السيبراني",
+  "en": "Cybersecurity audit",
+  "fr": "Audit de cybersécurité"
+ },
+ "Authentification à deux facteurs": {
+  "ar": "المصادقة الثنائية",
+  "en": "Two-factor authentication",
+  "fr": "Authentification à deux facteurs"
+ },
+ "Autre": {
+  "ar": "أخرى",
+  "en": "Other",
+  "fr": "Autre"
+ },
+ "Avatar": {
+  "ar": "الصورة الرمزية",
+  "en": "Avatar",
+  "fr": "Avatar"
+ },
+ "Avec un membre de l’équipe The Communium": {
+  "ar": "مع أحد أعضاء فريق The Communium",
+  "en": "With a member of The Communium team",
+  "fr": "Avec un membre de l’équipe The Communium"
+ },
+ "Avis neutres": {
+  "ar": "تقييمات محايدة",
+  "en": "Neutral reviews",
+  "fr": "Avis neutres"
+ },
+ "Avis plutôt négatifs": {
+  "ar": "تقييمات سلبية في الغالب",
+  "en": "Mostly negative reviews",
+  "fr": "Avis plutôt négatifs"
+ },
+ "Avis plutôt positifs": {
+  "ar": "تقييمات إيجابية في الغالب",
+  "en": "Mostly positive reviews",
+  "fr": "Avis plutôt positifs"
+ },
+ "Avis très négatifs": {
+  "ar": "تقييمات سلبية جدًا",
+  "en": "Very negative reviews",
+  "fr": "Avis très négatifs"
+ },
+ "Avis très positifs": {
+  "ar": "تقييمات إيجابية جدًا",
+  "en": "Very positive reviews",
+  "fr": "Avis très positifs"
+ },
+ "Badge VIP": {
+  "ar": "شارة VIP",
+  "en": "VIP badge",
+  "fr": "Badge VIP"
+ },
+ "Badge Vérifié": {
+  "ar": "شارة التوثيق",
+  "en": "Verified badge",
+  "fr": "Badge vérifié"
+ },
+ "Badge « Mentor actif »": {
+  "ar": "شارة «مرشد نشط»",
+  "en": "“Active mentor” badge",
+  "fr": "Badge « Mentor actif »"
+ },
+ "Badges": {
+  "ar": "الشارات",
+  "en": "Badges",
+  "fr": "Badges"
+ },
+ "Banque & Capital": {
+  "ar": "البنك ورأس المال",
+  "en": "Bank & capital",
+  "fr": "Banque & capital"
+ },
+ "Banque *": {
+  "ar": "البنك *",
+  "en": "Bank *",
+  "fr": "Banque *"
+ },
+ "Belgique": {
+  "ar": "بلجيكا",
+  "en": "Belgium",
+  "fr": "Belgique"
+ },
+ "Besoin d’aide pour choisir ?": {
+  "ar": "تحتاج مساعدة في الاختيار؟",
+  "en": "Need help choosing?",
+  "fr": "Besoin d’aide pour choisir ?"
+ },
+ "Bientôt disponible": {
+  "ar": "قريبًا",
+  "en": "Coming soon",
+  "fr": "Bientôt disponible"
+ },
+ "Bienvenue sur The Communium !": {
+  "ar": "مرحبًا بك في The Communium!",
+  "en": "Welcome to The Communium!",
+  "fr": "Bienvenue sur The Communium !"
+ },
+ "Bon retour 👋": {
+  "ar": "مرحبًا بعودتك 👋",
+  "en": "Welcome back 👋",
+  "fr": "Bon retour 👋"
+ },
+ "Bon état": {
+  "ar": "حالة جيدة",
+  "en": "Good condition",
+  "fr": "Bon état"
+ },
+ "Bonus de bienvenue": {
+  "ar": "مكافأة الترحيب",
+  "en": "Welcome bonus",
+  "fr": "Bonus de bienvenue"
+ },
+ "Boost": {
+  "ar": "ترويج",
+  "en": "Boost",
+  "fr": "Booster"
+ },
+ "Boost (10 Tks)": {
+  "ar": "ترويج (10 Tks)",
+  "en": "Boost (10 Tks)",
+  "fr": "Boost (10 Tks)"
+ },
+ "Booster cette annonce": {
+  "ar": "روّج لهذا الإعلان",
+  "en": "Boost this listing",
+  "fr": "Booster cette annonce"
+ },
+ "Boosté": {
+  "ar": "مُروَّج",
+  "en": "Boosted",
+  "fr": "Boosté"
+ },
+ "Boutons et sceaux": {
+  "ar": "الأزرار والأختام",
+  "en": "Buttons and seals",
+  "fr": "Boutons et sceaux"
+ },
+ "Brouillons": {
+  "ar": "المسودات",
+  "en": "Drafts",
+  "fr": "Brouillons"
+ },
+ "Business": {
+  "ar": "أعمال",
+  "en": "Business",
+  "fr": "Business"
+ },
+ "Business Premium": {
+  "ar": "أعمال مميز",
+  "en": "Business Premium",
+  "fr": "Business Premium"
+ },
+ "Business Premium inclus": {
+  "ar": "Business Premium مشمول",
+  "en": "Business Premium included",
+  "fr": "Business Premium inclus"
+ },
+ "Bâtisseurs de Rabat": {
+  "ar": "بنّاؤو الرباط",
+  "en": "Rabat Builders",
+  "fr": "Bâtisseurs de Rabat"
+ },
+ "CEO / Directeur Général": {
+  "ar": "الرئيس التنفيذي / المدير العام",
+  "en": "CEO",
+  "fr": "CEO / Directeur général"
+ },
+ "CFO / Directeur Financier": {
+  "ar": "المدير المالي",
+  "en": "CFO",
+  "fr": "CFO / Directeur financier"
+ },
+ "CIN": {
+  "ar": "البطاقة الوطنية",
+  "en": "National ID card",
+  "fr": "CIN"
+ },
+ "CIN du représentant légal": {
+  "ar": "البطاقة الوطنية للممثل القانوني",
+  "en": "Legal representative's ID card",
+  "fr": "CIN du représentant légal"
+ },
+ "CIN représentant": {
+  "ar": "بطاقة الممثل",
+  "en": "Representative's ID",
+  "fr": "CIN représentant"
+ },
+ "CLV": {
+  "ar": "القيمة الدائمة للعميل",
+  "en": "CLV",
+  "fr": "CLV"
+ },
+ "COO / Directeur des Opérations": {
+  "ar": "مدير العمليات",
+  "en": "COO",
+  "fr": "COO / Directeur des opérations"
+ },
+ "Cabinet de conseil financier": {
+  "ar": "مكتب استشارات مالية",
+  "en": "Financial advisory firm",
+  "fr": "Cabinet de conseil financier"
+ },
+ "Canada": {
+  "ar": "كندا",
+  "en": "Canada",
+  "fr": "Canada"
+ },
+ "Capital social (MAD) *": {
+  "ar": "رأس المال (درهم) *",
+  "en": "Share capital (MAD) *",
+  "fr": "Capital social (MAD) *"
+ },
+ "Cartes du fil": {
+  "ar": "بطاقات المنشورات",
+  "en": "Feed cards",
+  "fr": "Cartes du fil"
+ },
+ "Cas membres": {
+  "ar": "قصص الأعضاء",
+  "en": "Member stories",
+  "fr": "Cas membres"
+ },
+ "Casablanca": {
+  "ar": "الدار البيضاء",
+  "en": "Casablanca",
+  "fr": "Casablanca"
+ },
+ "Casablanca, Rabat...": {
+  "ar": "الدار البيضاء، الرباط...",
+  "en": "Casablanca, Rabat...",
+  "fr": "Casablanca, Rabat..."
+ },
+ "Catégorie": {
+  "ar": "الفئة",
+  "en": "Category",
+  "fr": "Catégorie"
+ },
+ "Catégorie (ex: Communication)": {
+  "ar": "الفئة (مثال: التواصل)",
+  "en": "Category (e.g. Communication)",
+  "fr": "Catégorie (ex : Communication)"
+ },
+ "Centres d'intérêt": {
+  "ar": "الاهتمامات",
+  "en": "Interests",
+  "fr": "Centres d'intérêt"
+ },
+ "Centres d'intérêt généraux": {
+  "ar": "الاهتمامات العامة",
+  "en": "General interests",
+  "fr": "Centres d'intérêt généraux"
+ },
+ "Certificat négatif": {
+  "ar": "الشهادة السلبية",
+  "en": "Name-availability certificate",
+  "fr": "Certificat négatif"
+ },
+ "Certifications": {
+  "ar": "الشهادات",
+  "en": "Certifications",
+  "fr": "Certifications"
+ },
+ "Certifications (Séparées par des virgules)": {
+  "ar": "الشهادات (مفصولة بفواصل)",
+  "en": "Certifications (comma-separated)",
+  "fr": "Certifications (séparées par des virgules)"
+ },
+ "Ces informations et documents sont nécessaires pour valider votre compte entreprise": {
+  "ar": "هذه المعلومات والوثائق ضرورية لاعتماد حساب شركتك",
+  "en": "This information and these documents are needed to approve your business account",
+  "fr": "Ces informations et documents sont nécessaires pour valider votre compte entreprise"
+ },
+ "Cette action est irréversible. Toutes vos données seront supprimées.": {
+  "ar": "هذا الإجراء نهائي. سيتم حذف جميع بياناتك.",
+  "en": "This cannot be undone. All your data will be deleted.",
+  "fr": "Cette action est irréversible. Toutes vos données seront supprimées."
+ },
+ "Cette enchère a été annulée par le vendeur.": {
+  "ar": "ألغى البائع هذا المزاد.",
+  "en": "This auction was cancelled by the seller.",
+  "fr": "Cette enchère a été annulée par le vendeur."
+ },
+ "Cette réunion est terminée": {
+  "ar": "انتهى هذا الاجتماع",
+  "en": "This meeting has ended",
+  "fr": "Cette réunion est terminée"
+ },
+ "Champs préremplis avec succès !": {
+  "ar": "تم ملء الحقول بنجاح!",
+  "en": "Fields filled in successfully!",
+  "fr": "Champs préremplis avec succès !"
+ },
+ "Champs requis": {
+  "ar": "حقول مطلوبة",
+  "en": "Required fields",
+  "fr": "Champs requis"
+ },
+ "Changer la couverture": {
+  "ar": "تغيير صورة الغلاف",
+  "en": "Change cover",
+  "fr": "Changer la couverture"
+ },
+ "Changer la photo": {
+  "ar": "تغيير الصورة",
+  "en": "Change photo",
+  "fr": "Changer la photo"
+ },
+ "Changer la photo de profil": {
+  "ar": "تغيير صورة الملف الشخصي",
+  "en": "Change profile photo",
+  "fr": "Changer la photo de profil"
+ },
+ "Changer le fichier": {
+  "ar": "تغيير الملف",
+  "en": "Change file",
+  "fr": "Changer le fichier"
+ },
+ "Changer le mot de passe": {
+  "ar": "تغيير كلمة المرور",
+  "en": "Change password",
+  "fr": "Changer le mot de passe"
+ },
+ "Chaque membre passe une vérification d’identité et d’entreprise (KYC). Vous savez toujours à qui vous parlez.": {
+  "ar": "يخضع كل عضو للتحقق من الهوية والشركة (KYC). تعرف دائمًا مع من تتحدث.",
+  "en": "Every member goes through identity and company verification (KYC). You always know who you are talking to.",
+  "fr": "Chaque membre passe une vérification d’identité et d’entreprise (KYC). Vous savez toujours à qui vous parlez."
+ },
+ "Chaque membre présent ce mois reçoit la bannière commémorative.": {
+  "ar": "يحصل كل عضو حاضر هذا الشهر على اللافتة التذكارية.",
+  "en": "Every member active this month gets the commemorative banner.",
+  "fr": "Chaque membre présent ce mois reçoit la bannière commémorative."
+ },
+ "Chargement...": {
+  "ar": "جارٍ التحميل...",
+  "en": "Loading...",
+  "fr": "Chargement..."
+ },
+ "Choisi par les entrepreneurs les plus exigeants.": {
+  "ar": "اختيار روّاد الأعمال الأكثر تطلّبًا.",
+  "en": "Chosen by the most demanding entrepreneurs.",
+  "fr": "Choisi par les entrepreneurs les plus exigeants."
+ },
+ "Choisir ce plan": {
+  "ar": "اختر هذا العرض",
+  "en": "Choose this plan",
+  "fr": "Choisir ce plan"
+ },
+ "Choisir recto CIN (image)": {
+  "ar": "اختر الوجه الأمامي للبطاقة (صورة)",
+  "en": "Choose ID card front (image)",
+  "fr": "Choisir recto CIN (image)"
+ },
+ "Choisissez comment vous êtes averti": {
+  "ar": "اختر طريقة تلقي الإشعارات",
+  "en": "Choose how you get notified",
+  "fr": "Choisissez comment vous êtes averti"
+ },
+ "Choisissez la date et l’horaire qui vous conviennent pour parler de vos objectifs et découvrir la plateforme.": {
+  "ar": "اختر التاريخ والوقت المناسبين لك للحديث عن أهدافك واكتشاف المنصة.",
+  "en": "Pick a date and time that suit you to talk about your goals and discover the platform.",
+  "fr": "Choisissez la date et l’horaire qui vous conviennent pour parler de vos objectifs et découvrir la plateforme."
+ },
+ "Choisissez la forme légale de votre entreprise": {
+  "ar": "اختر الشكل القانوني لشركتك",
+  "en": "Choose your company's legal form",
+  "fr": "Choisissez la forme légale de votre entreprise"
+ },
+ "Choisissez le profil qui correspond à votre situation": {
+  "ar": "اختر الملف الذي يناسب وضعك",
+  "en": "Choose the profile that fits your situation",
+  "fr": "Choisissez le profil qui correspond à votre situation"
+ },
+ "Choisissez un créneau": {
+  "ar": "اختر موعدًا",
+  "en": "Choose a time",
+  "fr": "Choisissez un créneau"
+ },
+ "Choisissez une date": {
+  "ar": "اختر تاريخًا",
+  "en": "Choose a date",
+  "fr": "Choisissez une date"
+ },
+ "Choisissez une liste à gauche pour voir la comparaison": {
+  "ar": "اختر قائمة من الجانب لعرض المقارنة",
+  "en": "Pick a list on the left to see the comparison",
+  "fr": "Choisissez une liste à gauche pour voir la comparaison"
+ },
+ "Choisissez votre offre": {
+  "ar": "اختر عرضك",
+  "en": "Choose your plan",
+  "fr": "Choisissez votre offre"
+ },
+ "Code postal": {
+  "ar": "الرمز البريدي",
+  "en": "Postal code",
+  "fr": "Code postal"
+ },
+ "Comme neuf": {
+  "ar": "كالجديد",
+  "en": "Like new",
+  "fr": "Comme neuf"
+ },
+ "Commencez à vendre en publiant votre première annonce.": {
+  "ar": "ابدأ البيع بنشر أول إعلان لك.",
+  "en": "Start selling by posting your first listing.",
+  "fr": "Commencez à vendre en publiant votre première annonce."
+ },
+ "Comment fonctionne la vérification des profils ?": {
+  "ar": "كيف يتم التحقق من الملفات؟",
+  "en": "How does profile verification work?",
+  "fr": "Comment fonctionne la vérification des profils ?"
+ },
+ "Comment nos membres": {
+  "ar": "كيف يدفع أعضاؤنا",
+  "en": "How our members",
+  "fr": "Comment nos membres"
+ },
+ "Comment ça marche": {
+  "ar": "كيف تعمل",
+  "en": "How it works",
+  "fr": "Comment ça marche"
+ },
+ "Comment ça marche ?": {
+  "ar": "كيف يعمل؟",
+  "en": "How does it work?",
+  "fr": "Comment ça marche ?"
+ },
+ "Commentaires": {
+  "ar": "التعليقات",
+  "en": "Comments",
+  "fr": "Commentaires"
+ },
+ "Commenter": {
+  "ar": "تعليق",
+  "en": "Comment",
+  "fr": "Commenter"
+ },
+ "Commerce": {
+  "ar": "التجارة",
+  "en": "Trade",
+  "fr": "Commerce"
+ },
+ "Commerce & Import-Export": {
+  "ar": "التجارة والاستيراد والتصدير",
+  "en": "Trade & import-export",
+  "fr": "Commerce & import-export"
+ },
+ "Communauté": {
+  "ar": "المجتمع",
+  "en": "Community",
+  "fr": "Communauté"
+ },
+ "Communauté Maroc & diaspora": {
+  "ar": "مجتمع المغرب والمهجر",
+  "en": "Morocco & diaspora community",
+  "fr": "Communauté Maroc & diaspora"
+ },
+ "Comparateur": {
+  "ar": "المقارن",
+  "en": "Comparator",
+  "fr": "Comparateur"
+ },
+ "Compatibilité 92%": {
+  "ar": "توافق 92%",
+  "en": "92% match",
+  "fr": "Compatibilité 92%"
+ },
+ "Compléter votre profil": {
+  "ar": "أكمل ملفك الشخصي",
+  "en": "Complete your profile",
+  "fr": "Compléter votre profil"
+ },
+ "Complétez ou ajustez les détails ci-dessous.": {
+  "ar": "أكمل أو عدّل التفاصيل أدناه.",
+  "en": "Complete or adjust the details below.",
+  "fr": "Complétez ou ajustez les détails ci-dessous."
+ },
+ "Complétez votre profil pour profiter pleinement de la plateforme": {
+  "ar": "أكمل ملفك الشخصي للاستفادة الكاملة من المنصة",
+  "en": "Complete your profile to get the most out of the platform",
+  "fr": "Complétez votre profil pour profiter pleinement de la plateforme"
+ },
+ "Composants du monde Communium, rendus par React. Référence visuelle : design-preview/tavern.html.": {
+  "ar": "مكونات عالم Communium مصممة بـ React. المرجع المرئي: design-preview/tavern.html.",
+  "en": "Communium world components, rendered with React. Visual reference: design-preview/tavern.html.",
+  "fr": "Composants du monde Communium, rendus par React. Référence visuelle : design-preview/tavern.html."
+ },
+ "Compte Entreprise": {
+  "ar": "حساب شركة",
+  "en": "Business account",
+  "fr": "Compte entreprise"
+ },
+ "Compte Personnel": {
+  "ar": "حساب شخصي",
+  "en": "Personal account",
+  "fr": "Compte personnel"
+ },
+ "Compte bancaire et capital social": {
+  "ar": "الحساب البنكي ورأس المال",
+  "en": "Bank account and share capital",
+  "fr": "Compte bancaire et capital social"
+ },
+ "Compétence technique": {
+  "ar": "مهارة تقنية",
+  "en": "Technical skill",
+  "fr": "Compétence technique"
+ },
+ "Compétences": {
+  "ar": "المهارات",
+  "en": "Skills",
+  "fr": "Compétences"
+ },
+ "Compétences, séparées par des virgules (ex: Accounting & Finance, Financial Crimes Investigations)": {
+  "ar": "المهارات، مفصولة بفواصل (مثال: المحاسبة والمالية، التحقيق في الجرائم المالية)",
+  "en": "Skills, comma-separated (e.g. Accounting & Finance, Financial Crimes Investigations)",
+  "fr": "Compétences, séparées par des virgules (ex : Accounting & Finance, Financial Crimes Investigations)"
+ },
+ "Conditions d'utilisation": {
+  "ar": "شروط الاستخدام",
+  "en": "Terms of use",
+  "fr": "Conditions d'utilisation"
+ },
+ "Confiance": {
+  "ar": "الثقة",
+  "en": "Trust",
+  "fr": "Confiance"
+ },
+ "Confidentialité & données": {
+  "ar": "الخصوصية والبيانات",
+  "en": "Privacy & data",
+  "fr": "Confidentialité & données"
+ },
+ "Confirmation": {
+  "ar": "التأكيد",
+  "en": "Confirmation",
+  "fr": "Confirmation"
+ },
+ "Confirmation immédiate par email": {
+  "ar": "تأكيد فوري عبر البريد الإلكتروني",
+  "en": "Instant email confirmation",
+  "fr": "Confirmation immédiate par email"
+ },
+ "Confirmer le nouveau": {
+  "ar": "تأكيد كلمة المرور الجديدة",
+  "en": "Confirm new password",
+  "fr": "Confirmer le nouveau"
+ },
+ "Confirmer le rejet de ce dossier KYB ?": {
+  "ar": "هل تؤكد رفض ملف KYB هذا؟",
+  "en": "Confirm rejecting this KYB file?",
+  "fr": "Confirmer le rejet de ce dossier KYB ?"
+ },
+ "Confirmer le rendez-vous": {
+  "ar": "تأكيد الموعد",
+  "en": "Confirm the meeting",
+  "fr": "Confirmer le rendez-vous"
+ },
+ "Connecter": {
+  "ar": "تواصل",
+  "en": "Connect",
+  "fr": "Connecter"
+ },
+ "Connecter des membres": {
+  "ar": "تواصل مع الأعضاء",
+  "en": "Connect with members",
+  "fr": "Connecter des membres"
+ },
+ "Connectez-vous avec des membres pour voir leur actualité.": {
+  "ar": "تواصل مع الأعضاء لرؤية آخر أخبارهم.",
+  "en": "Connect with members to see their updates.",
+  "fr": "Connectez-vous avec des membres pour voir leur actualité."
+ },
+ "Connectez-vous pour accéder à votre espace The Communium": {
+  "ar": "سجّل الدخول للوصول إلى فضائك في The Communium",
+  "en": "Sign in to access your The Communium space",
+  "fr": "Connectez-vous pour accéder à votre espace The Communium"
+ },
+ "Connecté": {
+  "ar": "متصل",
+  "en": "Connected",
+  "fr": "Connecté"
+ },
+ "Connexion & sécurité": {
+  "ar": "تسجيل الدخول والأمان",
+  "en": "Sign-in & security",
+  "fr": "Connexion & sécurité"
+ },
+ "Connexions & Réseau": {
+  "ar": "العلاقات والشبكة",
+  "en": "Connections & network",
+  "fr": "Connexions & réseau"
+ },
+ "Contact": {
+  "ar": "اتصل بنا",
+  "en": "Contact",
+  "fr": "Contact"
+ },
+ "Contact info": {
+  "ar": "معلومات الاتصال",
+  "en": "Contact info",
+  "fr": "Coordonnées"
+ },
+ "Contacter le vendeur": {
+  "ar": "تواصل مع البائع",
+  "en": "Contact seller",
+  "fr": "Contacter le vendeur"
+ },
+ "Contactez le support": {
+  "ar": "اتصل بالدعم",
+  "en": "Contact support",
+  "fr": "Contactez le support"
+ },
+ "Continuer": {
+  "ar": "متابعة",
+  "en": "Continue",
+  "fr": "Continuer"
+ },
+ "Contract": {
+  "ar": "عقد",
+  "en": "Contract",
+  "fr": "Contrat"
+ },
+ "Contrôlez qui peut voir vos informations": {
+  "ar": "تحكم في من يمكنه رؤية معلوماتك",
+  "en": "Control who can see your information",
+  "fr": "Contrôlez qui peut voir vos informations"
+ },
+ "Contrôlez vos données personnelles": {
+  "ar": "تحكم في بياناتك الشخصية",
+  "en": "Control your personal data",
+  "fr": "Contrôlez vos données personnelles"
+ },
+ "Cookies & tracking": {
+  "ar": "ملفات تعريف الارتباط والتتبع",
+  "en": "Cookies & tracking",
+  "fr": "Cookies & suivi"
+ },
+ "Coopérative d’huile d’argan": {
+  "ar": "تعاونية زيت الأركان",
+  "en": "Argan oil cooperative",
+  "fr": "Coopérative d’huile d’argan"
+ },
+ "Coordonnées & Origine": {
+  "ar": "معلومات الاتصال والأصل",
+  "en": "Contact & origin",
+  "fr": "Coordonnées & origine"
+ },
+ "Coordonnées de contact": {
+  "ar": "معلومات الاتصال",
+  "en": "Contact details",
+  "fr": "Coordonnées de contact"
+ },
+ "Copier le lien": {
+  "ar": "نسخ الرابط",
+  "en": "Copy link",
+  "fr": "Copier le lien"
+ },
+ "Copié !": {
+  "ar": "تم النسخ!",
+  "en": "Copied!",
+  "fr": "Copié !"
+ },
+ "Couleur principale": {
+  "ar": "اللون الرئيسي",
+  "en": "Main color",
+  "fr": "Couleur principale"
+ },
+ "Couper la caméra": {
+  "ar": "إيقاف الكاميرا",
+  "en": "Turn camera off",
+  "fr": "Couper la caméra"
+ },
+ "Couper le micro": {
+  "ar": "كتم الميكروفون",
+  "en": "Mute",
+  "fr": "Couper le micro"
+ },
+ "Courte description de ce forum...": {
+  "ar": "وصف قصير لهذا المنتدى...",
+  "en": "Short description of this forum...",
+  "fr": "Courte description de ce forum..."
+ },
+ "Couverture": {
+  "ar": "الغلاف",
+  "en": "Cover",
+  "fr": "Couverture"
+ },
+ "Critère": {
+  "ar": "المعيار",
+  "en": "Criterion",
+  "fr": "Critère"
+ },
+ "Croissance": {
+  "ar": "النمو",
+  "en": "Growth",
+  "fr": "Croissance"
+ },
+ "Création": {
+  "ar": "تاريخ التأسيس",
+  "en": "Founded",
+  "fr": "Création"
+ },
+ "Création Société": {
+  "ar": "تأسيس شركة",
+  "en": "Company formation",
+  "fr": "Création société"
+ },
+ "Création d'entreprise": {
+  "ar": "تأسيس شركة",
+  "en": "Company formation",
+  "fr": "Création d'entreprise"
+ },
+ "Création d'entreprise (37 Dhs/An)": {
+  "ar": "تأسيس شركة (37 درهم/سنة)",
+  "en": "Company formation (37 MAD/year)",
+  "fr": "Création d'entreprise (37 Dhs/an)"
+ },
+ "Création de société": {
+  "ar": "تأسيس الشركة",
+  "en": "Company formation",
+  "fr": "Création de société"
+ },
+ "Création...": {
+  "ar": "جارٍ الإنشاء...",
+  "en": "Creating...",
+  "fr": "Création..."
+ },
+ "Créer": {
+  "ar": "إنشاء",
+  "en": "Create",
+  "fr": "Créer"
+ },
+ "Créer l'enchère": {
+  "ar": "إنشاء المزاد",
+  "en": "Create auction",
+  "fr": "Créer l'enchère"
+ },
+ "Créer le forum": {
+  "ar": "إنشاء المنتدى",
+  "en": "Create forum",
+  "fr": "Créer le forum"
+ },
+ "Créer mon profil mentor": {
+  "ar": "أنشئ ملفي كمرشد",
+  "en": "Create my mentor profile",
+  "fr": "Créer mon profil mentor"
+ },
+ "Créer un compte": {
+  "ar": "إنشاء حساب",
+  "en": "Create an account",
+  "fr": "Créer un compte"
+ },
+ "Créer un forum": {
+  "ar": "إنشاء منتدى",
+  "en": "Create a forum",
+  "fr": "Créer un forum"
+ },
+ "Créer un nouveau forum": {
+  "ar": "إنشاء منتدى جديد",
+  "en": "Create a new forum",
+  "fr": "Créer un nouveau forum"
+ },
+ "Créer une SARL AU en 2026 : retours ?": {
+  "ar": "تأسيس شركة ذات مسؤولية محدودة بشريك وحيد في 2026: تجارب؟",
+  "en": "Setting up a single-member LLC in 2026: feedback?",
+  "fr": "Créer une SARL AU en 2026 : retours ?"
+ },
+ "Créer une annonce": {
+  "ar": "إنشاء إعلان",
+  "en": "Create a listing",
+  "fr": "Créer une annonce"
+ },
+ "Créer une enchère": {
+  "ar": "إنشاء مزاد",
+  "en": "Create an auction",
+  "fr": "Créer une enchère"
+ },
+ "Créer une entreprise": {
+  "ar": "أسّس شركة",
+  "en": "Start a company",
+  "fr": "Créer une entreprise"
+ },
+ "Créez une liste et ajoutez des annonces depuis le marketplace pour les comparer": {
+  "ar": "أنشئ قائمة وأضف إعلانات من السوق لمقارنتها",
+  "en": "Create a list and add listings from the marketplace to compare them",
+  "fr": "Créez une liste et ajoutez des annonces depuis le marketplace pour les comparer"
+ },
+ "Créez votre compte et développez votre réseau professionnel": {
+  "ar": "أنشئ حسابك ووسّع شبكتك المهنية",
+  "en": "Create your account and grow your professional network",
+  "fr": "Créez votre compte et développez votre réseau professionnel"
+ },
+ "Créez-en une d'abord": {
+  "ar": "أنشئ واحدًا أولًا",
+  "en": "Create one first",
+  "fr": "Créez-en une d'abord"
+ },
+ "Créneaux disponibles": {
+  "ar": "المواعيد المتاحة",
+  "en": "Available times",
+  "fr": "Créneaux disponibles"
+ },
+ "Dans l'application": {
+  "ar": "داخل التطبيق",
+  "en": "In the app",
+  "fr": "Dans l'application"
+ },
+ "Dashboard": {
+  "ar": "لوحة التحكم",
+  "en": "Dashboard",
+  "fr": "Tableau de bord"
+ },
+ "Data Science": {
+  "ar": "علم البيانات",
+  "en": "Data science",
+  "fr": "Data science"
+ },
+ "Date (ex: July 2, 2026)": {
+  "ar": "التاريخ (مثال: 2 يوليو 2026)",
+  "en": "Date (e.g. July 2, 2026)",
+  "fr": "Date (ex : 2 juillet 2026)"
+ },
+ "Date (ex: June 21-22, 2026)": {
+  "ar": "التاريخ (مثال: 21-22 يونيو 2026)",
+  "en": "Date (e.g. June 21-22, 2026)",
+  "fr": "Date (ex : 21-22 juin 2026)"
+ },
+ "Date (ex: May 31, 2026)": {
+  "ar": "التاريخ (مثال: 31 مايو 2026)",
+  "en": "Date (e.g. May 31, 2026)",
+  "fr": "Date (ex : 31 mai 2026)"
+ },
+ "Date de création": {
+  "ar": "تاريخ التأسيس",
+  "en": "Date founded",
+  "fr": "Date de création"
+ },
+ "Date de début": {
+  "ar": "تاريخ البداية",
+  "en": "Start date",
+  "fr": "Date de début"
+ },
+ "Date de début (ex: 2008)": {
+  "ar": "تاريخ البداية (مثال: 2008)",
+  "en": "Start date (e.g. 2008)",
+  "fr": "Date de début (ex : 2008)"
+ },
+ "Date de début (ex: March 15, 2025)": {
+  "ar": "تاريخ البداية (مثال: 15 مارس 2025)",
+  "en": "Start date (e.g. March 15, 2025)",
+  "fr": "Date de début (ex : 15 mars 2025)"
+ },
+ "Date de fin": {
+  "ar": "تاريخ النهاية",
+  "en": "End date",
+  "fr": "Date de fin"
+ },
+ "Date de fin (ex: Present)": {
+  "ar": "تاريخ النهاية (مثال: حتى الآن)",
+  "en": "End date (e.g. Present)",
+  "fr": "Date de fin (ex : Présent)"
+ },
+ "Date de naissance": {
+  "ar": "تاريخ الميلاد",
+  "en": "Date of birth",
+  "fr": "Date de naissance"
+ },
+ "Date de naissance:": {
+  "ar": "تاريخ الميلاد:",
+  "en": "Date of birth:",
+  "fr": "Date de naissance :"
+ },
+ "Dates invalides": {
+  "ar": "تواريخ غير صالحة",
+  "en": "Invalid dates",
+  "fr": "Dates invalides"
+ },
+ "De frais cachés": {
+  "ar": "رسوم خفية",
+  "en": "Hidden fees",
+  "fr": "De frais cachés"
+ },
+ "De la demande de certificat négatif à l’immatriculation : un accompagnement complet, étape par étape.": {
+  "ar": "من طلب الشهادة السلبية إلى التسجيل: مواكبة كاملة خطوة بخطوة.",
+  "en": "From the name-availability certificate to registration: full, step-by-step support.",
+  "fr": "De la demande de certificat négatif à l’immatriculation : un accompagnement complet, étape par étape."
+ },
+ "De la première rencontre": {
+  "ar": "من اللقاء الأول",
+  "en": "From the first meeting",
+  "fr": "De la première rencontre"
+ },
+ "Deals marketplace": {
+  "ar": "صفقات السوق",
+  "en": "Marketplace deals",
+  "fr": "Deals marketplace"
+ },
+ "Demande approuvée !": {
+  "ar": "تمت الموافقة على الطلب!",
+  "en": "Request approved!",
+  "fr": "Demande approuvée !"
+ },
+ "Demande en cours d'examen": {
+  "ar": "الطلب قيد الدراسة",
+  "en": "Request under review",
+  "fr": "Demande en cours d'examen"
+ },
+ "Demande envoyée": {
+  "ar": "تم إرسال الطلب",
+  "en": "Request sent",
+  "fr": "Demande envoyée"
+ },
+ "Demande envoyée !": {
+  "ar": "تم إرسال الطلب!",
+  "en": "Request sent!",
+  "fr": "Demande envoyée !"
+ },
+ "Demande rejetée": {
+  "ar": "تم رفض الطلب",
+  "en": "Request rejected",
+  "fr": "Demande rejetée"
+ },
+ "Demander": {
+  "ar": "طلب",
+  "en": "Request",
+  "fr": "Demander"
+ },
+ "Demander un mentorat": {
+  "ar": "اطلب الإرشاد",
+  "en": "Request mentoring",
+  "fr": "Demander un mentorat"
+ },
+ "Depuis une annonce sur le marketplace, définissez un prix cible. Vous serez notifié automatiquement lorsque le vendeur baisse son prix en dessous de votre seuil.": {
+  "ar": "من إعلان في السوق، حدّد سعرًا مستهدفًا. ستتلقى إشعارًا تلقائيًا عندما يخفض البائع السعر إلى ما دون حدّك.",
+  "en": "From a marketplace listing, set a target price. You will be notified automatically when the seller drops the price below your threshold.",
+  "fr": "Depuis une annonce sur le marketplace, définissez un prix cible. Vous serez notifié automatiquement lorsque le vendeur baisse son prix en dessous de votre seuil."
+ },
+ "Dernière étape — vérifiez vos informations et ajoutez votre photo": {
+  "ar": "الخطوة الأخيرة — تحقق من معلوماتك وأضف صورتك",
+  "en": "Last step — check your details and add your photo",
+  "fr": "Dernière étape — vérifiez vos informations et ajoutez votre photo"
+ },
+ "Des discussions par secteur et par ville pour partager des retours concrets entre pairs.": {
+  "ar": "نقاشات حسب القطاع والمدينة لتبادل تجارب ملموسة بين الأقران.",
+  "en": "Discussions by industry and city to share concrete feedback between peers.",
+  "fr": "Des discussions par secteur et par ville pour partager des retours concrets entre pairs."
+ },
+ "Des mentors seront disponibles bientôt": {
+  "ar": "سيتوفر المرشدون قريبًا",
+  "en": "Mentors will be available soon",
+  "fr": "Des mentors seront disponibles bientôt"
+ },
+ "Description": {
+  "ar": "الوصف",
+  "en": "Description",
+  "fr": "Description"
+ },
+ "Description — une ligne par point (ex: Asset & Wealth Management)": {
+  "ar": "الوصف — سطر لكل نقطة (مثال: إدارة الأصول والثروات)",
+  "en": "Description — one line per point (e.g. Asset & Wealth Management)",
+  "fr": "Description — une ligne par point (ex : Asset & Wealth Management)"
+ },
+ "Devenez mentor et aidez d'autres membres à progresser dans leur domaine": {
+  "ar": "كن مرشدًا وساعد الأعضاء الآخرين على التقدم في مجالهم",
+  "en": "Become a mentor and help other members grow in their field",
+  "fr": "Devenez mentor et aidez d'autres membres à progresser dans leur domaine"
+ },
+ "Dhs": {
+  "ar": "درهم",
+  "en": "MAD",
+  "fr": "Dhs"
+ },
+ "Dhs/An": {
+  "ar": "درهم/سنة",
+  "en": "MAD/year",
+  "fr": "Dhs/an"
+ },
+ "Diplôme ou Certificat (ex: Self Taught)": {
+  "ar": "الشهادة أو الدبلوم (مثال: تعلّم ذاتي)",
+  "en": "Degree or certificate (e.g. Self-taught)",
+  "fr": "Diplôme ou certificat (ex : Autodidacte)"
+ },
+ "Disponible": {
+  "ar": "متاح",
+  "en": "Available",
+  "fr": "Disponible"
+ },
+ "Document requis": {
+  "ar": "الوثيقة مطلوبة",
+  "en": "Document required",
+  "fr": "Document requis"
+ },
+ "Documents": {
+  "ar": "المستندات",
+  "en": "Documents",
+  "fr": "Documents"
+ },
+ "Documents KYB": {
+  "ar": "وثائق KYB",
+  "en": "KYB documents",
+  "fr": "Documents KYB"
+ },
+ "Documents justificatifs": {
+  "ar": "الوثائق المثبتة",
+  "en": "Supporting documents",
+  "fr": "Documents justificatifs"
+ },
+ "Domiciliation": {
+  "ar": "التوطين",
+  "en": "Business address service",
+  "fr": "Domiciliation"
+ },
+ "Données, suppression": {
+  "ar": "البيانات والحذف",
+  "en": "Data, deletion",
+  "fr": "Données, suppression"
+ },
+ "Dossiers de vérification d'entreprise (KYB) en attente de validation.": {
+  "ar": "ملفات التحقق من الشركات (KYB) في انتظار المصادقة.",
+  "en": "Business verification (KYB) files awaiting approval.",
+  "fr": "Dossiers de vérification d'entreprise (KYB) en attente de validation."
+ },
+ "Durée trop courte": {
+  "ar": "مدة قصيرة جدًا",
+  "en": "Too short",
+  "fr": "Durée trop courte"
+ },
+ "Déconnecter tout": {
+  "ar": "تسجيل الخروج من الكل",
+  "en": "Sign out everywhere",
+  "fr": "Déconnecter tout"
+ },
+ "Découvrez la plateforme en direct": {
+  "ar": "اكتشف المنصة مباشرة",
+  "en": "See the platform live",
+  "fr": "Découvrez la plateforme en direct"
+ },
+ "Découvrir la plateforme": {
+  "ar": "اكتشف المنصة",
+  "en": "Explore the platform",
+  "fr": "Découvrir la plateforme"
+ },
+ "Décrivez votre article en détail...": {
+  "ar": "صف منتجك بالتفصيل...",
+  "en": "Describe your item in detail...",
+  "fr": "Décrivez votre article en détail..."
+ },
+ "Décrivez votre photo…": {
+  "ar": "صف صورتك…",
+  "en": "Describe your photo…",
+  "fr": "Décrivez votre photo…"
+ },
+ "Décrivez votre vidéo…": {
+  "ar": "صف الفيديو الخاص بك…",
+  "en": "Describe your video…",
+  "fr": "Décrivez votre vidéo…"
+ },
+ "Déjà boosté": {
+  "ar": "تم ترويجه بالفعل",
+  "en": "Already boosted",
+  "fr": "Déjà boosté"
+ },
+ "Déjà membre ?": {
+  "ar": "عضو بالفعل؟",
+  "en": "Already a member?",
+  "fr": "Déjà membre ?"
+ },
+ "Dénomination sociale *": {
+  "ar": "التسمية الاجتماعية *",
+  "en": "Registered name *",
+  "fr": "Dénomination sociale *"
+ },
+ "Départ": {
+  "ar": "البداية",
+  "en": "Start",
+  "fr": "Départ"
+ },
+ "Déplacer après": {
+  "ar": "نقل إلى الخلف",
+  "en": "Move later",
+  "fr": "Déplacer après"
+ },
+ "Déplacer avant": {
+  "ar": "نقل إلى الأمام",
+  "en": "Move earlier",
+  "fr": "Déplacer avant"
+ },
+ "Déposez votre candidature en quelques minutes. Notre équipe examine chaque dossier avec attention.": {
+  "ar": "قدّم ترشّحك في دقائق. يدرس فريقنا كل ملف بعناية.",
+  "en": "Apply in a few minutes. Our team reviews every application carefully.",
+  "fr": "Déposez votre candidature en quelques minutes. Notre équipe examine chaque dossier avec attention."
+ },
+ "Désactiver les alertes": {
+  "ar": "إيقاف التنبيهات",
+  "en": "Turn off alerts",
+  "fr": "Désactiver les alertes"
+ },
+ "Développez votre réseau sans limite": {
+  "ar": "طوّر شبكتك بلا حدود",
+  "en": "Grow your network without limits",
+  "fr": "Développez votre réseau sans limite"
+ },
+ "E-commerce": {
+  "ar": "التجارة الإلكترونية",
+  "en": "E-commerce",
+  "fr": "E-commerce"
+ },
+ "Education": {
+  "ar": "التعليم",
+  "en": "Education",
+  "fr": "Formation"
+ },
+ "Effacer tous les filtres": {
+  "ar": "مسح كل عوامل التصفية",
+  "en": "Clear all filters",
+  "fr": "Effacer tous les filtres"
+ },
+ "Effectif": {
+  "ar": "العدد",
+  "en": "Headcount",
+  "fr": "Effectif"
+ },
+ "Effectif & Staff": {
+  "ar": "العدد والطاقم",
+  "en": "Headcount & staff",
+  "fr": "Effectif & équipe"
+ },
+ "Email": {
+  "ar": "البريد الإلكتروني",
+  "en": "Email",
+  "fr": "Email"
+ },
+ "Email Entreprise": {
+  "ar": "البريد الإلكتروني للشركة",
+  "en": "Company email",
+  "fr": "Email de l'entreprise"
+ },
+ "Email de contact": {
+  "ar": "البريد الإلكتروني للتواصل",
+  "en": "Contact email",
+  "fr": "Email de contact"
+ },
+ "Email invalide": {
+  "ar": "بريد إلكتروني غير صالح",
+  "en": "Invalid email",
+  "fr": "Email invalide"
+ },
+ "Email ou mot de passe incorrect": {
+  "ar": "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+  "en": "Incorrect email or password",
+  "fr": "Email ou mot de passe incorrect"
+ },
+ "Email professionnel": {
+  "ar": "البريد المهني",
+  "en": "Work email",
+  "fr": "Email professionnel"
+ },
+ "Email professionnel *": {
+  "ar": "البريد المهني *",
+  "en": "Work email *",
+  "fr": "Email professionnel *"
+ },
+ "Email, push, in-app": {
+  "ar": "البريد، الإشعارات، داخل التطبيق",
+  "en": "Email, push, in-app",
+  "fr": "Email, push, in-app"
+ },
+ "Email, téléphone, langue": {
+  "ar": "البريد، الهاتف، اللغة",
+  "en": "Email, phone, language",
+  "fr": "Email, téléphone, langue"
+ },
+ "En attente": {
+  "ar": "قيد الانتظار",
+  "en": "Pending",
+  "fr": "En attente"
+ },
+ "En attente…": {
+  "ar": "قيد الانتظار…",
+  "en": "Pending…",
+  "fr": "En attente…"
+ },
+ "En continuant, vous acceptez nos": {
+  "ar": "بالمتابعة، فإنك توافق على",
+  "en": "By continuing, you agree to our",
+  "fr": "En continuant, vous acceptez nos"
+ },
+ "En cours": {
+  "ar": "جارية",
+  "en": "Live",
+  "fr": "En cours"
+ },
+ "En cours de surveillance": {
+  "ar": "قيد المراقبة",
+  "en": "Being watched",
+  "fr": "En cours de surveillance"
+ },
+ "En cours de vérification": {
+  "ar": "قيد التحقق",
+  "en": "Under review",
+  "fr": "En cours de vérification"
+ },
+ "En direct": {
+  "ar": "مباشر",
+  "en": "Live",
+  "fr": "En direct"
+ },
+ "En ligne": {
+  "ar": "متصل الآن",
+  "en": "Online",
+  "fr": "En ligne"
+ },
+ "Enchère annulée": {
+  "ar": "أُلغي المزاد",
+  "en": "Auction cancelled",
+  "fr": "Enchère annulée"
+ },
+ "Enchère créée avec succès !": {
+  "ar": "تم إنشاء المزاد بنجاح!",
+  "en": "Auction created!",
+  "fr": "Enchère créée avec succès !"
+ },
+ "Enchère non trouvée": {
+  "ar": "المزاد غير موجود",
+  "en": "Auction not found",
+  "fr": "Enchère non trouvée"
+ },
+ "Enchère terminée": {
+  "ar": "انتهى المزاد",
+  "en": "Auction ended",
+  "fr": "Enchère terminée"
+ },
+ "Enchère · Lot #128": {
+  "ar": "مزاد · الحصة #128",
+  "en": "Auction · Lot #128",
+  "fr": "Enchère · Lot #128"
+ },
+ "Enchères": {
+  "ar": "المزادات",
+  "en": "Auctions",
+  "fr": "Enchères"
+ },
+ "Enchères & Marketplace": {
+  "ar": "المزادات والسوق",
+  "en": "Auctions & marketplace",
+  "fr": "Enchères & marketplace"
+ },
+ "Enchères en temps réel": {
+  "ar": "مزادات مباشرة",
+  "en": "Real-time auctions",
+  "fr": "Enchères en temps réel"
+ },
+ "Enchérir 50 000 MAD": {
+  "ar": "زايد بـ 50 000 درهم",
+  "en": "Bid 50,000 MAD",
+  "fr": "Enchérir 50 000 MAD"
+ },
+ "Energie & Environnement": {
+  "ar": "الطاقة والبيئة",
+  "en": "Energy & environment",
+  "fr": "Énergie & environnement"
+ },
+ "Enregistrement RC, ICE et régime fiscal": {
+  "ar": "تسجيل السجل التجاري وICE والنظام الضريبي",
+  "en": "CR, ICE and tax regime registration",
+  "fr": "Enregistrement RC, ICE et régime fiscal"
+ },
+ "Enregistrement...": {
+  "ar": "جارٍ الحفظ...",
+  "en": "Saving...",
+  "fr": "Enregistrement..."
+ },
+ "Enregistrer les modifications": {
+  "ar": "حفظ التغييرات",
+  "en": "Save changes",
+  "fr": "Enregistrer les modifications"
+ },
+ "Entreprise": {
+  "ar": "شركة",
+  "en": "Company",
+  "fr": "Entreprise"
+ },
+ "Entreprise (ICE / RC)": {
+  "ar": "الشركة (ICE / RC)",
+  "en": "Company (ICE / RC)",
+  "fr": "Entreprise (ICE / RC)"
+ },
+ "Entreprise (ex: HAMRI CAPITAL)": {
+  "ar": "الشركة (مثال: HAMRI CAPITAL)",
+  "en": "Company (e.g. HAMRI CAPITAL)",
+  "fr": "Entreprise (ex : HAMRI CAPITAL)"
+ },
+ "Entreprise existante": {
+  "ar": "شركة قائمة",
+  "en": "Existing company",
+  "fr": "Entreprise existante"
+ },
+ "Entrez dans un cercle": {
+  "ar": "انضم إلى دائرة",
+  "en": "Join a circle",
+  "fr": "Entrez dans un cercle"
+ },
+ "Envoi en cours...": {
+  "ar": "جارٍ الإرسال...",
+  "en": "Uploading...",
+  "fr": "Envoi en cours..."
+ },
+ "Envoi...": {
+  "ar": "جارٍ الإرسال...",
+  "en": "Uploading...",
+  "fr": "Envoi..."
+ },
+ "Envoyez un email à support@communium.ma": {
+  "ar": "راسلنا على support@communium.ma",
+  "en": "Email support@communium.ma",
+  "fr": "Envoyez un email à support@communium.ma"
+ },
+ "Envoyées": {
+  "ar": "المرسلة",
+  "en": "Sent",
+  "fr": "Envoyées"
+ },
+ "Equipment": {
+  "ar": "المعدات",
+  "en": "Equipment",
+  "fr": "Équipements"
+ },
+ "Erreur": {
+  "ar": "خطأ",
+  "en": "Error",
+  "fr": "Erreur"
+ },
+ "Erreur d'upload": {
+  "ar": "خطأ في الرفع",
+  "en": "Upload error",
+  "fr": "Erreur d'upload"
+ },
+ "Erreur de connexion après inscription.": {
+  "ar": "خطأ في تسجيل الدخول بعد التسجيل.",
+  "en": "Sign-in error after registration.",
+  "fr": "Erreur de connexion après inscription."
+ },
+ "Erreur lors de l'extraction, réessayez.": {
+  "ar": "فشل الاستخراج، حاول مرة أخرى.",
+  "en": "Extraction failed, please try again.",
+  "fr": "Erreur lors de l'extraction, réessayez."
+ },
+ "Erreur lors de l'upload des fichiers": {
+  "ar": "خطأ أثناء رفع الملفات",
+  "en": "Error uploading files",
+  "fr": "Erreur lors du téléversement des fichiers"
+ },
+ "Erreur lors de l'upload des images": {
+  "ar": "خطأ أثناء رفع الصور",
+  "en": "Error uploading images",
+  "fr": "Erreur lors du téléversement des images"
+ },
+ "Erreur lors de l'upload. Veuillez réessayer.": {
+  "ar": "خطأ أثناء الرفع. يرجى المحاولة مرة أخرى.",
+  "en": "Upload error. Please try again.",
+  "fr": "Erreur lors du téléversement. Veuillez réessayer."
+ },
+ "Erreur lors de la création du compte.": {
+  "ar": "خطأ أثناء إنشاء الحساب.",
+  "en": "Error creating the account.",
+  "fr": "Erreur lors de la création du compte."
+ },
+ "Erreur lors de la sauvegarde. Veuillez réessayer.": {
+  "ar": "خطأ أثناء الحفظ. يرجى المحاولة مرة أخرى.",
+  "en": "Error while saving. Please try again.",
+  "fr": "Erreur lors de la sauvegarde. Veuillez réessayer."
+ },
+ "Erreur {status} lors de la sauvegarde.": {
+  "ar": "خطأ {status} أثناء الحفظ.",
+  "en": "Error {status} while saving.",
+  "fr": "Erreur {status} lors de la sauvegarde."
+ },
+ "Essayez d'élargir vos critères de recherche": {
+  "ar": "جرّب توسيع معايير البحث",
+  "en": "Try broadening your search",
+  "fr": "Essayez d'élargir vos critères de recherche"
+ },
+ "Essayez de modifier vos filtres de recherche": {
+  "ar": "جرّب تغيير عوامل التصفية",
+  "en": "Try changing your search filters",
+  "fr": "Essayez de modifier vos filtres de recherche"
+ },
+ "Events & Training": {
+  "ar": "الفعاليات والتدريب",
+  "en": "Events & Training",
+  "fr": "Événements & formations"
+ },
+ "Ex: +212 664 981 880": {
+  "ar": "مثال: 880 981 664 212+",
+  "en": "e.g. +212 664 981 880",
+  "fr": "Ex : +212 664 981 880"
+ },
+ "Ex: AB123456": {
+  "ar": "مثال: AB123456",
+  "en": "e.g. AB123456",
+  "fr": "Ex : AB123456"
+ },
+ "Ex: Agriculture, Aviation, Real Estate, E-commerce": {
+  "ar": "مثال: الفلاحة، الطيران، العقار، التجارة الإلكترونية",
+  "en": "e.g. Agriculture, Aviation, Real Estate, E-commerce",
+  "fr": "Ex : Agriculture, Aviation, Immobilier, E-commerce"
+ },
+ "Ex: Attijariwafa Bank, BMCE, CIH...": {
+  "ar": "مثال: التجاري وفا بنك، BMCE، CIH...",
+  "en": "e.g. Attijariwafa Bank, BMCE, CIH...",
+  "fr": "Ex : Attijariwafa Bank, BMCE, CIH..."
+ },
+ "Ex: Canada, Toronto": {
+  "ar": "مثال: كندا، تورونتو",
+  "en": "e.g. Canada, Toronto",
+  "fr": "Ex : Canada, Toronto"
+ },
+ "Ex: Chairman, CEO & Founder": {
+  "ar": "مثال: رئيس مجلس الإدارة، الرئيس التنفيذي والمؤسس",
+  "en": "e.g. Chairman, CEO & Founder",
+  "fr": "Ex : Chairman, CEO & Founder"
+ },
+ "Ex: Commerce, Services, Industrie...": {
+  "ar": "مثال: التجارة، الخدمات، الصناعة...",
+  "en": "e.g. Trade, Services, Industry...",
+  "fr": "Ex : Commerce, Services, Industrie..."
+ },
+ "Ex: Développement Web": {
+  "ar": "مثال: تطوير الويب",
+  "en": "e.g. Web development",
+  "fr": "Ex : Développement web"
+ },
+ "Ex: Financial Modeling, Valuation, Excel Advanced": {
+  "ar": "مثال: النمذجة المالية، التقييم، Excel متقدم",
+  "en": "e.g. Financial Modeling, Valuation, Advanced Excel",
+  "fr": "Ex : Modélisation financière, Évaluation, Excel avancé"
+ },
+ "Ex: ISO 14001:2026, ISO 42001:2023": {
+  "ar": "مثال: ISO 14001:2026، ISO 42001:2023",
+  "en": "e.g. ISO 14001:2026, ISO 42001:2023",
+  "fr": "Ex : ISO 14001:2026, ISO 42001:2023"
+ },
+ "Ex: Investment Management & Funds": {
+  "ar": "مثال: إدارة الاستثمارات والصناديق",
+  "en": "e.g. Investment Management & Funds",
+  "fr": "Ex : Gestion d'investissements & fonds"
+ },
+ "Ex: Master Duel, Dofus": {
+  "ar": "مثال: Master Duel، Dofus",
+  "en": "e.g. Master Duel, Dofus",
+  "fr": "Ex : Master Duel, Dofus"
+ },
+ "Ex: Maârif, Agdal...": {
+  "ar": "مثال: المعاريف، أكدال...",
+  "en": "e.g. Maarif, Agdal...",
+  "fr": "Ex : Maârif, Agdal..."
+ },
+ "Ex: Morocco, Tangier": {
+  "ar": "مثال: المغرب، طنجة",
+  "en": "e.g. Morocco, Tangier",
+  "fr": "Ex : Maroc, Tanger"
+ },
+ "Ex: My Future Startup": {
+  "ar": "مثال: شركتي الناشئة المستقبلية",
+  "en": "e.g. My Future Startup",
+  "fr": "Ex : Ma future startup"
+ },
+ "Ex: Omar Hamri": {
+  "ar": "مثال: عمر حمري",
+  "en": "e.g. Omar Hamri",
+  "fr": "Ex : Omar Hamri"
+ },
+ "Ex: RIA, FCA, AMMC": {
+  "ar": "مثال: RIA، FCA، AMMC",
+  "en": "e.g. RIA, FCA, AMMC",
+  "fr": "Ex : RIA, FCA, AMMC"
+ },
+ "Ex: Tangier": {
+  "ar": "مثال: طنجة",
+  "en": "e.g. Tangier",
+  "fr": "Ex : Tanger"
+ },
+ "Ex: Tennis 5.5, Chess, Poker": {
+  "ar": "مثال: التنس 5.5، الشطرنج، البوكر",
+  "en": "e.g. Tennis 5.5, Chess, Poker",
+  "fr": "Ex : Tennis 5.5, Échecs, Poker"
+ },
+ "Ex: Toronto": {
+  "ar": "مثال: تورونتو",
+  "en": "e.g. Toronto",
+  "fr": "Ex : Toronto"
+ },
+ "Ex: iPhone 15 Pro 256 Go": {
+  "ar": "مثال: iPhone 15 Pro سعة 256 جيجابايت",
+  "en": "e.g. iPhone 15 Pro 256 GB",
+  "fr": "Ex : iPhone 15 Pro 256 Go"
+ },
+ "Exemple illustratif": {
+  "ar": "مثال توضيحي",
+  "en": "Illustrative example",
+  "fr": "Exemple illustratif"
+ },
+ "Experience": {
+  "ar": "الخبرة",
+  "en": "Experience",
+  "fr": "Expérience"
+ },
+ "Explorer": {
+  "ar": "استكشف",
+  "en": "Explore",
+  "fr": "Explorer"
+ },
+ "Explorez les suggestions pour agrandir votre réseau": {
+  "ar": "استكشف الاقتراحات لتوسيع شبكتك",
+  "en": "Explore suggestions to grow your network",
+  "fr": "Explorez les suggestions pour agrandir votre réseau"
+ },
+ "Export vers l’Afrique de l’Ouest": {
+  "ar": "التصدير نحو غرب إفريقيا",
+  "en": "Exporting to West Africa",
+  "fr": "Export vers l’Afrique de l’Ouest"
+ },
+ "Expériences professionnelles": {
+  "ar": "الخبرات المهنية",
+  "en": "Work experience",
+  "fr": "Expériences professionnelles"
+ },
+ "Extrait du registre de commerce de l'entreprise": {
+  "ar": "مستخرج من السجل التجاري للشركة",
+  "en": "Extract from the company's commercial register",
+  "fr": "Extrait du registre de commerce de l'entreprise"
+ },
+ "FAQ": {
+  "ar": "الأسئلة الشائعة",
+  "en": "FAQ",
+  "fr": "FAQ"
+ },
+ "Faites grandir votre activité": {
+  "ar": "نمِّ نشاطك",
+  "en": "Grow your business",
+  "fr": "Faites grandir votre activité"
+ },
+ "Fermer le menu": {
+  "ar": "إغلاق القائمة",
+  "en": "Close menu",
+  "fr": "Fermer le menu"
+ },
+ "Fermer mon compte": {
+  "ar": "إغلاق حسابي",
+  "en": "Close my account",
+  "fr": "Fermer mon compte"
+ },
+ "Fiabilité 95% · Livraison locale (même ville)": {
+  "ar": "موثوقية 95٪ · توصيل محلي (نفس المدينة)",
+  "en": "95% reliable · Local delivery (same city)",
+  "fr": "Fiabilité 95% · Livraison locale (même ville)"
+ },
+ "Fichier invalide": {
+  "ar": "ملف غير صالح",
+  "en": "Invalid file",
+  "fr": "Fichier invalide"
+ },
+ "Fil d'actualité": {
+  "ar": "آخر المنشورات",
+  "en": "News feed",
+  "fr": "Fil d'actualité"
+ },
+ "Filiales": {
+  "ar": "الفروع",
+  "en": "Subsidiaries",
+  "fr": "Filiales"
+ },
+ "Filiales (Subsidiaries - séparées par des virgules)": {
+  "ar": "الفروع (مفصولة بفواصل)",
+  "en": "Subsidiaries (comma-separated)",
+  "fr": "Filiales (séparées par des virgules)"
+ },
+ "Finalisez votre profil": {
+  "ar": "أكمل ملفك الشخصي",
+  "en": "Finish your profile",
+  "fr": "Finalisez votre profil"
+ },
+ "Finance & Investissement": {
+  "ar": "المالية والاستثمار",
+  "en": "Finance & investment",
+  "fr": "Finance & investissement"
+ },
+ "Finance & assurance": {
+  "ar": "المالية والتأمين",
+  "en": "Finance & insurance",
+  "fr": "Finance & assurance"
+ },
+ "Fonction du déclarant": {
+  "ar": "صفة المصرّح",
+  "en": "Declarant's role",
+  "fr": "Fonction du déclarant"
+ },
+ "Fonctionnalité disponible bientôt.": {
+  "ar": "هذه الميزة متاحة قريبًا.",
+  "en": "Feature coming soon.",
+  "fr": "Fonctionnalité disponible bientôt."
+ },
+ "Fondateurs, dirigeants et investisseurs du Maroc et de la diaspora se retrouvent sur The Communium pour faire avancer leurs projets.": {
+  "ar": "يلتقي المؤسسون والمديرون والمستثمرون من المغرب والمهجر على The Communium لدفع مشاريعهم إلى الأمام.",
+  "en": "Founders, executives and investors from Morocco and the diaspora meet on The Communium to move their projects forward.",
+  "fr": "Fondateurs, dirigeants et investisseurs du Maroc et de la diaspora se retrouvent sur The Communium pour faire avancer leurs projets."
+ },
+ "Fondatrice · Agritech": {
+  "ar": "مؤسِّسة · تكنولوجيا زراعية",
+  "en": "Founder · Agritech",
+  "fr": "Fondatrice · Agritech"
+ },
+ "Fondatrice · Fintech": {
+  "ar": "مؤسِّسة · تكنولوجيا مالية",
+  "en": "Founder · Fintech",
+  "fr": "Fondatrice · Fintech"
+ },
+ "Format large (3:1) · JPG, PNG ou WebP · Max 5 Mo": {
+  "ar": "صيغة عريضة (3:1) · JPG أو PNG أو WebP · بحد أقصى 5 ميغابايت",
+  "en": "Wide format (3:1) · JPG, PNG or WebP · Max 5 MB",
+  "fr": "Format large (3:1) · JPG, PNG ou WebP · Max 5 Mo"
+ },
+ "Formation": {
+  "ar": "تدريب",
+  "en": "Training",
+  "fr": "Formation"
+ },
+ "Forme juridique": {
+  "ar": "الشكل القانوني",
+  "en": "Legal form",
+  "fr": "Forme juridique"
+ },
+ "Forme juridique *": {
+  "ar": "الشكل القانوني *",
+  "en": "Legal form *",
+  "fr": "Forme juridique *"
+ },
+ "Forums": {
+  "ar": "المنتديات",
+  "en": "Forums",
+  "fr": "Forums"
+ },
+ "Forums & groupes": {
+  "ar": "المنتديات والمجموعات",
+  "en": "Forums & groups",
+  "fr": "Forums & groupes"
+ },
+ "France": {
+  "ar": "فرنسا",
+  "en": "France",
+  "fr": "France"
+ },
+ "Français": {
+  "ar": "الفرنسية",
+  "en": "French",
+  "fr": "Français"
+ },
+ "Freelance": {
+  "ar": "مستقل",
+  "en": "Freelance",
+  "fr": "Freelance"
+ },
+ "Full-time": {
+  "ar": "دوام كامل",
+  "en": "Full-time",
+  "fr": "Temps plein"
+ },
+ "Gagnez des TKS!": {
+  "ar": "اربح TKS!",
+  "en": "Earn TKS!",
+  "fr": "Gagnez des TKS !"
+ },
+ "Gagnez des Tks en contribuant à la communauté et utilisez-les pour mettre vos annonces en avant.": {
+  "ar": "اكسب Tks بالمساهمة في المجتمع واستخدمها لإبراز إعلاناتك.",
+  "en": "Earn Tks by contributing to the community and use them to promote your listings.",
+  "fr": "Gagnez des Tks en contribuant à la communauté et utilisez-les pour mettre vos annonces en avant."
+ },
+ "Gaming": {
+  "ar": "الألعاب",
+  "en": "Gaming",
+  "fr": "Jeux"
+ },
+ "Gaming (Séparés par des virgules)": {
+  "ar": "الألعاب (مفصولة بفواصل)",
+  "en": "Gaming (comma-separated)",
+  "fr": "Jeux (séparés par des virgules)"
+ },
+ "Garder dans ta besace": {
+  "ar": "احفظه في حقيبتك",
+  "en": "Keep in your satchel",
+  "fr": "Garder dans ta besace"
+ },
+ "Gestion d'équipe": {
+  "ar": "إدارة الفريق",
+  "en": "Team management",
+  "fr": "Gestion d'équipe"
+ },
+ "Gestion des préférences de cookies": {
+  "ar": "إدارة تفضيلات ملفات تعريف الارتباط",
+  "en": "Manage cookie preferences",
+  "fr": "Gestion des préférences de cookies"
+ },
+ "Grandir": {
+  "ar": "انمُ",
+  "en": "Grow",
+  "fr": "Grandir"
+ },
+ "Gratuit": {
+  "ar": "مجاني",
+  "en": "Free",
+  "fr": "Gratuit"
+ },
+ "Groupe": {
+  "ar": "مجموعة",
+  "en": "Group",
+  "fr": "Groupe"
+ },
+ "Groupe Fintech": {
+  "ar": "مجموعة التكنولوجيا المالية",
+  "en": "Fintech group",
+  "fr": "Groupe Fintech"
+ },
+ "Groupes": {
+  "ar": "المجموعات",
+  "en": "Groups",
+  "fr": "Groupes"
+ },
+ "Guilde du Port": {
+  "ar": "نقابة الميناء",
+  "en": "Harbor Guild",
+  "fr": "Guilde du Port"
+ },
+ "Gérant": {
+  "ar": "المسير",
+  "en": "Manager",
+  "fr": "Gérant"
+ },
+ "Gérer": {
+  "ar": "إدارة",
+  "en": "Manage",
+  "fr": "Gérer"
+ },
+ "Gérez vos informations de compte": {
+  "ar": "إدارة معلومات حسابك",
+  "en": "Manage your account details",
+  "fr": "Gérez vos informations de compte"
+ },
+ "Gérez votre mot de passe et vos sessions": {
+  "ar": "إدارة كلمة المرور والجلسات",
+  "en": "Manage your password and sessions",
+  "fr": "Gérez votre mot de passe et vos sessions"
+ },
+ "Gérez votre plan et votre facturation": {
+  "ar": "إدارة عرضك وفواتيرك",
+  "en": "Manage your plan and billing",
+  "fr": "Gérez votre plan et votre facturation"
+ },
+ "Heure de début": {
+  "ar": "ساعة البداية",
+  "en": "Start time",
+  "fr": "Heure de début"
+ },
+ "Heure de fin": {
+  "ar": "ساعة النهاية",
+  "en": "End time",
+  "fr": "Heure de fin"
+ },
+ "Hier": {
+  "ar": "أمس",
+  "en": "Yesterday",
+  "fr": "Hier"
+ },
+ "Histoires de membres": {
+  "ar": "قصص الأعضاء",
+  "en": "Member stories",
+  "fr": "Histoires de membres"
+ },
+ "Historique de paiements": {
+  "ar": "سجل المدفوعات",
+  "en": "Payment history",
+  "fr": "Historique de paiements"
+ },
+ "Hors ligne": {
+  "ar": "غير متصل",
+  "en": "Offline",
+  "fr": "Hors ligne"
+ },
+ "Hybrid": {
+  "ar": "هجين",
+  "en": "Hybrid",
+  "fr": "Hybride"
+ },
+ "IA": {
+  "ar": "الذكاء الاصطناعي",
+  "en": "AI",
+  "fr": "IA"
+ },
+ "IA Risque": {
+  "ar": "مخاطر الذكاء الاصطناعي",
+  "en": "AI risk",
+  "fr": "IA Risque"
+ },
+ "ICE": {
+  "ar": "المعرف الموحد للمقاولة",
+  "en": "ICE",
+  "fr": "ICE"
+ },
+ "IF": {
+  "ar": "التعريف الضريبي",
+  "en": "Tax ID",
+  "fr": "IF"
+ },
+ "Identifiant Commun de l'Entreprise": {
+  "ar": "المعرف الموحد للمقاولة",
+  "en": "Common business identifier (ICE)",
+  "fr": "Identifiant commun de l'entreprise"
+ },
+ "Identifiant Fiscal (IF)": {
+  "ar": "المعرف الضريبي",
+  "en": "Tax ID",
+  "fr": "Identifiant fiscal (IF)"
+ },
+ "Identifiant fiscal (IF)": {
+  "ar": "المعرف الضريبي",
+  "en": "Tax ID",
+  "fr": "Identifiant fiscal (IF)"
+ },
+ "Identité & Bio": {
+  "ar": "الهوية والنبذة",
+  "en": "Identity & bio",
+  "fr": "Identité & bio"
+ },
+ "Identité & Coordonnées": {
+  "ar": "الهوية والتواصل",
+  "en": "Identity & contact",
+  "fr": "Identité & coordonnées"
+ },
+ "Identité & Coordonnées de l'entreprise": {
+  "ar": "هوية الشركة ومعلومات الاتصال",
+  "en": "Company identity & contact details",
+  "fr": "Identité & coordonnées de l'entreprise"
+ },
+ "Identité (CNIE)": {
+  "ar": "الهوية (البطاقة الوطنية)",
+  "en": "Identity (CNIE)",
+  "fr": "Identité (CNIE)"
+ },
+ "Identité Entreprise & Bio": {
+  "ar": "هوية الشركة والنبذة",
+  "en": "Company identity & bio",
+  "fr": "Identité de l'entreprise & bio"
+ },
+ "Image": {
+  "ar": "الصورة",
+  "en": "Image",
+  "fr": "Image"
+ },
+ "Image/PDF": {
+  "ar": "صورة/PDF",
+  "en": "Image/PDF",
+  "fr": "Image/PDF"
+ },
+ "Immatriculation RC / ICE": {
+  "ar": "التسجيل RC / ICE",
+  "en": "RC / ICE registration",
+  "fr": "Immatriculation RC / ICE"
+ },
+ "Immobilier": {
+  "ar": "العقار",
+  "en": "Real estate",
+  "fr": "Immobilier"
+ },
+ "Impossible d'analyser la CIN": {
+  "ar": "تعذر تحليل البطاقة الوطنية",
+  "en": "Could not read the ID card",
+  "fr": "Impossible d'analyser la CIN"
+ },
+ "Impossible d'annuler": {
+  "ar": "تعذر الإلغاء",
+  "en": "Could not cancel",
+  "fr": "Impossible d'annuler"
+ },
+ "Impossible d'envoyer la demande.": {
+  "ar": "تعذر إرسال الطلب.",
+  "en": "Could not send the request.",
+  "fr": "Impossible d'envoyer la demande."
+ },
+ "Impossible de contacter le serveur. Vérifiez que le backend est démarré.": {
+  "ar": "تعذر الاتصال بالخادم. تأكد من تشغيل الخادم الخلفي.",
+  "en": "Cannot reach the server. Check that the backend is running.",
+  "fr": "Impossible de contacter le serveur. Vérifiez que le backend est démarré."
+ },
+ "Impossible de créer l'enchère": {
+  "ar": "تعذر إنشاء المزاد",
+  "en": "Could not create the auction",
+  "fr": "Impossible de créer l'enchère"
+ },
+ "Impossible de placer la mise": {
+  "ar": "تعذر تقديم المزايدة",
+  "en": "Could not place the bid",
+  "fr": "Impossible de placer la mise"
+ },
+ "Inclus": {
+  "ar": "مشمول",
+  "en": "Included",
+  "fr": "Inclus"
+ },
+ "Incrément minimum (Dhs)": {
+  "ar": "أدنى زيادة (درهم)",
+  "en": "Minimum increment (MAD)",
+  "fr": "Incrément minimum (Dhs)"
+ },
+ "Industrie": {
+  "ar": "الصناعة",
+  "en": "Manufacturing",
+  "fr": "Industrie"
+ },
+ "Industrie & Manufacturing": {
+  "ar": "الصناعة والتصنيع",
+  "en": "Industry & manufacturing",
+  "fr": "Industrie & manufacturing"
+ },
+ "Informations Légales & Certifications": {
+  "ar": "المعلومات القانونية والشهادات",
+  "en": "Legal information & certifications",
+  "fr": "Informations légales & certifications"
+ },
+ "Informations complémentaires & Langues": {
+  "ar": "معلومات إضافية واللغات",
+  "en": "Additional information & languages",
+  "fr": "Informations complémentaires & langues"
+ },
+ "Informations générales": {
+  "ar": "معلومات عامة",
+  "en": "General information",
+  "fr": "Informations générales"
+ },
+ "Informations importantes": {
+  "ar": "معلومات مهمة",
+  "en": "Important information",
+  "fr": "Informations importantes"
+ },
+ "Inscrits": {
+  "ar": "المسجلون",
+  "en": "Registered",
+  "fr": "Inscrits"
+ },
+ "Insights IA": {
+  "ar": "تحليلات الذكاء الاصطناعي",
+  "en": "AI insights",
+  "fr": "Analyses IA"
+ },
+ "Intelligence Artificielle": {
+  "ar": "الذكاء الاصطناعي",
+  "en": "Artificial intelligence",
+  "fr": "Intelligence artificielle"
+ },
+ "Interests": {
+  "ar": "الاهتمامات",
+  "en": "Interests",
+  "fr": "Centres d'intérêt"
+ },
+ "International & Export": {
+  "ar": "الدولي والتصدير",
+  "en": "International & export",
+  "fr": "International & export"
+ },
+ "Internship": {
+  "ar": "تدريب",
+  "en": "Internship",
+  "fr": "Stage"
+ },
+ "Intérêts": {
+  "ar": "الاهتمامات",
+  "en": "Interests",
+  "fr": "Intérêts"
+ },
+ "Investment Manager": {
+  "ar": "مدير الاستثمارات",
+  "en": "Investment manager",
+  "fr": "Gestionnaire d'investissements"
+ },
+ "Invocation": {
+  "ar": "الاستدعاء",
+  "en": "Summon",
+  "fr": "Invocation"
+ },
+ "J'ai déjà un numéro de Registre de Commerce (RC) et des statuts.": {
+  "ar": "لدي بالفعل رقم سجل تجاري ونظام أساسي.",
+  "en": "I already have a commercial register (CR) number and articles of association.",
+  "fr": "J'ai déjà un numéro de Registre de Commerce (RC) et des statuts."
+ },
+ "J'aime": {
+  "ar": "إعجاب",
+  "en": "Like",
+  "fr": "J'aime"
+ },
+ "JPG, PNG ou WebP · Max 5 Mo": {
+  "ar": "JPG أو PNG أو WebP · بحد أقصى 5 ميغابايت",
+  "en": "JPG, PNG or WebP · Max 5 MB",
+  "fr": "JPG, PNG ou WebP · Max 5 Mo"
+ },
+ "Je souhaite être accompagné pour créer légalement ma société.": {
+  "ar": "أرغب في المرافقة لتأسيس شركتي بشكل قانوني.",
+  "en": "I want help setting up my company legally.",
+  "fr": "Je souhaite être accompagné pour créer légalement ma société."
+ },
+ "Jeudi 9 octobre, 19 h. Une soirée pour les fondateurs du BTP et de l'immobilier.": {
+  "ar": "الخميس 9 أكتوبر، الساعة 19:00. أمسية لمؤسسي شركات البناء والعقار.",
+  "en": "Thursday, October 9, 7 pm. An evening for construction and real-estate founders.",
+  "fr": "Jeudi 9 octobre, 19 h. Une soirée pour les fondateurs du BTP et de l'immobilier."
+ },
+ "Juridique": {
+  "ar": "قانوني",
+  "en": "Legal",
+  "fr": "Juridique"
+ },
+ "Juridique & Compliance": {
+  "ar": "القانون والامتثال",
+  "en": "Legal & compliance",
+  "fr": "Juridique & conformité"
+ },
+ "Justificatif fiscal de l'entreprise": {
+  "ar": "الوثيقة الضريبية للشركة",
+  "en": "Company's tax certificate",
+  "fr": "Justificatif fiscal de l'entreprise"
+ },
+ "KYC, profil, entreprise": {
+  "ar": "KYC، الملف، الشركة",
+  "en": "KYC, profile, company",
+  "fr": "KYC, profil, entreprise"
+ },
+ "Karim B. · Hôte": {
+  "ar": "كريم ب. · المضيف",
+  "en": "Karim B. · Host",
+  "fr": "Karim B. · Hôte"
+ },
+ "L'email professionnel est requis": {
+  "ar": "البريد المهني مطلوب",
+  "en": "Work email is required",
+  "fr": "L'email professionnel est requis"
+ },
+ "L'enchère doit durer au moins 1 heure.": {
+  "ar": "يجب أن يستمر المزاد ساعة واحدة على الأقل.",
+  "en": "The auction must last at least 1 hour.",
+  "fr": "L'enchère doit durer au moins 1 heure."
+ },
+ "L'enchère dure au minimum 1 heure": {
+  "ar": "يستمر المزاد ساعة واحدة على الأقل",
+  "en": "An auction lasts at least 1 hour",
+  "fr": "L'enchère dure au minimum 1 heure"
+ },
+ "L'image est trop volumineuse (max 5 Mo)": {
+  "ar": "الصورة كبيرة جدًا (الحد الأقصى 5 ميغابايت)",
+  "en": "Image is too large (max 5 MB)",
+  "fr": "L'image est trop volumineuse (max 5 Mo)"
+ },
+ "La Guilde du Port atteint 1 000 membres": {
+  "ar": "نقابة الميناء تبلغ 1000 عضو",
+  "en": "The Harbor Guild reaches 1,000 members",
+  "fr": "La Guilde du Port atteint 1 000 membres"
+ },
+ "La date de création est requise": {
+  "ar": "تاريخ التأسيس مطلوب",
+  "en": "Founding date is required",
+  "fr": "La date de création est requise"
+ },
+ "La date de fin doit être après la date de début.": {
+  "ar": "يجب أن يكون تاريخ النهاية بعد تاريخ البداية.",
+  "en": "The end date must be after the start date.",
+  "fr": "La date de fin doit être après la date de début."
+ },
+ "La date de naissance est requise": {
+  "ar": "تاريخ الميلاد مطلوب",
+  "en": "Date of birth is required",
+  "fr": "La date de naissance est requise"
+ },
+ "La fonction est requise": {
+  "ar": "الصفة مطلوبة",
+  "en": "Role is required",
+  "fr": "La fonction est requise"
+ },
+ "La majorité de nos nouveaux mandats viennent désormais de recommandations entre membres.": {
+  "ar": "أغلب مهامنا الجديدة تأتي الآن من توصيات بين الأعضاء.",
+  "en": "Most of our new engagements now come from referrals between members.",
+  "fr": "La majorité de nos nouveaux mandats viennent désormais de recommandations entre membres."
+ },
+ "La marketplace nous a mis en relation avec des acheteurs sérieux, sans intermédiaire.": {
+  "ar": "ربطنا السوق بمشترين جادّين دون وسيط.",
+  "en": "The marketplace connected us with serious buyers, with no middleman.",
+  "fr": "La marketplace nous a mis en relation avec des acheteurs sérieux, sans intermédiaire."
+ },
+ "La nationalité est requise": {
+  "ar": "الجنسية مطلوبة",
+  "en": "Nationality is required",
+  "fr": "La nationalité est requise"
+ },
+ "La réunion a été terminée.": {
+  "ar": "تم إنهاء الاجتماع.",
+  "en": "The meeting has ended.",
+  "fr": "La réunion a été terminée."
+ },
+ "La ville est requise": {
+  "ar": "المدينة مطلوبة",
+  "en": "City is required",
+  "fr": "La ville est requise"
+ },
+ "Laisser un avis": {
+  "ar": "اترك تقييمًا",
+  "en": "Leave a review",
+  "fr": "Laisser un avis"
+ },
+ "Languages": {
+  "ar": "اللغات",
+  "en": "Languages",
+  "fr": "Langues"
+ },
+ "Langue": {
+  "ar": "اللغة",
+  "en": "Language",
+  "fr": "Langue"
+ },
+ "Langue (ex: French)": {
+  "ar": "اللغة (مثال: الفرنسية)",
+  "en": "Language (e.g. French)",
+  "fr": "Langue (ex : Français)"
+ },
+ "Le Forum": {
+  "ar": "المنتدى",
+  "en": "The Forum",
+  "fr": "Le Forum"
+ },
+ "Le grimoire du design": {
+  "ar": "كتاب التصميم",
+  "en": "The design grimoire",
+  "fr": "Le grimoire du design"
+ },
+ "Le matching par IA vous présente les membres qui comptent pour vos projets, et la messagerie garde tout le contexte.": {
+  "ar": "تقدّم لك المطابقة بالذكاء الاصطناعي الأعضاء المهمين لمشاريعك، وتحفظ المراسلة كل السياق.",
+  "en": "AI matching introduces you to the members who matter for your projects, and messaging keeps all the context.",
+  "fr": "Le matching par IA vous présente les membres qui comptent pour vos projets, et la messagerie garde tout le contexte."
+ },
+ "Le mentor recevra votre demande.": {
+  "ar": "سيتلقى المرشد طلبك.",
+  "en": "The mentor will receive your request.",
+  "fr": "Le mentor recevra votre demande."
+ },
+ "Le mentorat et le réseau ont accéléré notre levée de plusieurs mois.": {
+  "ar": "سرّع الإرشاد والشبكة جولة تمويلنا بعدة أشهر.",
+  "en": "Mentoring and the network sped up our fundraising by several months.",
+  "fr": "Le mentorat et le réseau ont accéléré notre levée de plusieurs mois."
+ },
+ "Le moment où une carte se débloque. Elle monte face cachée, se retourne et atterrit avec du poids.": {
+  "ar": "لحظة فتح بطاقة: ترتفع مقلوبة، ثم تنقلب وتهبط بثقل.",
+  "en": "The moment a card unlocks. It rises face down, flips and lands with weight.",
+  "fr": "Le moment où une carte se débloque. Elle monte face cachée, se retourne et atterrit avec du poids."
+ },
+ "Le nom de famille est requis": {
+  "ar": "الاسم العائلي مطلوب",
+  "en": "Last name is required",
+  "fr": "Le nom de famille est requis"
+ },
+ "Le nom de l'entreprise est requis": {
+  "ar": "اسم الشركة مطلوب",
+  "en": "Company name is required",
+  "fr": "Le nom de l'entreprise est requis"
+ },
+ "Le nom de la personne en charge est requis": {
+  "ar": "اسم الشخص المسؤول مطلوب",
+  "en": "Name of the person in charge is required",
+  "fr": "Le nom de la personne en charge est requis"
+ },
+ "Le nom du projet d'entreprise est requis": {
+  "ar": "اسم مشروع الشركة مطلوب",
+  "en": "Company project name is required",
+  "fr": "Le nom du projet d'entreprise est requis"
+ },
+ "Le numéro RC est requis": {
+  "ar": "رقم السجل التجاري مطلوب",
+  "en": "CR number is required",
+  "fr": "Le numéro RC est requis"
+ },
+ "Le numéro de pièce d'identité est requis": {
+  "ar": "رقم الهوية مطلوب",
+  "en": "ID number is required",
+  "fr": "Le numéro de pièce d'identité est requis"
+ },
+ "Le numéro de téléphone est requis": {
+  "ar": "رقم الهاتف مطلوب",
+  "en": "Phone number is required",
+  "fr": "Le numéro de téléphone est requis"
+ },
+ "Le prix de réserve est optionnel et reste secret": {
+  "ar": "السعر الأدنى اختياري ويبقى سريًا",
+  "en": "The reserve price is optional and stays secret",
+  "fr": "Le prix de réserve est optionnel et reste secret"
+ },
+ "Le prénom est requis": {
+  "ar": "الاسم الشخصي مطلوب",
+  "en": "First name is required",
+  "fr": "Le prénom est requis"
+ },
+ "Le réseau business VIP Maroc–Monde": {
+  "ar": "شبكة الأعمال VIP المغرب–العالم",
+  "en": "The VIP business network, Morocco–World",
+  "fr": "Le réseau business VIP Maroc–Monde"
+ },
+ "Legal Information": {
+  "ar": "المعلومات القانونية",
+  "en": "Legal Information",
+  "fr": "Informations légales"
+ },
+ "Les Tks sont les jetons de la plateforme. Vous en recevez à l’inscription selon votre formule, vous en gagnez en contribuant à la communauté et vous les utilisez pour mettre vos annonces en avant.": {
+  "ar": "Tks هي رموز المنصة. تحصل عليها عند التسجيل حسب باقتك، وتكسبها بالمساهمة في المجتمع، وتستخدمها لإبراز إعلاناتك.",
+  "en": "Tks are the platform’s tokens. You receive some when you sign up depending on your plan, earn more by contributing to the community, and use them to promote your listings.",
+  "fr": "Les Tks sont les jetons de la plateforme. Vous en recevez à l’inscription selon votre formule, vous en gagnez en contribuant à la communauté et vous les utilisez pour mettre vos annonces en avant."
+ },
+ "Les autres membres peuvent voir votre email": {
+  "ar": "يمكن للأعضاء الآخرين رؤية بريدك الإلكتروني",
+  "en": "Other members can see your email",
+  "fr": "Les autres membres peuvent voir votre email"
+ },
+ "Les autres peuvent voir votre réseau": {
+  "ar": "يمكن للآخرين رؤية شبكتك",
+  "en": "Others can see your network",
+  "fr": "Les autres peuvent voir votre réseau"
+ },
+ "Les enchères privées nous ont permis de vendre plus vite, avec des acheteurs déjà vérifiés.": {
+  "ar": "سمحت لنا المزادات الخاصة بالبيع بسرعة أكبر لمشترين موثّقين مسبقًا.",
+  "en": "Private auctions let us sell faster, to buyers who were already verified.",
+  "fr": "Les enchères privées nous ont permis de vendre plus vite, avec des acheteurs déjà vérifiés."
+ },
+ "Les entrepreneurs, dirigeants, indépendants et investisseurs du Maroc et de la diaspora. Chaque candidature est examinée et chaque profil est vérifié avant d’accéder au réseau.": {
+  "ar": "روّاد الأعمال والمديرون والمستقلون والمستثمرون من المغرب والمهجر. تتم دراسة كل ترشّح والتحقق من كل ملف قبل الوصول إلى الشبكة.",
+  "en": "Entrepreneurs, executives, freelancers and investors from Morocco and the diaspora. Every application is reviewed and every profile is verified before joining the network.",
+  "fr": "Les entrepreneurs, dirigeants, indépendants et investisseurs du Maroc et de la diaspora. Chaque candidature est examinée et chaque profil est vérifié avant d’accéder au réseau."
+ },
+ "Les forums sectoriels nous ont ouvert des portes que nous n’aurions jamais trouvées seuls.": {
+  "ar": "فتحت لنا المنتديات القطاعية أبوابًا ما كنا لنجدها وحدنا.",
+  "en": "Industry forums opened doors we would never have found on our own.",
+  "fr": "Les forums sectoriels nous ont ouvert des portes que nous n’aurions jamais trouvées seuls."
+ },
+ "Les forums seront bientôt disponibles": {
+  "ar": "ستتوفر المنتديات قريبًا",
+  "en": "Forums will be available soon",
+  "fr": "Les forums seront bientôt disponibles"
+ },
+ "Les mots de passe ne correspondent pas.": {
+  "ar": "كلمتا المرور غير متطابقتين.",
+  "en": "Passwords do not match.",
+  "fr": "Les mots de passe ne correspondent pas."
+ },
+ "Licences (Séparées par des virgules)": {
+  "ar": "التراخيص (مفصولة بفواصل)",
+  "en": "Licenses (comma-separated)",
+  "fr": "Licences (séparées par des virgules)"
+ },
+ "Licenses": {
+  "ar": "التراخيص",
+  "en": "Licenses",
+  "fr": "Licences"
+ },
+ "Licenses & Certifications": {
+  "ar": "التراخيص والشهادات",
+  "en": "Licenses & Certifications",
+  "fr": "Licences & certifications"
+ },
+ "Lien copié !": {
+  "ar": "تم نسخ الرابط!",
+  "en": "Link copied!",
+  "fr": "Lien copié !"
+ },
+ "Lieu (ex: Hotel Marriott Fes)": {
+  "ar": "المكان (مثال: فندق ماريوت فاس)",
+  "en": "Venue (e.g. Hotel Marriott Fes)",
+  "fr": "Lieu (ex : Hôtel Marriott Fès)"
+ },
+ "Lieu (ex: Tangier Office)": {
+  "ar": "المكان (مثال: مكتب طنجة)",
+  "en": "Venue (e.g. Tangier Office)",
+  "fr": "Lieu (ex : Bureau de Tanger)"
+ },
+ "Lieu (ex: Toronto, Ontario, Canada)": {
+  "ar": "المكان (مثال: تورونتو، أونتاريو، كندا)",
+  "en": "Location (e.g. Toronto, Ontario, Canada)",
+  "fr": "Lieu (ex : Toronto, Ontario, Canada)"
+ },
+ "Ligne directe business": {
+  "ar": "خط أعمال مباشر",
+  "en": "Direct business line",
+  "fr": "Ligne directe business"
+ },
+ "Lire": {
+  "ar": "قراءة",
+  "en": "Read",
+  "fr": "Lire"
+ },
+ "Lire la vidéo de présentation": {
+  "ar": "تشغيل فيديو العرض",
+  "en": "Play the presentation video",
+  "fr": "Lire la vidéo de présentation"
+ },
+ "Liste vide": {
+  "ar": "قائمة فارغة",
+  "en": "Empty list",
+  "fr": "Liste vide"
+ },
+ "Listing standard": {
+  "ar": "إعلان عادي",
+  "en": "Standard listing",
+  "fr": "Annonce standard"
+ },
+ "Livraison estimée : {label}": {
+  "ar": "التوصيل المتوقع: {label}",
+  "en": "Estimated delivery: {label}",
+  "fr": "Livraison estimée : {label}"
+ },
+ "Local commercial · Maarif": {
+  "ar": "محل تجاري · المعاريف",
+  "en": "Retail space · Maarif",
+  "fr": "Local commercial · Maarif"
+ },
+ "Localisation": {
+  "ar": "الموقع",
+  "en": "Location",
+  "fr": "Localisation"
+ },
+ "Logistique & Transport": {
+  "ar": "اللوجستيك والنقل",
+  "en": "Logistics & transport",
+  "fr": "Logistique & transport"
+ },
+ "Là où les entrepreneurs": {
+  "ar": "حيث رواد الأعمال",
+  "en": "Where entrepreneurs",
+  "fr": "Là où les entrepreneurs"
+ },
+ "Marché": {
+  "ar": "السوق",
+  "en": "Market",
+  "fr": "Marché"
+ },
+ "Marchés Publics": {
+  "ar": "الصفقات العمومية",
+  "en": "Public procurement",
+  "fr": "Marchés publics"
+ },
+ "Marketing & Communication": {
+  "ar": "التسويق والتواصل",
+  "en": "Marketing & communication",
+  "fr": "Marketing & communication"
+ },
+ "Marketplace": {
+  "ar": "السوق",
+  "en": "Marketplace",
+  "fr": "Marketplace"
+ },
+ "Marketplace & opportunités": {
+  "ar": "السوق والفرص",
+  "en": "Marketplace & opportunities",
+  "fr": "Marketplace & opportunités"
+ },
+ "Marketplace B2B": {
+  "ar": "سوق B2B",
+  "en": "B2B marketplace",
+  "fr": "Marketplace B2B"
+ },
+ "Marketplace avec IA sémantique": {
+  "ar": "سوق مدعوم بالذكاء الاصطناعي الدلالي",
+  "en": "Marketplace with semantic AI",
+  "fr": "Marketplace avec IA sémantique"
+ },
+ "Marketplace standard": {
+  "ar": "السوق العادي",
+  "en": "Standard marketplace",
+  "fr": "Marketplace standard"
+ },
+ "Marketplace, enchères, événements": {
+  "ar": "السوق، المزادات، الفعاليات",
+  "en": "Marketplace, auctions, events",
+  "fr": "Marketplace, enchères, événements"
+ },
+ "Maroc": {
+  "ar": "المغرب",
+  "en": "Morocco",
+  "fr": "Maroc"
+ },
+ "Maroc & diaspora": {
+  "ar": "المغرب والمهجر",
+  "en": "Morocco & diaspora",
+  "fr": "Maroc & diaspora"
+ },
+ "Marocaine": {
+  "ar": "مغربية",
+  "en": "Moroccan",
+  "fr": "Marocaine"
+ },
+ "Masquer le mot de passe": {
+  "ar": "إخفاء كلمة المرور",
+  "en": "Hide password",
+  "fr": "Masquer le mot de passe"
+ },
+ "Masterclass : lever des fonds au Maroc": {
+  "ar": "درس متقدم: جمع التمويل في المغرب",
+  "en": "Masterclass: raising funds in Morocco",
+  "fr": "Masterclass : lever des fonds au Maroc"
+ },
+ "Masterclass, conférences et rendez-vous vidéo intégrés, sans application externe.": {
+  "ar": "دروس متقدمة ومؤتمرات ولقاءات فيديو مدمجة، دون تطبيق خارجي.",
+  "en": "Masterclasses, conferences and built-in video meetings, with no external app.",
+  "fr": "Masterclass, conférences et rendez-vous vidéo intégrés, sans application externe."
+ },
+ "Matching mentor · mentoré": {
+  "ar": "مطابقة المرشد والمتدرب",
+  "en": "Mentor · mentee matching",
+  "fr": "Matching mentor · mentoré"
+ },
+ "Matching mentorat": {
+  "ar": "مطابقة الإرشاد",
+  "en": "Mentor matching",
+  "fr": "Matching mentorat"
+ },
+ "Matching, messages, groupes": {
+  "ar": "مطابقة، رسائل، مجموعات",
+  "en": "Matching, messages, groups",
+  "fr": "Matching, messages, groupes"
+ },
+ "Matchmaking": {
+  "ar": "المطابقة",
+  "en": "Matchmaking",
+  "fr": "Mise en relation"
+ },
+ "Matériel & Ressources Humaines": {
+  "ar": "المعدات والموارد البشرية",
+  "en": "Equipment & human resources",
+  "fr": "Matériel & ressources humaines"
+ },
+ "Max 10 Mo": {
+  "ar": "الحد الأقصى 10 ميغابايت",
+  "en": "Max 10 MB",
+  "fr": "Max 10 Mo"
+ },
+ "Membre depuis {date} · {n} vues": {
+  "ar": "عضو منذ {date} · {n} مشاهدة",
+  "en": "Member since {date} · {n} views",
+  "fr": "Membre depuis {date} · {n} vues"
+ },
+ "Membres": {
+  "ar": "الأعضاء",
+  "en": "Members",
+  "fr": "Membres"
+ },
+ "Membres et partenaires": {
+  "ar": "الأعضاء والشركاء",
+  "en": "Members and partners",
+  "fr": "Membres et partenaires"
+ },
+ "Membres vérifiés": {
+  "ar": "أعضاء موثّقون",
+  "en": "Verified members",
+  "fr": "Membres vérifiés"
+ },
+ "Mentor · Ex-CFO": {
+  "ar": "مرشد · مدير مالي سابق",
+  "en": "Mentor · Former CFO",
+  "fr": "Mentor · Ex-CFO"
+ },
+ "Mentorat": {
+  "ar": "الإرشاد",
+  "en": "Mentoring",
+  "fr": "Mentorat"
+ },
+ "Mentorat intelligent": {
+  "ar": "إرشاد ذكي",
+  "en": "Smart mentoring",
+  "fr": "Mentorat intelligent"
+ },
+ "Mentorat, accompagnement à la création de société et récompenses : la communauté travaille avec vous sur la durée.": {
+  "ar": "الإرشاد ومواكبة تأسيس الشركة والمكافآت: يعمل المجتمع معك على المدى الطويل.",
+  "en": "Mentoring, company formation support and rewards: the community works with you for the long run.",
+  "fr": "Mentorat, accompagnement à la création de société et récompenses : la communauté travaille avec vous sur la durée."
+ },
+ "Mentorat, création, tokens": {
+  "ar": "إرشاد، تأسيس، رموز",
+  "en": "Mentoring, formation, tokens",
+  "fr": "Mentorat, création, tokens"
+ },
+ "Menu": {
+  "ar": "القائمة",
+  "en": "Menu",
+  "fr": "Menu"
+ },
+ "Merci pour la conférence d’hier !": {
+  "ar": "شكرًا على محاضرة الأمس!",
+  "en": "Thanks for yesterday’s talk!",
+  "fr": "Merci pour la conférence d’hier !"
+ },
+ "Mes Mises": {
+  "ar": "مزايداتي",
+  "en": "My bids",
+  "fr": "Mes mises"
+ },
+ "Mes Ventes": {
+  "ar": "مبيعاتي",
+  "en": "My sales",
+  "fr": "Mes ventes"
+ },
+ "Mes sessions": {
+  "ar": "جلساتي",
+  "en": "My sessions",
+  "fr": "Mes sessions"
+ },
+ "Message": {
+  "ar": "رسالة",
+  "en": "Message",
+  "fr": "Message"
+ },
+ "Messagerie": {
+  "ar": "المراسلة",
+  "en": "Messaging",
+  "fr": "Messagerie"
+ },
+ "Messagerie & notifications": {
+  "ar": "المراسلة والإشعارات",
+  "en": "Messaging & notifications",
+  "fr": "Messagerie & notifications"
+ },
+ "Messagerie illimitée": {
+  "ar": "مراسلة غير محدودة",
+  "en": "Unlimited messaging",
+  "fr": "Messagerie illimitée"
+ },
+ "Messages": {
+  "ar": "الرسائل",
+  "en": "Messages",
+  "fr": "Messages"
+ },
+ "Messages privés, groupes et alertes réunis dans une seule boîte, avec tout l’historique de la relation.": {
+  "ar": "الرسائل الخاصة والمجموعات والتنبيهات في صندوق واحد، مع سجل العلاقة كاملًا.",
+  "en": "Private messages, groups and alerts in a single inbox, with the full history of each relationship.",
+  "fr": "Messages privés, groupes et alertes réunis dans une seule boîte, avec tout l’historique de la relation."
+ },
+ "Mettez un de vos articles aux enchères": {
+  "ar": "اعرض أحد منتجاتك في المزاد",
+  "en": "Put one of your items up for auction",
+  "fr": "Mettez un de vos articles aux enchères"
+ },
+ "Mettez votre annonce en avant pendant 7 jours pour seulement 10 Tks": {
+  "ar": "اجعل إعلانك بارزًا لمدة 7 أيام مقابل 10 Tks فقط",
+  "en": "Feature your listing for 7 days for just 10 Tks",
+  "fr": "Mettez votre annonce en avant pendant 7 jours pour seulement 10 Tks"
+ },
+ "Mettre à jour": {
+  "ar": "تحديث",
+  "en": "Update",
+  "fr": "Mettre à jour"
+ },
+ "Minimum recommandé : 10 000 MAD pour une SARL, 300 000 MAD pour une SA": {
+  "ar": "الحد الأدنى الموصى به: 10.000 درهم للشركة ذات المسؤولية المحدودة و300.000 درهم لشركة المساهمة",
+  "en": "Recommended minimum: 10,000 MAD for an LLC (SARL), 300,000 MAD for a corporation (SA)",
+  "fr": "Minimum recommandé : 10 000 MAD pour une SARL, 300 000 MAD pour une SA"
+ },
+ "Mise en avant d’annonce": {
+  "ar": "إبراز إعلان",
+  "en": "Listing boost",
+  "fr": "Mise en avant d’annonce"
+ },
+ "Mise en cours...": {
+  "ar": "جارٍ تقديم المزايدة...",
+  "en": "Bidding...",
+  "fr": "Mise en cours..."
+ },
+ "Mise minimum": {
+  "ar": "أدنى مزايدة",
+  "en": "Minimum bid",
+  "fr": "Mise minimum"
+ },
+ "Mise placée avec succès !": {
+  "ar": "تم تقديم المزايدة بنجاح!",
+  "en": "Bid placed!",
+  "fr": "Mise placée avec succès !"
+ },
+ "Mises en relation": {
+  "ar": "علاقات تم ربطها",
+  "en": "Introductions",
+  "fr": "Mises en relation"
+ },
+ "Mode de travail": {
+  "ar": "طريقة العمل",
+  "en": "Work mode",
+  "fr": "Mode de travail"
+ },
+ "Modification enregistrée.": {
+  "ar": "تم حفظ التعديل.",
+  "en": "Change saved.",
+  "fr": "Modification enregistrée."
+ },
+ "Modifier": {
+  "ar": "تعديل",
+  "en": "Edit",
+  "fr": "Modifier"
+ },
+ "Modifier l'annonce": {
+  "ar": "تعديل الإعلان",
+  "en": "Edit listing",
+  "fr": "Modifier l'annonce"
+ },
+ "Modifier le forum": {
+  "ar": "تعديل المنتدى",
+  "en": "Edit forum",
+  "fr": "Modifier le forum"
+ },
+ "Modifier le profil": {
+  "ar": "تعديل الملف الشخصي",
+  "en": "Edit profile",
+  "fr": "Modifier le profil"
+ },
+ "Modifier le profil Business": {
+  "ar": "تعديل ملف الأعمال",
+  "en": "Edit business profile",
+  "fr": "Modifier le profil Business"
+ },
+ "Modifier le profil Personnel": {
+  "ar": "تعديل الملف الشخصي",
+  "en": "Edit personal profile",
+  "fr": "Modifier le profil personnel"
+ },
+ "Modifiez les informations de votre annonce": {
+  "ar": "عدّل معلومات إعلانك",
+  "en": "Edit your listing details",
+  "fr": "Modifiez les informations de votre annonce"
+ },
+ "Modifiez les informations du forum ci-dessous.": {
+  "ar": "عدّل معلومات المنتدى أدناه.",
+  "en": "Edit the forum details below.",
+  "fr": "Modifiez les informations du forum ci-dessous."
+ },
+ "Moi": {
+  "ar": "أنا",
+  "en": "Me",
+  "fr": "Moi"
+ },
+ "Moins de 24h": {
+  "ar": "أقل من 24 ساعة",
+  "en": "Under 24h",
+  "fr": "Moins de 24h"
+ },
+ "Mois précédent": {
+  "ar": "الشهر السابق",
+  "en": "Previous month",
+  "fr": "Mois précédent"
+ },
+ "Mois suivant": {
+  "ar": "الشهر التالي",
+  "en": "Next month",
+  "fr": "Mois suivant"
+ },
+ "Mon compte": {
+  "ar": "حسابي",
+  "en": "My account",
+  "fr": "Mon compte"
+ },
+ "Mon profil mentor": {
+  "ar": "ملفي كمرشد",
+  "en": "My mentor profile",
+  "fr": "Mon profil mentor"
+ },
+ "Montant du capital": {
+  "ar": "مبلغ رأس المال",
+  "en": "Capital amount",
+  "fr": "Montant du capital"
+ },
+ "Montant invalide": {
+  "ar": "مبلغ غير صالح",
+  "en": "Invalid amount",
+  "fr": "Montant invalide"
+ },
+ "Montant minimum au-dessus de la mise actuelle": {
+  "ar": "أدنى مبلغ فوق المزايدة الحالية",
+  "en": "Minimum amount above the current bid",
+  "fr": "Montant minimum au-dessus de la mise actuelle"
+ },
+ "Mot de Passe": {
+  "ar": "كلمة المرور",
+  "en": "Password",
+  "fr": "Mot de passe"
+ },
+ "Mot de passe actuel": {
+  "ar": "كلمة المرور الحالية",
+  "en": "Current password",
+  "fr": "Mot de passe actuel"
+ },
+ "Mot de passe mis à jour": {
+  "ar": "تم تحديث كلمة المرور",
+  "en": "Password updated",
+  "fr": "Mot de passe mis à jour"
+ },
+ "Mot de passe oublié ?": {
+  "ar": "نسيت كلمة المرور؟",
+  "en": "Forgot password?",
+  "fr": "Mot de passe oublié ?"
+ },
+ "Mot de passe, sessions": {
+  "ar": "كلمة المرور، الجلسات",
+  "en": "Password, sessions",
+  "fr": "Mot de passe, sessions"
+ },
+ "Music": {
+  "ar": "الموسيقى",
+  "en": "Music",
+  "fr": "Musique"
+ },
+ "Musique": {
+  "ar": "موسيقى",
+  "en": "Music",
+  "fr": "Musique"
+ },
+ "Méthode de paiement": {
+  "ar": "طريقة الدفع",
+  "en": "Payment method",
+  "fr": "Méthode de paiement"
+ },
+ "Nationalité": {
+  "ar": "الجنسية",
+  "en": "Nationality",
+  "fr": "Nationalité"
+ },
+ "Navigation principale": {
+  "ar": "التنقل الرئيسي",
+  "en": "Main navigation",
+  "fr": "Navigation principale"
+ },
+ "Neuf": {
+  "ar": "جديد",
+  "en": "New",
+  "fr": "Neuf"
+ },
+ "Niveau (ex: C1, Native)": {
+  "ar": "المستوى (مثال: C1، اللغة الأم)",
+  "en": "Level (e.g. C1, Native)",
+  "fr": "Niveau (ex : C1, Natif)"
+ },
+ "Nom": {
+  "ar": "الاسم العائلي",
+  "en": "Last name",
+  "fr": "Nom"
+ },
+ "Nom commercial": {
+  "ar": "الاسم التجاري",
+  "en": "Trade name",
+  "fr": "Nom commercial"
+ },
+ "Nom complet": {
+  "ar": "الاسم الكامل",
+  "en": "Full name",
+  "fr": "Nom complet"
+ },
+ "Nom complet du représentant": {
+  "ar": "الاسم الكامل للممثل",
+  "en": "Representative's full name",
+  "fr": "Nom complet du représentant"
+ },
+ "Nom complet du représentant légal": {
+  "ar": "الاسم الكامل للممثل القانوني",
+  "en": "Legal representative's full name",
+  "fr": "Nom complet du représentant légal"
+ },
+ "Nom d'usage": {
+  "ar": "الاسم التجاري المتداول",
+  "en": "Trading name",
+  "fr": "Nom d'usage"
+ },
+ "Nom de famille": {
+  "ar": "الاسم العائلي",
+  "en": "Last name",
+  "fr": "Nom de famille"
+ },
+ "Nom de l'entreprise": {
+  "ar": "اسم الشركة",
+  "en": "Company name",
+  "fr": "Nom de l'entreprise"
+ },
+ "Nom de la liste...": {
+  "ar": "اسم القائمة...",
+  "en": "List name...",
+  "fr": "Nom de la liste..."
+ },
+ "Nom du forum": {
+  "ar": "اسم المنتدى",
+  "en": "Forum name",
+  "fr": "Nom du forum"
+ },
+ "Nom officiel": {
+  "ar": "الاسم الرسمي",
+  "en": "Official name",
+  "fr": "Nom officiel"
+ },
+ "Nom officiel de l'entreprise": {
+  "ar": "الاسم الرسمي للشركة",
+  "en": "Official company name",
+  "fr": "Nom officiel de l'entreprise"
+ },
+ "Nom:": {
+  "ar": "الاسم العائلي:",
+  "en": "Last name:",
+  "fr": "Nom :"
+ },
+ "Non renseigné": {
+  "ar": "غير محدد",
+  "en": "Not provided",
+  "fr": "Non renseigné"
+ },
+ "Non vérifié": {
+  "ar": "غير موثَّق",
+  "en": "Not verified",
+  "fr": "Non vérifié"
+ },
+ "Nos membres par": {
+  "ar": "أعضاؤنا حسب",
+  "en": "Our members by",
+  "fr": "Nos membres par"
+ },
+ "Notifications": {
+  "ar": "الإشعارات",
+  "en": "Notifications",
+  "fr": "Notifications"
+ },
+ "Notifications push": {
+  "ar": "الإشعارات الفورية",
+  "en": "Push notifications",
+  "fr": "Notifications push"
+ },
+ "Notifs": {
+  "ar": "الإشعارات",
+  "en": "Alerts",
+  "fr": "Notifs"
+ },
+ "Nouveau mot de passe": {
+  "ar": "كلمة المرور الجديدة",
+  "en": "New password",
+  "fr": "Nouveau mot de passe"
+ },
+ "Nouveau post : levée de fonds seed": {
+  "ar": "منشور جديد: جولة تمويل أولية",
+  "en": "New post: seed fundraising",
+  "fr": "Nouveau post : levée de fonds seed"
+ },
+ "Nouveau sujet": {
+  "ar": "موضوع جديد",
+  "en": "New topic",
+  "fr": "Nouveau sujet"
+ },
+ "Nouvelle activité": {
+  "ar": "نشاط جديد",
+  "en": "New activity",
+  "fr": "Nouvelle activité"
+ },
+ "Nouvelle annonce": {
+  "ar": "إعلان جديد",
+  "en": "New listing",
+  "fr": "Nouvelle annonce"
+ },
+ "Nouvelle carte ajoutée à ta collection.": {
+  "ar": "تمت إضافة بطاقة جديدة إلى مجموعتك.",
+  "en": "New card added to your collection.",
+  "fr": "Nouvelle carte ajoutée à ta collection."
+ },
+ "Nouvelle comparaison": {
+  "ar": "مقارنة جديدة",
+  "en": "New comparison",
+  "fr": "Nouvelle comparaison"
+ },
+ "Nouvelle conversation": {
+  "ar": "محادثة جديدة",
+  "en": "New conversation",
+  "fr": "Nouvelle conversation"
+ },
+ "Nouvelles connexions par email": {
+  "ar": "علاقات جديدة عبر البريد الإلكتروني",
+  "en": "New connections by email",
+  "fr": "Nouvelles connexions par email"
+ },
+ "Numéro": {
+  "ar": "الرقم",
+  "en": "Number",
+  "fr": "Numéro"
+ },
+ "Numéro CNSS": {
+  "ar": "رقم الضمان الاجتماعي",
+  "en": "CNSS number",
+  "fr": "Numéro CNSS"
+ },
+ "Numéro ICE": {
+  "ar": "رقم ICE",
+  "en": "ICE number",
+  "fr": "Numéro ICE"
+ },
+ "Numéro RC": {
+  "ar": "رقم السجل التجاري",
+  "en": "CR number",
+  "fr": "Numéro RC"
+ },
+ "Numéro d'identité": {
+  "ar": "رقم الهوية",
+  "en": "ID number",
+  "fr": "Numéro d'identité"
+ },
+ "Numéro:": {
+  "ar": "الرقم:",
+  "en": "Number:",
+  "fr": "Numéro :"
+ },
+ "N° ICE": {
+  "ar": "رقم ICE",
+  "en": "ICE number",
+  "fr": "N° ICE"
+ },
+ "N° IF": {
+  "ar": "رقم المعرف الضريبي",
+  "en": "Tax ID number",
+  "fr": "N° IF"
+ },
+ "N° RC": {
+  "ar": "رقم السجل التجاري",
+  "en": "CR number",
+  "fr": "N° RC"
+ },
+ "Offre": {
+  "ar": "العرض",
+  "en": "Plan",
+  "fr": "Offre"
+ },
+ "Offre actuelle": {
+  "ar": "العرض الحالي",
+  "en": "Current bid",
+  "fr": "Offre actuelle"
+ },
+ "On-Call": {
+  "ar": "عند الطلب",
+  "en": "On-Call",
+  "fr": "Sur appel"
+ },
+ "On-site": {
+  "ar": "حضوري",
+  "en": "On-site",
+  "fr": "Sur site"
+ },
+ "Option de création de l'entreprise": {
+  "ar": "خيار إنشاء الشركة",
+  "en": "Company setup option",
+  "fr": "Option de création de l'entreprise"
+ },
+ "Optionnel": {
+  "ar": "اختياري",
+  "en": "Optional",
+  "fr": "Optionnel"
+ },
+ "Oui, vous pouvez passer à une formule supérieure depuis votre espace Adhésion. Contactez-nous pour toute question sur la facturation.": {
+  "ar": "نعم، يمكنك الترقية إلى باقة أعلى من فضاء العضوية. تواصل معنا لأي سؤال حول الفوترة.",
+  "en": "Yes, you can upgrade from your Membership area. Contact us for any billing question.",
+  "fr": "Oui, vous pouvez passer à une formule supérieure depuis votre espace Adhésion. Contactez-nous pour toute question sur la facturation."
+ },
+ "Outils réunis en 1 plateforme": {
+  "ar": "أداة في منصة واحدة",
+  "en": "Tools in 1 platform",
+  "fr": "Outils réunis en 1 plateforme"
+ },
+ "Ouvrir": {
+  "ar": "فتح",
+  "en": "Open",
+  "fr": "Ouvrir"
+ },
+ "Ouvrir le menu": {
+  "ar": "فتح القائمة",
+  "en": "Open menu",
+  "fr": "Ouvrir le menu"
+ },
+ "PME de sous-traitance": {
+  "ar": "مقاولة صغيرة ومتوسطة للمناولة",
+  "en": "Subcontracting SME",
+  "fr": "PME de sous-traitance"
+ },
+ "Pack Premium": {
+  "ar": "الباقة المميزة",
+  "en": "Premium pack",
+  "fr": "Pack Premium"
+ },
+ "Pack Standard": {
+  "ar": "الباقة العادية",
+  "en": "Standard pack",
+  "fr": "Pack Standard"
+ },
+ "Page Entreprise": {
+  "ar": "صفحة الشركة",
+  "en": "Company page",
+  "fr": "Page entreprise"
+ },
+ "Par email": {
+  "ar": "عبر البريد الإلكتروني",
+  "en": "By email",
+  "fr": "Par email"
+ },
+ "Par secteur d’activité": {
+  "ar": "حسب القطاع",
+  "en": "By industry",
+  "fr": "Par secteur d’activité"
+ },
+ "Paramètres": {
+  "ar": "الإعدادات",
+  "en": "Settings",
+  "fr": "Paramètres"
+ },
+ "Parcourir le marché": {
+  "ar": "تصفح السوق",
+  "en": "Browse the market",
+  "fr": "Parcourir le marché"
+ },
+ "Parfait, on se voit jeudi à 10h ?": {
+  "ar": "ممتاز، نلتقي الخميس على الساعة 10؟",
+  "en": "Great, shall we meet Thursday at 10am?",
+  "fr": "Parfait, on se voit jeudi à 10h ?"
+ },
+ "Parlez à la bonne personne": {
+  "ar": "تحدّث مع الشخص المناسب",
+  "en": "Talk to the right person",
+  "fr": "Parlez à la bonne personne"
+ },
+ "Part-time": {
+  "ar": "دوام جزئي",
+  "en": "Part-time",
+  "fr": "Temps partiel"
+ },
+ "Partager": {
+  "ar": "مشاركة",
+  "en": "Share",
+  "fr": "Partager"
+ },
+ "Partager l'écran": {
+  "ar": "مشاركة الشاشة",
+  "en": "Share screen",
+  "fr": "Partager l'écran"
+ },
+ "Partagez une publication…": {
+  "ar": "شارك منشورًا…",
+  "en": "Share a post…",
+  "fr": "Partagez une publication…"
+ },
+ "Partagez votre expertise": {
+  "ar": "شارك خبرتك",
+  "en": "Share your expertise",
+  "fr": "Partagez votre expertise"
+ },
+ "Partagez votre musique…": {
+  "ar": "شارك موسيقاك…",
+  "en": "Share your music…",
+  "fr": "Partagez votre musique…"
+ },
+ "Partenariats investis": {
+  "ar": "شراكات استثمارية",
+  "en": "Investment partnerships",
+  "fr": "Partenariats investis"
+ },
+ "Participer à un forum": {
+  "ar": "شارك في منتدى",
+  "en": "Join a forum",
+  "fr": "Participer à un forum"
+ },
+ "Pas encore de connexions": {
+  "ar": "لا توجد علاقات بعد",
+  "en": "No connections yet",
+  "fr": "Pas encore de connexions"
+ },
+ "Pas encore membre ?": {
+  "ar": "لست عضوًا بعد؟",
+  "en": "Not a member yet?",
+  "fr": "Pas encore membre ?"
+ },
+ "Passeport": {
+  "ar": "جواز السفر",
+  "en": "Passport",
+  "fr": "Passeport"
+ },
+ "Passer à ce plan": {
+  "ar": "الانتقال إلى هذا العرض",
+  "en": "Switch to this plan",
+  "fr": "Passer à ce plan"
+ },
+ "Pays": {
+  "ar": "البلد",
+  "en": "Country",
+  "fr": "Pays"
+ },
+ "Personne en charge": {
+  "ar": "الشخص المسؤول",
+  "en": "Person in charge",
+  "fr": "Personne en charge"
+ },
+ "Personnel": {
+  "ar": "شخصي",
+  "en": "Personal",
+  "fr": "Personnel"
+ },
+ "Personnel Premium": {
+  "ar": "شخصي مميز",
+  "en": "Personal Premium",
+  "fr": "Personnel Premium"
+ },
+ "Photo": {
+  "ar": "صورة",
+  "en": "Photo",
+  "fr": "Photo"
+ },
+ "Photo de couverture": {
+  "ar": "صورة الغلاف",
+  "en": "Cover photo",
+  "fr": "Photo de couverture"
+ },
+ "Photo de profil": {
+  "ar": "صورة الملف الشخصي",
+  "en": "Profile photo",
+  "fr": "Photo de profil"
+ },
+ "Photo de profil & couverture": {
+  "ar": "صورة الملف الشخصي والغلاف",
+  "en": "Profile & cover photo",
+  "fr": "Photo de profil & couverture"
+ },
+ "Photo enregistrée": {
+  "ar": "تم حفظ الصورة",
+  "en": "Photo saved",
+  "fr": "Photo enregistrée"
+ },
+ "Photos": {
+  "ar": "الصور",
+  "en": "Photos",
+  "fr": "Photos"
+ },
+ "Photos du produit": {
+  "ar": "صور المنتج",
+  "en": "Product photos",
+  "fr": "Photos du produit"
+ },
+ "Pièce d'identité": {
+  "ar": "وثيقة الهوية",
+  "en": "ID document",
+  "fr": "Pièce d'identité"
+ },
+ "Pièce d'identité de la personne en charge": {
+  "ar": "هوية الشخص المسؤول",
+  "en": "ID of the person in charge",
+  "fr": "Pièce d'identité de la personne en charge"
+ },
+ "Placer une mise": {
+  "ar": "قدّم مزايدة",
+  "en": "Place a bid",
+  "fr": "Placer une mise"
+ },
+ "Places": {
+  "ar": "المقاعد",
+  "en": "Seats",
+  "fr": "Places"
+ },
+ "Plan actuel": {
+  "ar": "العرض الحالي",
+  "en": "Current plan",
+  "fr": "Plan actuel"
+ },
+ "Plan, facturation": {
+  "ar": "العرض، الفواتير",
+  "en": "Plan, billing",
+  "fr": "Plan, facturation"
+ },
+ "Plateforme": {
+  "ar": "المنصة",
+  "en": "Platform",
+  "fr": "Plateforme"
+ },
+ "Plateforme (ex: ZOOM)": {
+  "ar": "المنصة (مثال: ZOOM)",
+  "en": "Platform (e.g. ZOOM)",
+  "fr": "Plateforme (ex : ZOOM)"
+ },
+ "Plus tard": {
+  "ar": "لاحقًا",
+  "en": "Later",
+  "fr": "Plus tard"
+ },
+ "Politique de confidentialité": {
+  "ar": "سياسة الخصوصية",
+  "en": "Privacy policy",
+  "fr": "Politique de confidentialité"
+ },
+ "Portefeuille Tks": {
+  "ar": "محفظة Tks",
+  "en": "Tks wallet",
+  "fr": "Portefeuille Tks"
+ },
+ "Poste (ex: Analysts, Directors)": {
+  "ar": "المنصب (مثال: محللون، مدراء)",
+  "en": "Role (e.g. Analysts, Directors)",
+  "fr": "Poste (ex : Analystes, Directeurs)"
+ },
+ "Poste (ex: Chairman, CEO & Founder)": {
+  "ar": "المنصب (مثال: الرئيس التنفيذي والمؤسس)",
+  "en": "Title (e.g. Chairman, CEO & Founder)",
+  "fr": "Poste (ex : Chairman, CEO & Founder)"
+ },
+ "Pour les particuliers, freelances et professionnels indépendants": {
+  "ar": "للأفراد والمستقلين والمهنيين الأحرار",
+  "en": "For individuals, freelancers and independent professionals",
+  "fr": "Pour les particuliers, freelances et professionnels indépendants"
+ },
+ "Pour les sociétés, startups et organisations": {
+  "ar": "للشركات والشركات الناشئة والمنظمات",
+  "en": "For companies, startups and organizations",
+  "fr": "Pour les sociétés, startups et organisations"
+ },
+ "Premium": {
+  "ar": "مميز",
+  "en": "Premium",
+  "fr": "Premium"
+ },
+ "Prendre rendez-vous": {
+  "ar": "حجز موعد",
+  "en": "Book a call",
+  "fr": "Prendre rendez-vous"
+ },
+ "Principale": {
+  "ar": "الرئيسية",
+  "en": "Main",
+  "fr": "Principale"
+ },
+ "Priorité support": {
+  "ar": "دعم ذو أولوية",
+  "en": "Priority support",
+  "fr": "Support prioritaire"
+ },
+ "Prise de rendez-vous directe": {
+  "ar": "حجز موعد مباشر",
+  "en": "Book directly",
+  "fr": "Prise de rendez-vous directe"
+ },
+ "Prix": {
+  "ar": "السعر",
+  "en": "Price",
+  "fr": "Prix"
+ },
+ "Prix (Dhs)": {
+  "ar": "السعر (درهم)",
+  "en": "Price (MAD)",
+  "fr": "Prix (Dhs)"
+ },
+ "Prix actuel": {
+  "ar": "السعر الحالي",
+  "en": "Current price",
+  "fr": "Prix actuel"
+ },
+ "Prix atteint !": {
+  "ar": "تم بلوغ السعر!",
+  "en": "Price reached!",
+  "fr": "Prix atteint !"
+ },
+ "Prix atteints": {
+  "ar": "الأسعار المحققة",
+  "en": "Prices reached",
+  "fr": "Prix atteints"
+ },
+ "Prix de départ": {
+  "ar": "سعر البداية",
+  "en": "Starting price",
+  "fr": "Prix de départ"
+ },
+ "Prix de départ (Dhs)": {
+  "ar": "سعر البداية (درهم)",
+  "en": "Starting price (MAD)",
+  "fr": "Prix de départ (Dhs)"
+ },
+ "Prix de réserve": {
+  "ar": "السعر الأدنى",
+  "en": "Reserve price",
+  "fr": "Prix de réserve"
+ },
+ "Prix de réserve (Dhs)": {
+  "ar": "السعر الأدنى (درهم)",
+  "en": "Reserve price (MAD)",
+  "fr": "Prix de réserve (Dhs)"
+ },
+ "Prix max": {
+  "ar": "أعلى سعر",
+  "en": "Max price",
+  "fr": "Prix max"
+ },
+ "Prix max (Dhs)": {
+  "ar": "أعلى سعر (درهم)",
+  "en": "Max price (MAD)",
+  "fr": "Prix max (Dhs)"
+ },
+ "Prix min": {
+  "ar": "أدنى سعر",
+  "en": "Min price",
+  "fr": "Prix min"
+ },
+ "Prix min (Dhs)": {
+  "ar": "أدنى سعر (درهم)",
+  "en": "Min price (MAD)",
+  "fr": "Prix min (Dhs)"
+ },
+ "Prix minimum que vous acceptez (invisible aux enchérisseurs)": {
+  "ar": "أدنى سعر تقبله (غير ظاهر للمزايدين)",
+  "en": "Lowest price you accept (hidden from bidders)",
+  "fr": "Prix minimum que vous acceptez (invisible aux enchérisseurs)"
+ },
+ "Profession / Titre": {
+  "ar": "المهنة / المسمى الوظيفي",
+  "en": "Profession / Title",
+  "fr": "Profession / Titre"
+ },
+ "Profil": {
+  "ar": "الملف الشخصي",
+  "en": "Profile",
+  "fr": "Profil"
+ },
+ "Profil complet": {
+  "ar": "ملف شخصي كامل",
+  "en": "Full profile",
+  "fr": "Profil complet"
+ },
+ "Profil enregistré avec succès !": {
+  "ar": "تم حفظ الملف الشخصي بنجاح!",
+  "en": "Profile saved successfully!",
+  "fr": "Profil enregistré avec succès !"
+ },
+ "Profil introuvable.": {
+  "ar": "الملف الشخصي غير موجود.",
+  "en": "Profile not found.",
+  "fr": "Profil introuvable."
+ },
+ "Profil public": {
+  "ar": "ملف شخصي عام",
+  "en": "Public profile",
+  "fr": "Profil public"
+ },
+ "Profile": {
+  "ar": "الملف الشخصي",
+  "en": "Profile",
+  "fr": "Profil"
+ },
+ "Profils vérifiés": {
+  "ar": "ملفات موثّقة",
+  "en": "Verified profiles",
+  "fr": "Profils vérifiés"
+ },
+ "Profils vérifiés KYC": {
+  "ar": "ملفات موثّقة KYC",
+  "en": "KYC-verified profiles",
+  "fr": "Profils vérifiés KYC"
+ },
+ "Profils vérifiés par KYC": {
+  "ar": "ملفات موثّقة عبر KYC",
+  "en": "Profiles verified by KYC",
+  "fr": "Profils vérifiés par KYC"
+ },
+ "Programmation": {
+  "ar": "الجدولة",
+  "en": "Schedule",
+  "fr": "Programmation"
+ },
+ "Programmes de formation": {
+  "ar": "برامج التدريب",
+  "en": "Training programs",
+  "fr": "Programmes de formation"
+ },
+ "Progression": {
+  "ar": "التقدم",
+  "en": "Progress",
+  "fr": "Progression"
+ },
+ "Projects": {
+  "ar": "المشاريع",
+  "en": "Projects",
+  "fr": "Projets"
+ },
+ "Promoteur résidentiel": {
+  "ar": "منعش عقاري سكني",
+  "en": "Residential developer",
+  "fr": "Promoteur résidentiel"
+ },
+ "Précédent": {
+  "ar": "السابق",
+  "en": "Previous",
+  "fr": "Précédent"
+ },
+ "Préférences cookies": {
+  "ar": "تفضيلات ملفات تعريف الارتباط",
+  "en": "Cookie preferences",
+  "fr": "Préférences cookies"
+ },
+ "Préférences sauvegardées": {
+  "ar": "تم حفظ التفضيلات",
+  "en": "Preferences saved",
+  "fr": "Préférences sauvegardées"
+ },
+ "Prénom": {
+  "ar": "الاسم الشخصي",
+  "en": "First name",
+  "fr": "Prénom"
+ },
+ "Prénom:": {
+  "ar": "الاسم الشخصي:",
+  "en": "First name:",
+  "fr": "Prénom :"
+ },
+ "Présent": {
+  "ar": "حتى الآن",
+  "en": "Present",
+  "fr": "Présent"
+ },
+ "Présentation / Bio": {
+  "ar": "نبذة تعريفية",
+  "en": "Summary / Bio",
+  "fr": "Présentation / Bio"
+ },
+ "Présentation / Bio de l'entreprise": {
+  "ar": "نبذة عن الشركة",
+  "en": "Company summary",
+  "fr": "Présentation de l'entreprise"
+ },
+ "Présentation complète, services proposés, etc...": {
+  "ar": "تقديم كامل، الخدمات المقدمة، إلخ...",
+  "en": "Full presentation, services offered, etc...",
+  "fr": "Présentation complète, services proposés, etc..."
+ },
+ "Présentation · 2 min": {
+  "ar": "عرض · دقيقتان",
+  "en": "Overview · 2 min",
+  "fr": "Présentation · 2 min"
+ },
+ "Public": {
+  "ar": "عام",
+  "en": "Public",
+  "fr": "Public"
+ },
+ "Publication": {
+  "ar": "منشور",
+  "en": "Post",
+  "fr": "Publication"
+ },
+ "Publication non trouvée": {
+  "ar": "المنشور غير موجود",
+  "en": "Post not found",
+  "fr": "Publication non trouvée"
+ },
+ "Publier": {
+  "ar": "نشر",
+  "en": "Post",
+  "fr": "Publier"
+ },
+ "Publier une annonce": {
+  "ar": "انشر إعلانًا",
+  "en": "Post a listing",
+  "fr": "Publier une annonce"
+ },
+ "Publiez depuis la page d'accueil pour remplir cet espace.": {
+  "ar": "انشر من الصفحة الرئيسية لملء هذه المساحة.",
+  "en": "Post from the home page to fill this space.",
+  "fr": "Publiez depuis la page d'accueil pour remplir cet espace."
+ },
+ "Publiez vos offres et services. L’IA met en avant les annonces qui correspondent à votre activité.": {
+  "ar": "انشر عروضك وخدماتك. يبرز الذكاء الاصطناعي الإعلانات التي تناسب نشاطك.",
+  "en": "Post your offers and services. AI highlights the listings that match your business.",
+  "fr": "Publiez vos offres et services. L’IA met en avant les annonces qui correspondent à votre activité."
+ },
+ "Publiez vos offres, répondez aux enchères et rencontrez vos prospects lors d’événements réservés aux membres.": {
+  "ar": "انشر عروضك وشارك في المزادات والتقِ بعملائك المحتملين في فعاليات خاصة بالأعضاء.",
+  "en": "Post your offers, bid in auctions and meet prospects at members-only events.",
+  "fr": "Publiez vos offres, répondez aux enchères et rencontrez vos prospects lors d’événements réservés aux membres."
+ },
+ "Puis-je changer de formule ?": {
+  "ar": "هل يمكنني تغيير الباقة؟",
+  "en": "Can I change plans?",
+  "fr": "Puis-je changer de formule ?"
+ },
+ "Quantité": {
+  "ar": "الكمية",
+  "en": "Quantity",
+  "fr": "Quantité"
+ },
+ "Quartier / Zone": {
+  "ar": "الحي / المنطقة",
+  "en": "Neighborhood / area",
+  "fr": "Quartier / zone"
+ },
+ "Quartier, Rue, Numéro, Étage...": {
+  "ar": "الحي، الشارع، الرقم، الطابق...",
+  "en": "Area, street, number, floor...",
+  "fr": "Quartier, rue, numéro, étage..."
+ },
+ "Que sont les Tks ?": {
+  "ar": "ما هي Tks؟",
+  "en": "What are Tks?",
+  "fr": "Que sont les Tks ?"
+ },
+ "Quel type de compte souhaitez-vous créer ?": {
+  "ar": "ما نوع الحساب الذي تريد إنشاءه؟",
+  "en": "What type of account do you want to create?",
+  "fr": "Quel type de compte souhaitez-vous créer ?"
+ },
+ "Questions": {
+  "ar": "الأسئلة",
+  "en": "Frequently asked",
+  "fr": "Questions"
+ },
+ "Qui a déjà exporté des tapis vers le Canada ? Je cherche un transitaire fiable à Casablanca.": {
+  "ar": "من صدّر الزرابي إلى كندا من قبل؟ أبحث عن وكيل شحن موثوق في الدار البيضاء.",
+  "en": "Who has exported rugs to Canada? I am looking for a reliable freight forwarder in Casablanca.",
+  "fr": "Qui a déjà exporté des tapis vers le Canada ? Je cherche un transitaire fiable à Casablanca."
+ },
+ "Qui peut rejoindre The Communium ?": {
+  "ar": "من يمكنه الانضمام إلى The Communium؟",
+  "en": "Who can join The Communium?",
+  "fr": "Qui peut rejoindre The Communium ?"
+ },
+ "Qui peut voir vos infos": {
+  "ar": "من يمكنه رؤية معلوماتك",
+  "en": "Who can see your info",
+  "fr": "Qui peut voir vos infos"
+ },
+ "Quitter": {
+  "ar": "مغادرة",
+  "en": "Leave",
+  "fr": "Quitter"
+ },
+ "RC": {
+  "ar": "السجل التجاري",
+  "en": "CR",
+  "fr": "RC"
+ },
+ "RH & Recrutement": {
+  "ar": "الموارد البشرية والتوظيف",
+  "en": "HR & recruitment",
+  "fr": "RH & recrutement"
+ },
+ "Rareté": {
+  "ar": "الندرة",
+  "en": "Rarity",
+  "fr": "Rareté"
+ },
+ "Recevez une copie de vos données personnelles": {
+  "ar": "احصل على نسخة من بياناتك الشخصية",
+  "en": "Get a copy of your personal data",
+  "fr": "Recevez une copie de vos données personnelles"
+ },
+ "Rechercher des annonces, des personnes, des services...": {
+  "ar": "ابحث عن إعلانات أو أشخاص أو خدمات...",
+  "en": "Search listings, people, services...",
+  "fr": "Rechercher des annonces, des personnes, des services..."
+ },
+ "Rechercher des annonces...": {
+  "ar": "ابحث في الإعلانات...",
+  "en": "Search listings...",
+  "fr": "Rechercher des annonces..."
+ },
+ "Rechercher des membres": {
+  "ar": "البحث عن أعضاء",
+  "en": "Search members",
+  "fr": "Rechercher des membres"
+ },
+ "Rechercher par nom, expertise...": {
+  "ar": "ابحث بالاسم أو الخبرة...",
+  "en": "Search by name, expertise...",
+  "fr": "Rechercher par nom, expertise..."
+ },
+ "Rechercher un secteur...": {
+  "ar": "ابحث عن قطاع...",
+  "en": "Search a sector...",
+  "fr": "Rechercher un secteur..."
+ },
+ "Recherches sauvegardées": {
+  "ar": "عمليات البحث المحفوظة",
+  "en": "Saved searches",
+  "fr": "Recherches sauvegardées"
+ },
+ "Recherchez par nom ou spécialité": {
+  "ar": "ابحث بالاسم أو التخصص",
+  "en": "Search by name or specialty",
+  "fr": "Recherchez par nom ou spécialité"
+ },
+ "Recommandé": {
+  "ar": "موصى به",
+  "en": "Recommended",
+  "fr": "Recommandé"
+ },
+ "Recrutement de développeurs à Rabat": {
+  "ar": "توظيف مطوّرين في الرباط",
+  "en": "Hiring developers in Rabat",
+  "fr": "Recrutement de développeurs à Rabat"
+ },
+ "Recto CIN": {
+  "ar": "الوجه الأمامي للبطاقة الوطنية",
+  "en": "ID card front",
+  "fr": "Recto CIN"
+ },
+ "Refuser": {
+  "ar": "رفض",
+  "en": "Decline",
+  "fr": "Refuser"
+ },
+ "Registre de Commerce": {
+  "ar": "السجل التجاري",
+  "en": "Commercial register",
+  "fr": "Registre de commerce"
+ },
+ "Registre de Commerce (Modèle 7)": {
+  "ar": "السجل التجاري (النموذج 7)",
+  "en": "Commercial register (form 7)",
+  "fr": "Registre de commerce (modèle 7)"
+ },
+ "Registre de Commerce (RC)": {
+  "ar": "السجل التجاري",
+  "en": "Commercial register (CR)",
+  "fr": "Registre de commerce (RC)"
+ },
+ "Registre de commerce": {
+  "ar": "السجل التجاري",
+  "en": "Commercial register",
+  "fr": "Registre de commerce"
+ },
+ "Rejetée": {
+  "ar": "مرفوض",
+  "en": "Rejected",
+  "fr": "Rejetée"
+ },
+ "Rejoignez la discussion avec la communauté": {
+  "ar": "انضم إلى النقاش مع المجتمع",
+  "en": "Join the discussion with the community",
+  "fr": "Rejoignez la discussion avec la communauté"
+ },
+ "Rejoindre The Communium": {
+  "ar": "انضم إلى The Communium",
+  "en": "Join The Communium",
+  "fr": "Rejoindre The Communium"
+ },
+ "Rejoindre le réseau": {
+  "ar": "انضم إلى الشبكة",
+  "en": "Join the network",
+  "fr": "Rejoindre le réseau"
+ },
+ "Rejoindre maintenant": {
+  "ar": "انضم الآن",
+  "en": "Join now",
+  "fr": "Rejoindre maintenant"
+ },
+ "Rejoindre un groupe": {
+  "ar": "انضم إلى مجموعة",
+  "en": "Join a group",
+  "fr": "Rejoindre un groupe"
+ },
+ "Remote": {
+  "ar": "عن بُعد",
+  "en": "Remote",
+  "fr": "À distance"
+ },
+ "Remplissage automatique par IA (Recommandé)": {
+  "ar": "التعبئة التلقائية بالذكاء الاصطناعي (موصى به)",
+  "en": "AI auto-fill (recommended)",
+  "fr": "Remplissage automatique par IA (recommandé)"
+ },
+ "Remplissez les informations de votre annonce": {
+  "ar": "املأ معلومات إعلانك",
+  "en": "Fill in your listing details",
+  "fr": "Remplissez les informations de votre annonce"
+ },
+ "Remportée par": {
+  "ar": "فاز بها",
+  "en": "Won by",
+  "fr": "Remportée par"
+ },
+ "Rencontres": {
+  "ar": "اللقاءات",
+  "en": "Meetings",
+  "fr": "Rencontres"
+ },
+ "Renseignez les informations légales et de contact de votre entreprise": {
+  "ar": "أدخل المعلومات القانونية ومعلومات الاتصال الخاصة بشركتك",
+  "en": "Enter your company's legal and contact details",
+  "fr": "Renseignez les informations légales et de contact de votre entreprise"
+ },
+ "Renseignez vos informations d'identité et de contact (extraites automatiquement depuis votre CIN)": {
+  "ar": "أدخل معلومات هويتك واتصالك (تُستخرج تلقائيًا من بطاقتك الوطنية)",
+  "en": "Enter your identity and contact details (read automatically from your ID card)",
+  "fr": "Renseignez vos informations d'identité et de contact (extraites automatiquement depuis votre CIN)"
+ },
+ "Représentant légal": {
+  "ar": "الممثل القانوني",
+  "en": "Legal representative",
+  "fr": "Représentant légal"
+ },
+ "Responsable Développement": {
+  "ar": "مسؤول التطوير",
+  "en": "Business development lead",
+  "fr": "Responsable développement"
+ },
+ "Retirer": {
+  "ar": "إزالة",
+  "en": "Remove",
+  "fr": "Retirer"
+ },
+ "Retour au marketplace": {
+  "ar": "العودة إلى السوق",
+  "en": "Back to the marketplace",
+  "fr": "Retour au marketplace"
+ },
+ "Retour au profil": {
+  "ar": "العودة إلى الملف الشخصي",
+  "en": "Back to profile",
+  "fr": "Retour au profil"
+ },
+ "Retour aux connexions": {
+  "ar": "العودة إلى العلاقات",
+  "en": "Back to connections",
+  "fr": "Retour aux connexions"
+ },
+ "Retour aux discussions": {
+  "ar": "العودة إلى النقاشات",
+  "en": "Back to discussions",
+  "fr": "Retour aux discussions"
+ },
+ "Retour aux enchères": {
+  "ar": "العودة إلى المزادات",
+  "en": "Back to auctions",
+  "fr": "Retour aux enchères"
+ },
+ "Retour aux groupes": {
+  "ar": "العودة إلى المجموعات",
+  "en": "Back to groups",
+  "fr": "Retour aux groupes"
+ },
+ "Retour à mes annonces": {
+  "ar": "العودة إلى إعلاناتي",
+  "en": "Back to my listings",
+  "fr": "Retour à mes annonces"
+ },
+ "Revenez plus tard pour de nouvelles suggestions": {
+  "ar": "عد لاحقًا لمزيد من الاقتراحات",
+  "en": "Come back later for new suggestions",
+  "fr": "Revenez plus tard pour de nouvelles suggestions"
+ },
+ "Reçues": {
+  "ar": "الواردة",
+  "en": "Received",
+  "fr": "Reçues"
+ },
+ "Risque": {
+  "ar": "الخطر",
+  "en": "Risk",
+  "fr": "Risque"
+ },
+ "Risque faible": {
+  "ar": "خطر منخفض",
+  "en": "Low risk",
+  "fr": "Risque faible"
+ },
+ "Risque moyen": {
+  "ar": "خطر متوسط",
+  "en": "Medium risk",
+  "fr": "Risque moyen"
+ },
+ "Risque élevé": {
+  "ar": "خطر مرتفع",
+  "en": "High risk",
+  "fr": "Risque élevé"
+ },
+ "Récapitulatif": {
+  "ar": "ملخص",
+  "en": "Summary",
+  "fr": "Récapitulatif"
+ },
+ "Réclamer": {
+  "ar": "احصل عليها",
+  "en": "Claim",
+  "fr": "Réclamer"
+ },
+ "Récompenses": {
+  "ar": "المكافآت",
+  "en": "Rewards",
+  "fr": "Récompenses"
+ },
+ "Rédigez votre article…": {
+  "ar": "اكتب مقالك…",
+  "en": "Write your article…",
+  "fr": "Rédigez votre article…"
+ },
+ "Rédigez votre biographie ici...": {
+  "ar": "اكتب نبذتك هنا...",
+  "en": "Write your bio here...",
+  "fr": "Rédigez votre biographie ici..."
+ },
+ "Réductions jusqu'à 90%": {
+  "ar": "تخفيضات تصل إلى 90٪",
+  "en": "Discounts up to 90%",
+  "fr": "Réductions jusqu'à 90%"
+ },
+ "Réessayer": {
+  "ar": "أعد المحاولة",
+  "en": "Try again",
+  "fr": "Réessayer"
+ },
+ "Référencement externe": {
+  "ar": "الظهور في محركات البحث",
+  "en": "Search engine visibility",
+  "fr": "Référencement externe"
+ },
+ "Références professionnelles": {
+  "ar": "مراجع مهنية",
+  "en": "Professional references",
+  "fr": "Références professionnelles"
+ },
+ "Régime fiscal": {
+  "ar": "النظام الضريبي",
+  "en": "Tax regime",
+  "fr": "Régime fiscal"
+ },
+ "Répondre": {
+  "ar": "رد",
+  "en": "Reply",
+  "fr": "Répondre"
+ },
+ "Réseau & contacts directs": {
+  "ar": "الشبكة والتواصل المباشر",
+  "en": "Network & direct contacts",
+  "fr": "Réseau & contacts directs"
+ },
+ "Réseau 100% vérifié": {
+  "ar": "شبكة موثّقة 100%",
+  "en": "100% verified network",
+  "fr": "Réseau 100% vérifié"
+ },
+ "Réseau de contacts": {
+  "ar": "شبكة العلاقات",
+  "en": "Contact network",
+  "fr": "Réseau de contacts"
+ },
+ "Réseau professionnel, marketplace intelligente, mentorat et enchères — tout dans un seul espace.": {
+  "ar": "شبكة مهنية، سوق ذكي، إرشاد ومزادات — كل ذلك في مكان واحد.",
+  "en": "Professional network, smart marketplace, mentoring and auctions — all in one place.",
+  "fr": "Réseau professionnel, marketplace intelligente, mentorat et enchères — tout dans un seul espace."
+ },
+ "Réseau vérifié": {
+  "ar": "شبكة موثّقة",
+  "en": "Verified network",
+  "fr": "Réseau vérifié"
+ },
+ "Réseau, messagerie, marketplace, enchères, événements, mentorat et création de société : The Communium remplace une dizaine d’abonnements et d’applications dispersées.": {
+  "ar": "الشبكة والمراسلة والسوق والمزادات والفعاليات والإرشاد وتأسيس الشركات: تحلّ The Communium محلّ عشرات الاشتراكات والتطبيقات المتفرقة.",
+  "en": "Network, messaging, marketplace, auctions, events, mentoring and company formation: The Communium replaces a dozen scattered subscriptions and apps.",
+  "fr": "Réseau, messagerie, marketplace, enchères, événements, mentorat et création de société : The Communium remplace une dizaine d’abonnements et d’applications dispersées."
+ },
+ "Réserver": {
+  "ar": "احجز",
+  "en": "Book",
+  "fr": "Réserver"
+ },
+ "Réservez un appel découverte": {
+  "ar": "احجز مكالمة تعريفية",
+  "en": "Book a discovery call",
+  "fr": "Réservez un appel découverte"
+ },
+ "Résultat": {
+  "ar": "النتيجة",
+  "en": "Result",
+  "fr": "Résultat"
+ },
+ "Réunion": {
+  "ar": "اجتماع",
+  "en": "Meeting",
+  "fr": "Réunion"
+ },
+ "Réunion de groupe": {
+  "ar": "اجتماع المجموعة",
+  "en": "Group meeting",
+  "fr": "Réunion de groupe"
+ },
+ "Réunion en ligne": {
+  "ar": "اجتماع عبر الإنترنت",
+  "en": "Online meeting",
+  "fr": "Réunion en ligne"
+ },
+ "Réunion terminée": {
+  "ar": "انتهى الاجتماع",
+  "en": "Meeting ended",
+  "fr": "Réunion terminée"
+ },
+ "Réunions WebRTC intégrées": {
+  "ar": "اجتماعات WebRTC مدمجة",
+  "en": "Built-in WebRTC meetings",
+  "fr": "Réunions WebRTC intégrées"
+ },
+ "Réunions en ligne": {
+  "ar": "الاجتماعات عبر الإنترنت",
+  "en": "Online meetings",
+  "fr": "Réunions en ligne"
+ },
+ "Réunis en 1 plateforme.": {
+  "ar": "في منصة واحدة.",
+  "en": "In 1 platform.",
+  "fr": "Réunis en 1 plateforme."
+ },
+ "Rôle / Titre du représentant": {
+  "ar": "دور / صفة الممثل",
+  "en": "Representative's role / title",
+  "fr": "Rôle / titre du représentant"
+ },
+ "Salle des Enchères": {
+  "ar": "قاعة المزادات",
+  "en": "Auction room",
+  "fr": "Salle des enchères"
+ },
+ "Sans engagement": {
+  "ar": "بدون التزام",
+  "en": "No commitment",
+  "fr": "Sans engagement"
+ },
+ "Sans frontières.": {
+  "ar": "بلا حدود.",
+  "en": "Without borders.",
+  "fr": "Sans frontières."
+ },
+ "Santé & Pharma": {
+  "ar": "الصحة والصيدلة",
+  "en": "Health & pharma",
+  "fr": "Santé & pharma"
+ },
+ "Sauvegarder": {
+  "ar": "حفظ",
+  "en": "Save",
+  "fr": "Sauvegarder"
+ },
+ "Sauvegarder la recherche": {
+  "ar": "حفظ البحث",
+  "en": "Save search",
+  "fr": "Sauvegarder la recherche"
+ },
+ "Sauvegarder les préférences": {
+  "ar": "حفظ التفضيلات",
+  "en": "Save preferences",
+  "fr": "Sauvegarder les préférences"
+ },
+ "Sauvegardez vos recherches pour être alerté des nouvelles annonces": {
+  "ar": "احفظ عمليات بحثك لتتلقى تنبيهًا بالإعلانات الجديدة",
+  "en": "Save your searches to be alerted about new listings",
+  "fr": "Sauvegardez vos recherches pour être alerté des nouvelles annonces"
+ },
+ "Sauvegardé": {
+  "ar": "تم الحفظ",
+  "en": "Saved",
+  "fr": "Sauvegardé"
+ },
+ "Score": {
+  "ar": "النتيجة",
+  "en": "Score",
+  "fr": "Score"
+ },
+ "Se connecter": {
+  "ar": "تواصل",
+  "en": "Connect",
+  "fr": "Se connecter"
+ },
+ "Se déconnecter": {
+  "ar": "تسجيل الخروج",
+  "en": "Sign out",
+  "fr": "Se déconnecter"
+ },
+ "Secteur d'activité (Activities)": {
+  "ar": "قطاع النشاط",
+  "en": "Industry",
+  "fr": "Secteur d'activité"
+ },
+ "Secteur d'activité *": {
+  "ar": "قطاع النشاط *",
+  "en": "Industry *",
+  "fr": "Secteur d'activité *"
+ },
+ "Secteurs": {
+  "ar": "القطاعات",
+  "en": "Industries",
+  "fr": "Secteurs"
+ },
+ "Secteurs d'intérêt (Séparés par des virgules)": {
+  "ar": "القطاعات المهمة (مفصولة بفواصل)",
+  "en": "Sectors of interest (comma-separated)",
+  "fr": "Secteurs d'intérêt (séparés par des virgules)"
+ },
+ "Sections du profil": {
+  "ar": "أقسام الملف الشخصي",
+  "en": "Profile sections",
+  "fr": "Sections du profil"
+ },
+ "Sectors of Interest": {
+  "ar": "القطاعات المهمة",
+  "en": "Sectors of Interest",
+  "fr": "Secteurs d'intérêt"
+ },
+ "Self-employed": {
+  "ar": "عمل حر",
+  "en": "Self-employed",
+  "fr": "Indépendant"
+ },
+ "Selfie avec la CIN": {
+  "ar": "صورة سيلفي مع البطاقة الوطنية",
+  "en": "Selfie with your ID card",
+  "fr": "Selfie avec la CIN"
+ },
+ "Services & Consulting": {
+  "ar": "الخدمات والاستشارة",
+  "en": "Services & consulting",
+  "fr": "Services & conseil"
+ },
+ "Session expirée. Veuillez vous reconnecter.": {
+  "ar": "انتهت الجلسة. يرجى تسجيل الدخول مجددًا.",
+  "en": "Session expired. Please sign in again.",
+  "fr": "Session expirée. Veuillez vous reconnecter."
+ },
+ "Sessions actives": {
+  "ar": "الجلسات النشطة",
+  "en": "Active sessions",
+  "fr": "Sessions actives"
+ },
+ "Sessions mentorat": {
+  "ar": "جلسات الإرشاد",
+  "en": "Mentoring sessions",
+  "fr": "Sessions de mentorat"
+ },
+ "Sessions réalisées": {
+  "ar": "الجلسات المنجزة",
+  "en": "Sessions completed",
+  "fr": "Sessions réalisées"
+ },
+ "Seules vos annonces actives sans enchère existante sont disponibles": {
+  "ar": "تتوفر فقط إعلاناتك النشطة التي ليس لها مزاد",
+  "en": "Only your active listings without an existing auction are available",
+  "fr": "Seules vos annonces actives sans enchère existante sont disponibles"
+ },
+ "Site Web": {
+  "ar": "الموقع الإلكتروني",
+  "en": "Website",
+  "fr": "Site web"
+ },
+ "Site web": {
+  "ar": "الموقع الإلكتروني",
+  "en": "Website",
+  "fr": "Site web"
+ },
+ "Siège social (Headquarter)": {
+  "ar": "المقر الرئيسي",
+  "en": "Headquarters",
+  "fr": "Siège social"
+ },
+ "Siège social et coordonnées": {
+  "ar": "المقر الاجتماعي ومعلومات الاتصال",
+  "en": "Head office and contact details",
+  "fr": "Siège social et coordonnées"
+ },
+ "Siège, Contact & Site Web": {
+  "ar": "المقر والتواصل والموقع",
+  "en": "Headquarters, contact & website",
+  "fr": "Siège, contact & site web"
+ },
+ "Skills": {
+  "ar": "المهارات",
+  "en": "Skills",
+  "fr": "Compétences"
+ },
+ "Société SARL": {
+  "ar": "شركة ذ.م.م",
+  "en": "Company LLC",
+  "fr": "Société SARL"
+ },
+ "Soft Skills": {
+  "ar": "المهارات الشخصية",
+  "en": "Soft skills",
+  "fr": "Compétences comportementales"
+ },
+ "Sondages": {
+  "ar": "استطلاعات الرأي",
+  "en": "Polls",
+  "fr": "Sondages"
+ },
+ "Sophie : Super contenu !": {
+  "ar": "صوفي: محتوى رائع!",
+  "en": "Sophie: Great content!",
+  "fr": "Sophie : Super contenu !"
+ },
+ "Soumettre la demande": {
+  "ar": "إرسال الطلب",
+  "en": "Submit request",
+  "fr": "Soumettre la demande"
+ },
+ "Soutenir": {
+  "ar": "ادعم",
+  "en": "Support",
+  "fr": "Soutenir"
+ },
+ "Soutiens": {
+  "ar": "الدعم",
+  "en": "Supports",
+  "fr": "Soutiens"
+ },
+ "Soyez le premier à lancer la discussion !": {
+  "ar": "كن أول من يبدأ النقاش!",
+  "en": "Be the first to start the discussion!",
+  "fr": "Soyez le premier à lancer la discussion !"
+ },
+ "Sports": {
+  "ar": "الرياضة",
+  "en": "Sports",
+  "fr": "Sports"
+ },
+ "Sports (Séparés par des virgules)": {
+  "ar": "الرياضات (مفصولة بفواصل)",
+  "en": "Sports (comma-separated)",
+  "fr": "Sports (séparés par des virgules)"
+ },
+ "Startup & Entrepreneuriat": {
+  "ar": "الشركات الناشئة وريادة الأعمال",
+  "en": "Startups & entrepreneurship",
+  "fr": "Startup & entrepreneuriat"
+ },
+ "Startup SaaS B2B": {
+  "ar": "شركة ناشئة SaaS B2B",
+  "en": "B2B SaaS startup",
+  "fr": "Startup SaaS B2B"
+ },
+ "Statuts": {
+  "ar": "النظام الأساسي",
+  "en": "Articles of association",
+  "fr": "Statuts"
+ },
+ "Statuts & signatures": {
+  "ar": "النظام الأساسي والتوقيعات",
+  "en": "Articles & signatures",
+  "fr": "Statuts & signatures"
+ },
+ "Statuts de la société": {
+  "ar": "النظام الأساسي للشركة",
+  "en": "Articles of association",
+  "fr": "Statuts de la société"
+ },
+ "Statuts juridiques (SARL, SA...)": {
+  "ar": "النظام الأساسي (ش.ذ.م.م، ش.م...)",
+  "en": "Articles of association (LLC, corporation...)",
+  "fr": "Statuts juridiques (SARL, SA...)"
+ },
+ "Stripe / CMI": {
+  "ar": "Stripe / CMI",
+  "en": "Stripe / CMI",
+  "fr": "Stripe / CMI"
+ },
+ "Suggestions IA": {
+  "ar": "اقتراحات الذكاء الاصطناعي",
+  "en": "AI suggestions",
+  "fr": "Suggestions IA"
+ },
+ "Suisse": {
+  "ar": "سويسرا",
+  "en": "Switzerland",
+  "fr": "Suisse"
+ },
+ "Suivant": {
+  "ar": "التالي",
+  "en": "Next",
+  "fr": "Suivant"
+ },
+ "Suivez vos enchères en temps réel": {
+  "ar": "تابع مزاداتك مباشرة",
+  "en": "Follow your auctions in real time",
+  "fr": "Suivez vos enchères en temps réel"
+ },
+ "Sujets": {
+  "ar": "المواضيع",
+  "en": "Topics",
+  "fr": "Sujets"
+ },
+ "Super Rare": {
+  "ar": "نادر",
+  "en": "Super Rare",
+  "fr": "Super rare"
+ },
+ "Supprimer": {
+  "ar": "حذف",
+  "en": "Delete",
+  "fr": "Supprimer"
+ },
+ "Supprimer ce commentaire ?": {
+  "ar": "حذف هذا التعليق؟",
+  "en": "Delete this comment?",
+  "fr": "Supprimer ce commentaire ?"
+ },
+ "Supprimer ce sujet ?": {
+  "ar": "حذف هذا الموضوع؟",
+  "en": "Delete this topic?",
+  "fr": "Supprimer ce sujet ?"
+ },
+ "Supprimer cette annonce ?": {
+  "ar": "حذف هذا الإعلان؟",
+  "en": "Delete this listing?",
+  "fr": "Supprimer cette annonce ?"
+ },
+ "Sécurité renforcée pour votre compte": {
+  "ar": "أمان معزز لحسابك",
+  "en": "Extra security for your account",
+  "fr": "Sécurité renforcée pour votre compte"
+ },
+ "Sélectionner la langue": {
+  "ar": "اختر اللغة",
+  "en": "Select language",
+  "fr": "Sélectionner la langue"
+ },
+ "Sélectionner une catégorie": {
+  "ar": "اختر فئة",
+  "en": "Select a category",
+  "fr": "Sélectionner une catégorie"
+ },
+ "Sélectionner une ville": {
+  "ar": "اختر مدينة",
+  "en": "Select a city",
+  "fr": "Sélectionner une ville"
+ },
+ "Sélectionner...": {
+  "ar": "اختر...",
+  "en": "Select...",
+  "fr": "Sélectionner..."
+ },
+ "Sélectionnez un secteur pour découvrir comment des entreprises utilisent The Communium pour trouver clients, partenaires et mentors.": {
+  "ar": "اختر قطاعًا لتكتشف كيف تستخدم الشركات The Communium للعثور على العملاء والشركاء والمرشدين.",
+  "en": "Choose an industry to see how companies use The Communium to find clients, partners and mentors.",
+  "fr": "Sélectionnez un secteur pour découvrir comment des entreprises utilisent The Communium pour trouver clients, partenaires et mentors."
+ },
+ "Sélectionnez une conversation": {
+  "ar": "اختر محادثة",
+  "en": "Select a conversation",
+  "fr": "Sélectionnez une conversation"
+ },
+ "Sélectionnez une liste": {
+  "ar": "اختر قائمة",
+  "en": "Select a list",
+  "fr": "Sélectionnez une liste"
+ },
+ "Tableau": {
+  "ar": "اللوحة",
+  "en": "Dashboard",
+  "fr": "Tableau"
+ },
+ "Tableau de bord": {
+  "ar": "لوحة التحكم",
+  "en": "Dashboard",
+  "fr": "Tableau de bord"
+ },
+ "Tags": {
+  "ar": "الوسوم",
+  "en": "Tags",
+  "fr": "Tags"
+ },
+ "Tags (séparés par des virgules)": {
+  "ar": "الوسوم (مفصولة بفواصل)",
+  "en": "Tags (comma-separated)",
+  "fr": "Tags (séparés par des virgules)"
+ },
+ "Tapez votre message...": {
+  "ar": "اكتب رسالتك...",
+  "en": "Type your message...",
+  "fr": "Tapez votre message..."
+ },
+ "Tarifs": {
+  "ar": "الأسعار",
+  "en": "Pricing",
+  "fr": "Tarifs"
+ },
+ "Tarifs · paiement annuel": {
+  "ar": "الأسعار · دفع سنوي",
+  "en": "Pricing · billed annually",
+  "fr": "Tarifs · paiement annuel"
+ },
+ "Taux de matching": {
+  "ar": "نسبة المطابقة",
+  "en": "Match rate",
+  "fr": "Taux de matching"
+ },
+ "Taxe Professionnelle / ICE": {
+  "ar": "الضريبة المهنية / ICE",
+  "en": "Business tax / ICE",
+  "fr": "Taxe professionnelle / ICE"
+ },
+ "Team": {
+  "ar": "الفريق",
+  "en": "Team",
+  "fr": "Équipe"
+ },
+ "Team & Equipment": {
+  "ar": "الفريق والمعدات",
+  "en": "Team & Equipment",
+  "fr": "Équipe & équipements"
+ },
+ "Tech": {
+  "ar": "تقنية",
+  "en": "Tech",
+  "fr": "Tech"
+ },
+ "Tech & Innovation": {
+  "ar": "التكنولوجيا والابتكار",
+  "en": "Tech & innovation",
+  "fr": "Tech & innovation"
+ },
+ "Tech & startups": {
+  "ar": "التكنولوجيا والشركات الناشئة",
+  "en": "Tech & startups",
+  "fr": "Tech & startups"
+ },
+ "Technical Skills (Séparées par des virgules)": {
+  "ar": "المهارات التقنية (مفصولة بفواصل)",
+  "en": "Technical skills (comma-separated)",
+  "fr": "Compétences techniques (séparées par des virgules)"
+ },
+ "Temps restant": {
+  "ar": "الوقت المتبقي",
+  "en": "Time left",
+  "fr": "Temps restant"
+ },
+ "Terminer": {
+  "ar": "إنهاء",
+  "en": "End",
+  "fr": "Terminer"
+ },
+ "Terminer pour tous": {
+  "ar": "إنهاء للجميع",
+  "en": "End for everyone",
+  "fr": "Terminer pour tous"
+ },
+ "Terminées": {
+  "ar": "المنتهية",
+  "en": "Ended",
+  "fr": "Terminées"
+ },
+ "Timeline": {
+  "ar": "المنشورات",
+  "en": "Timeline",
+  "fr": "Fil"
+ },
+ "Titre": {
+  "ar": "العنوان",
+  "en": "Title",
+  "fr": "Titre"
+ },
+ "Titre de l'article…": {
+  "ar": "عنوان المقال…",
+  "en": "Article title…",
+  "fr": "Titre de l'article…"
+ },
+ "Titre de l'événement": {
+  "ar": "عنوان الفعالية",
+  "en": "Event title",
+  "fr": "Titre de l'événement"
+ },
+ "Titre de la formation": {
+  "ar": "عنوان التدريب",
+  "en": "Training title",
+  "fr": "Titre de la formation"
+ },
+ "Titre de la réunion": {
+  "ar": "عنوان الاجتماع",
+  "en": "Meeting title",
+  "fr": "Titre de la réunion"
+ },
+ "Titre du sujet...": {
+  "ar": "عنوان الموضوع...",
+  "en": "Topic title...",
+  "fr": "Titre du sujet..."
+ },
+ "Toggle theme": {
+  "ar": "تبديل المظهر",
+  "en": "Toggle theme",
+  "fr": "Changer de thème"
+ },
+ "Tokens": {
+  "ar": "الرموز",
+  "en": "Tokens",
+  "fr": "Tokens"
+ },
+ "Tokens & badges": {
+  "ar": "الرموز والشارات",
+  "en": "Tokens & badges",
+  "fr": "Tokens & badges"
+ },
+ "Total des mises": {
+  "ar": "مجموع المزايدات",
+  "en": "Total bids",
+  "fr": "Total des mises"
+ },
+ "Touche la carte ou appuie sur Entrée pour passer": {
+  "ar": "المس البطاقة أو اضغط Enter للتخطي",
+  "en": "Tap the card or press Enter to skip",
+  "fr": "Touche la carte ou appuie sur Entrée pour passer"
+ },
+ "Tourisme & Hôtellerie": {
+  "ar": "السياحة والفندقة",
+  "en": "Tourism & hospitality",
+  "fr": "Tourisme & hôtellerie"
+ },
+ "Tous": {
+  "ar": "الكل",
+  "en": "All",
+  "fr": "Tous"
+ },
+ "Tout ce dont un entrepreneur a besoin pour rencontrer, vendre, apprendre et grandir, déjà connecté nativement.": {
+  "ar": "كل ما يحتاجه رائد الأعمال للقاء والبيع والتعلّم والنمو، متّصل بشكل أصلي.",
+  "en": "Everything an entrepreneur needs to meet, sell, learn and grow, already connected natively.",
+  "fr": "Tout ce dont un entrepreneur a besoin pour rencontrer, vendre, apprendre et grandir, déjà connecté nativement."
+ },
+ "Tout ce qu'il faut pour": {
+  "ar": "كل ما تحتاجه",
+  "en": "Everything you need to",
+  "fr": "Tout ce qu'il faut pour"
+ },
+ "Tout du Premium": {
+  "ar": "كل مزايا Premium",
+  "en": "Everything in Premium",
+  "fr": "Tout du Premium"
+ },
+ "Tout du gratuit": {
+  "ar": "كل مزايا العرض المجاني",
+  "en": "Everything in Free",
+  "fr": "Tout du gratuit"
+ },
+ "Tout votre réseau d'affaires,": {
+  "ar": "شبكة أعمالك بالكامل،",
+  "en": "Your whole business network,",
+  "fr": "Tout votre réseau d'affaires,"
+ },
+ "Toutes": {
+  "ar": "الكل",
+  "en": "All",
+  "fr": "Toutes"
+ },
+ "Toutes les villes": {
+  "ar": "كل المدن",
+  "en": "All cities",
+  "fr": "Toutes les villes"
+ },
+ "Transformez les rencontres": {
+  "ar": "حوّل اللقاءات",
+  "en": "Turn meetings",
+  "fr": "Transformez les rencontres"
+ },
+ "Trouver des connexions →": {
+  "ar": "ابحث عن علاقات",
+  "en": "Find connections →",
+  "fr": "Trouver des connexions →"
+ },
+ "Trouver un mentor": {
+  "ar": "ابحث عن مرشد",
+  "en": "Find a mentor",
+  "fr": "Trouver un mentor"
+ },
+ "Trouver vos premières connexions": {
+  "ar": "ابحث عن أول علاقاتك",
+  "en": "Find your first connections",
+  "fr": "Trouver vos premières connexions"
+ },
+ "Trouvez un expert pour accélérer votre croissance": {
+  "ar": "اعثر على خبير لتسريع نموك",
+  "en": "Find an expert to speed up your growth",
+  "fr": "Trouvez un expert pour accélérer votre croissance"
+ },
+ "Type": {
+  "ar": "النوع",
+  "en": "Type",
+  "fr": "Type"
+ },
+ "Type d'emploi": {
+  "ar": "نوع العمل",
+  "en": "Employment type",
+  "fr": "Type d'emploi"
+ },
+ "Type d'identité": {
+  "ar": "نوع الهوية",
+  "en": "ID type",
+  "fr": "Type d'identité"
+ },
+ "Type de compte": {
+  "ar": "نوع الحساب",
+  "en": "Account type",
+  "fr": "Type de compte"
+ },
+ "Type de pièce": {
+  "ar": "نوع الوثيقة",
+  "en": "Document type",
+  "fr": "Type de pièce"
+ },
+ "Télécharger mes données": {
+  "ar": "تنزيل بياناتي",
+  "en": "Download my data",
+  "fr": "Télécharger mes données"
+ },
+ "Téléphone": {
+  "ar": "الهاتف",
+  "en": "Phone",
+  "fr": "Téléphone"
+ },
+ "Téléphone *": {
+  "ar": "الهاتف *",
+  "en": "Phone *",
+  "fr": "Téléphone *"
+ },
+ "Téléphone entreprise": {
+  "ar": "هاتف الشركة",
+  "en": "Company phone",
+  "fr": "Téléphone de l'entreprise"
+ },
+ "Témoignages": {
+  "ar": "الشهادات",
+  "en": "Testimonials",
+  "fr": "Témoignages"
+ },
+ "USA": {
+  "ar": "الولايات المتحدة",
+  "en": "USA",
+  "fr": "USA"
+ },
+ "Ultra Rare": {
+  "ar": "نادر جدًا",
+  "en": "Ultra Rare",
+  "fr": "Ultra rare"
+ },
+ "Un cabinet de 12 personnes cherchait à rencontrer des dirigeants de PME en croissance sans passer par la prospection à froid.": {
+  "ar": "كان مكتب من 12 شخصًا يسعى للقاء مديري مقاولات صغيرة ومتوسطة في طور النمو دون التنقيب البارد.",
+  "en": "A 12-person firm wanted to meet leaders of growing SMEs without cold prospecting.",
+  "fr": "Un cabinet de 12 personnes cherchait à rencontrer des dirigeants de PME en croissance sans passer par la prospection à froid."
+ },
+ "Un conseiller dédié pour votre candidature": {
+  "ar": "مستشار مخصص لترشّحك",
+  "en": "A dedicated advisor for your application",
+  "fr": "Un conseiller dédié pour votre candidature"
+ },
+ "Un matching mentor · mentoré basé sur vos objectifs, avec un suivi des sessions.": {
+  "ar": "مطابقة بين المرشد والمتدرّب حسب أهدافك، مع متابعة الجلسات.",
+  "en": "Mentor · mentee matching based on your goals, with session tracking.",
+  "fr": "Un matching mentor · mentoré basé sur vos objectifs, avec un suivi des sessions."
+ },
+ "Un promoteur souhaitait toucher des acheteurs de la diaspora et des investisseurs qualifiés pour un nouveau programme.": {
+  "ar": "أراد منعش عقاري الوصول إلى مشترين من المهجر ومستثمرين مؤهلين لمشروع جديد.",
+  "en": "A developer wanted to reach diaspora buyers and qualified investors for a new project.",
+  "fr": "Un promoteur souhaitait toucher des acheteurs de la diaspora et des investisseurs qualifiés pour un nouveau programme."
+ },
+ "Un réseau d'affaires.": {
+  "ar": "شبكة أعمال.",
+  "en": "A business network.",
+  "fr": "Un réseau d'affaires."
+ },
+ "Un seul réseau.": {
+  "ar": "شبكة واحدة.",
+  "en": "One network.",
+  "fr": "Un seul réseau."
+ },
+ "Un écosystème complet.": {
+  "ar": "منظومة متكاملة.",
+  "en": "A complete ecosystem.",
+  "fr": "Un écosystème complet."
+ },
+ "Une PME industrielle voulait diversifier ses donneurs d’ordre au-delà du secteur automobile.": {
+  "ar": "أرادت مقاولة صناعية تنويع زبنائها خارج قطاع السيارات.",
+  "en": "An industrial SME wanted to diversify its clients beyond the automotive sector.",
+  "fr": "Une PME industrielle voulait diversifier ses donneurs d’ordre au-delà du secteur automobile."
+ },
+ "Une autre question ?": {
+  "ar": "سؤال آخر؟",
+  "en": "Another question?",
+  "fr": "Une autre question ?"
+ },
+ "Une coopérative voulait vendre directement à des distributeurs au Maroc et en Europe.": {
+  "ar": "أرادت تعاونية البيع مباشرة للموزعين في المغرب وأوروبا.",
+  "en": "A cooperative wanted to sell directly to distributors in Morocco and Europe.",
+  "fr": "Une coopérative voulait vendre directement à des distributeurs au Maroc et en Europe."
+ },
+ "Une erreur est survenue": {
+  "ar": "حدث خطأ",
+  "en": "Something went wrong",
+  "fr": "Une erreur est survenue"
+ },
+ "Une erreur est survenue lors de l'envoi de votre dossier. Veuillez réessayer.": {
+  "ar": "حدث خطأ أثناء إرسال ملفك. يرجى المحاولة مرة أخرى.",
+  "en": "Something went wrong while sending your file. Please try again.",
+  "fr": "Une erreur est survenue lors de l'envoi de votre dossier. Veuillez réessayer."
+ },
+ "Une erreur inattendue s'est produite": {
+  "ar": "حدث خطأ غير متوقع",
+  "en": "An unexpected error occurred",
+  "fr": "Une erreur inattendue s'est produite"
+ },
+ "Une jeune startup avait besoin de mentors expérimentés et de premiers clients pour préparer sa levée seed.": {
+  "ar": "احتاجت شركة ناشئة إلى مرشدين ذوي خبرة وأول العملاء للتحضير لجولة التمويل الأولية.",
+  "en": "A young startup needed experienced mentors and first customers to prepare its seed round.",
+  "fr": "Une jeune startup avait besoin de mentors expérimentés et de premiers clients pour préparer sa levée seed."
+ },
+ "Une photo professionnelle augmente votre visibilité de 400% — vous pouvez l'ajouter plus tard.": {
+  "ar": "الصورة المهنية تزيد ظهورك بنسبة 400٪ — يمكنك إضافتها لاحقًا.",
+  "en": "A professional photo boosts your visibility by 400% — you can add it later.",
+  "fr": "Une photo professionnelle augmente votre visibilité de 400% — vous pouvez l'ajouter plus tard."
+ },
+ "Une seule plateforme.": {
+  "ar": "منصة واحدة.",
+  "en": "One platform.",
+  "fr": "Une seule plateforme."
+ },
+ "Une visite de": {
+  "ar": "جولة في",
+  "en": "A tour in",
+  "fr": "Une visite de"
+ },
+ "Upload en cours...": {
+  "ar": "جارٍ الرفع...",
+  "en": "Uploading...",
+  "fr": "Téléversement en cours..."
+ },
+ "Upload échoué": {
+  "ar": "فشل الرفع",
+  "en": "Upload failed",
+  "fr": "Upload échoué"
+ },
+ "Upload échoué. Vérifiez que le serveur est démarré.": {
+  "ar": "فشل الرفع. تأكد من تشغيل الخادم.",
+  "en": "Upload failed. Check that the server is running.",
+  "fr": "Téléversement échoué. Vérifiez que le serveur est démarré."
+ },
+ "Uploadez le recto de votre CIN pour pré-remplir tous les champs automatiquement.": {
+  "ar": "ارفع الوجه الأمامي لبطاقتك الوطنية لملء جميع الحقول تلقائيًا.",
+  "en": "Upload the front of your ID card to fill in every field automatically.",
+  "fr": "Téléversez le recto de votre CIN pour pré-remplir tous les champs automatiquement."
+ },
+ "Utilisateur": {
+  "ar": "مستخدم",
+  "en": "User",
+  "fr": "Utilisateur"
+ },
+ "Utilisateurs": {
+  "ar": "المستخدمون",
+  "en": "Users",
+  "fr": "Utilisateurs"
+ },
+ "Valeurs (ex: Active Listening, Writing)": {
+  "ar": "القيم (مثال: الإنصات الفعّال، الكتابة)",
+  "en": "Values (e.g. Active Listening, Writing)",
+  "fr": "Valeurs (ex : Écoute active, Rédaction)"
+ },
+ "Validé": {
+  "ar": "مقبول",
+  "en": "Approved",
+  "fr": "Validé"
+ },
+ "Vendeur": {
+  "ar": "البائع",
+  "en": "Seller",
+  "fr": "Vendeur"
+ },
+ "Vendez et achetez aux enchères avec des offres en direct, un compte à rebours et un historique transparent.": {
+  "ar": "بِع واشترِ بالمزاد مع عروض مباشرة وعدّ تنازلي وسجل شفاف.",
+  "en": "Buy and sell at auction with live bids, a countdown and a transparent history.",
+  "fr": "Vendez et achetez aux enchères avec des offres en direct, un compte à rebours et un historique transparent."
+ },
+ "Vendus": {
+  "ar": "المباعة",
+  "en": "Sold",
+  "fr": "Vendus"
+ },
+ "Ventes": {
+  "ar": "المبيعات",
+  "en": "Sales",
+  "fr": "Ventes"
+ },
+ "Verso CIN": {
+  "ar": "الوجه الخلفي للبطاقة الوطنية",
+  "en": "ID card back",
+  "fr": "Verso CIN"
+ },
+ "Veuillez rafraîchir la page ou réessayer.": {
+  "ar": "يرجى تحديث الصفحة أو المحاولة مرة أخرى.",
+  "en": "Please refresh the page or try again.",
+  "fr": "Veuillez rafraîchir la page ou réessayer."
+ },
+ "Veuillez remplir le titre, la description, le prix et la catégorie.": {
+  "ar": "يرجى ملء العنوان والوصف والسعر والفئة.",
+  "en": "Please fill in the title, description, price and category.",
+  "fr": "Veuillez remplir le titre, la description, le prix et la catégorie."
+ },
+ "Veuillez remplir tous les champs et fournir tous les documents requis.": {
+  "ar": "يرجى ملء جميع الحقول وتقديم كل الوثائق المطلوبة.",
+  "en": "Please fill in every field and provide all required documents.",
+  "fr": "Veuillez remplir tous les champs et fournir tous les documents requis."
+ },
+ "Veuillez remplir tous les champs obligatoires avant de continuer.": {
+  "ar": "يرجى ملء جميع الحقول الإلزامية قبل المتابعة.",
+  "en": "Please fill in all required fields before continuing.",
+  "fr": "Veuillez remplir tous les champs obligatoires avant de continuer."
+ },
+ "Veuillez remplir tous les champs obligatoires.": {
+  "ar": "يرجى ملء جميع الحقول الإلزامية.",
+  "en": "Please fill in all required fields.",
+  "fr": "Veuillez remplir tous les champs obligatoires."
+ },
+ "Veuillez sélectionner une image valide": {
+  "ar": "يرجى اختيار صورة صالحة",
+  "en": "Please select a valid image",
+  "fr": "Veuillez sélectionner une image valide"
+ },
+ "Vide": {
+  "ar": "فارغ",
+  "en": "Empty",
+  "fr": "Vide"
+ },
+ "Videos": {
+  "ar": "الفيديوهات",
+  "en": "Videos",
+  "fr": "Vidéos"
+ },
+ "Vidéo": {
+  "ar": "فيديو",
+  "en": "Video",
+  "fr": "Vidéo"
+ },
+ "Vidéo bientôt disponible": {
+  "ar": "الفيديو متاح قريبًا",
+  "en": "Video coming soon",
+  "fr": "Vidéo bientôt disponible"
+ },
+ "Vidéos": {
+  "ar": "الفيديوهات",
+  "en": "Videos",
+  "fr": "Vidéos"
+ },
+ "Ville": {
+  "ar": "المدينة",
+  "en": "City",
+  "fr": "Ville"
+ },
+ "Ville *": {
+  "ar": "المدينة *",
+  "en": "City *",
+  "fr": "Ville *"
+ },
+ "Ville d'origine (From)": {
+  "ar": "المدينة الأصلية",
+  "en": "Hometown",
+  "fr": "Ville d'origine"
+ },
+ "Ville de résidence (Live in)": {
+  "ar": "مدينة الإقامة",
+  "en": "Current city",
+  "fr": "Ville de résidence"
+ },
+ "Visibilité du profil": {
+  "ar": "ظهور الملف الشخصي",
+  "en": "Profile visibility",
+  "fr": "Visibilité du profil"
+ },
+ "Visibilité locale": {
+  "ar": "ظهور محلي",
+  "en": "Local visibility",
+  "fr": "Visibilité locale"
+ },
+ "Visible sur votre profil public": {
+  "ar": "ظاهر في ملفك العام",
+  "en": "Shown on your public profile",
+  "fr": "Visible sur votre profil public"
+ },
+ "Visio": {
+  "ar": "فيديو",
+  "en": "Video",
+  "fr": "Visio"
+ },
+ "Visio intégrée": {
+  "ar": "مكالمة فيديو مدمجة",
+  "en": "Built-in video call",
+  "fr": "Visio intégrée"
+ },
+ "Visite guidée": {
+  "ar": "جولة مصحوبة",
+  "en": "Guided tour",
+  "fr": "Visite guidée"
+ },
+ "Voir": {
+  "ar": "عرض",
+  "en": "View",
+  "fr": "Voir"
+ },
+ "Voir l'annonce complète →": {
+  "ar": "عرض الإعلان كاملًا",
+  "en": "See full listing →",
+  "fr": "Voir l'annonce complète →"
+ },
+ "Voir l'enchère": {
+  "ar": "عرض المزاد",
+  "en": "View auction",
+  "fr": "Voir l'enchère"
+ },
+ "Voir la guilde": {
+  "ar": "عرض النقابة",
+  "en": "View guild",
+  "fr": "Voir la guilde"
+ },
+ "Voir le profil": {
+  "ar": "عرض الملف الشخصي",
+  "en": "View profile",
+  "fr": "Voir le profil"
+ },
+ "Voir les témoignages des membres": {
+  "ar": "اطّلع على شهادات الأعضاء",
+  "en": "Read member testimonials",
+  "fr": "Voir les témoignages des membres"
+ },
+ "Voir profil": {
+  "ar": "عرض الملف",
+  "en": "View profile",
+  "fr": "Voir profil"
+ },
+ "Voir toute la FAQ": {
+  "ar": "عرض كل الأسئلة الشائعة",
+  "en": "See the full FAQ",
+  "fr": "Voir toute la FAQ"
+ },
+ "Vos sessions de mentorat apparaîtront ici": {
+  "ar": "ستظهر جلسات الإرشاد الخاصة بك هنا",
+  "en": "Your mentoring sessions will appear here",
+  "fr": "Vos sessions de mentorat apparaîtront ici"
+ },
+ "Votre activité": {
+  "ar": "نشاطك",
+  "en": "Your activity",
+  "fr": "Votre activité"
+ },
+ "Votre commentaire (optionnel)...": {
+  "ar": "تعليقك (اختياري)...",
+  "en": "Your comment (optional)...",
+  "fr": "Votre commentaire (optionnel)..."
+ },
+ "Votre demande pour": {
+  "ar": "طلبك الخاص بـ",
+  "en": "Your request for",
+  "fr": "Votre demande pour"
+ },
+ "Votre dossier de création d'entreprise": {
+  "ar": "ملف تأسيس شركتك",
+  "en": "Your company formation file",
+  "fr": "Votre dossier de création d'entreprise"
+ },
+ "Votre dossier est en cours de vérification": {
+  "ar": "ملفك قيد التحقق",
+  "en": "Your file is being reviewed",
+  "fr": "Votre dossier est en cours de vérification"
+ },
+ "Votre entreprise": {
+  "ar": "شركتك",
+  "en": "Your company",
+  "fr": "Votre entreprise"
+ },
+ "Votre identité & Coordonnées": {
+  "ar": "هويتك ومعلومات الاتصال",
+  "en": "Your identity & contact details",
+  "fr": "Votre identité & coordonnées"
+ },
+ "Votre message...": {
+  "ar": "رسالتك...",
+  "en": "Your message...",
+  "fr": "Votre message..."
+ },
+ "Votre mot de passe a été modifié avec succès.": {
+  "ar": "تم تغيير كلمة المرور بنجاح.",
+  "en": "Your password has been changed.",
+  "fr": "Votre mot de passe a été modifié avec succès."
+ },
+ "Votre parcours membre": {
+  "ar": "مسارك كعضو",
+  "en": "Your member journey",
+  "fr": "Votre parcours membre"
+ },
+ "Votre prochaine opportunité": {
+  "ar": "فرصتك القادمة",
+  "en": "Your next opportunity",
+  "fr": "Votre prochaine opportunité"
+ },
+ "Votre profil est visible par tous les membres": {
+  "ar": "ملفك ظاهر لجميع الأعضاء",
+  "en": "Your profile is visible to all members",
+  "fr": "Votre profil est visible par tous les membres"
+ },
+ "Votre profil peut apparaître dans les moteurs de recherche": {
+  "ar": "يمكن أن يظهر ملفك في محركات البحث",
+  "en": "Your profile can appear in search engines",
+  "fr": "Votre profil peut apparaître dans les moteurs de recherche"
+ },
+ "Voulez-vous vraiment supprimer ce forum et tous ses sujets ?": {
+  "ar": "هل تريد فعلًا حذف هذا المنتدى وجميع مواضيعه؟",
+  "en": "Do you really want to delete this forum and all its topics?",
+  "fr": "Voulez-vous vraiment supprimer ce forum et tous ses sujets ?"
+ },
+ "Vous": {
+  "ar": "أنت",
+  "en": "You",
+  "fr": "Vous"
+ },
+ "Vous ne pouvez annuler que s'il n'y a aucune mise": {
+  "ar": "لا يمكنك الإلغاء إلا في حال عدم وجود مزايدات",
+  "en": "You can only cancel if there are no bids",
+  "fr": "Vous ne pouvez annuler que s'il n'y a aucune mise"
+ },
+ "Vous recevrez un email sous 24h.": {
+  "ar": "ستتلقى بريدًا إلكترونيًا خلال 24 ساعة.",
+  "en": "You will receive an email within 24h.",
+  "fr": "Vous recevrez un email sous 24h."
+ },
+ "Vous transmettez une pièce d’identité (CNIE) et, pour les entreprises, les documents ICE / RC. Notre équipe valide votre dossier, puis le badge « Vérifié » apparaît sur votre profil.": {
+  "ar": "ترسل وثيقة هوية (البطاقة الوطنية) وبالنسبة للشركات وثائق ICE / RC. يراجع فريقنا ملفك، ثم تظهر شارة «موثّق» على ملفك.",
+  "en": "You submit an ID document (CNIE) and, for companies, the ICE / RC documents. Our team reviews your file, then the “Verified” badge appears on your profile.",
+  "fr": "Vous transmettez une pièce d’identité (CNIE) et, pour les entreprises, les documents ICE / RC. Notre équipe valide votre dossier, puis le badge « Vérifié » apparaît sur votre profil."
+ },
+ "Vous êtes connecté sur 1 appareil": {
+  "ar": "أنت متصل على جهاز واحد",
+  "en": "You are signed in on 1 device",
+  "fr": "Vous êtes connecté sur 1 appareil"
+ },
+ "Voyez comment le réseau, la messagerie, la marketplace et les événements fonctionnent ensemble dans une interface fluide.": {
+  "ar": "شاهد كيف تعمل الشبكة والمراسلة والسوق والفعاليات معًا في واجهة سلسة.",
+  "en": "See how the network, messaging, marketplace and events work together in one smooth interface.",
+  "fr": "Voyez comment le réseau, la messagerie, la marketplace et les événements fonctionnent ensemble dans une interface fluide."
+ },
+ "Vue d'ensemble": {
+  "ar": "نظرة عامة",
+  "en": "Overview",
+  "fr": "Vue d'ensemble"
+ },
+ "Vues": {
+  "ar": "المشاهدات",
+  "en": "Views",
+  "fr": "Vues"
+ },
+ "Vues profil": {
+  "ar": "مشاهدات الملف",
+  "en": "Profile views",
+  "fr": "Vues du profil"
+ },
+ "Vérification": {
+  "ar": "التحقق",
+  "en": "Verification",
+  "fr": "Vérification"
+ },
+ "Vérification - Compte Personnel": {
+  "ar": "التحقق - حساب شخصي",
+  "en": "Verification - personal account",
+  "fr": "Vérification - compte personnel"
+ },
+ "Vérification KYB": {
+  "ar": "التحقق KYB",
+  "en": "KYB verification",
+  "fr": "Vérification KYB"
+ },
+ "Vérification Premium Inclus": {
+  "ar": "التحقق المميز مشمول",
+  "en": "Premium verification included",
+  "fr": "Vérification Premium incluse"
+ },
+ "Vérification d'identité (KYC)": {
+  "ar": "التحقق من الهوية (KYC)",
+  "en": "Identity verification (KYC)",
+  "fr": "Vérification d'identité (KYC)"
+ },
+ "Vérification de l'entreprise (KYB)": {
+  "ar": "التحقق من الشركة (KYB)",
+  "en": "Business verification (KYB)",
+  "fr": "Vérification de l'entreprise (KYB)"
+ },
+ "Vérification du profil": {
+  "ar": "التحقق من الملف",
+  "en": "Profile verification",
+  "fr": "Vérification du profil"
+ },
+ "Vérification d’identité et d’entreprise, profil professionnel complet : votre crédibilité est établie dès le premier jour.": {
+  "ar": "التحقق من الهوية والشركة وملف مهني كامل: مصداقيتك ثابتة منذ اليوم الأول.",
+  "en": "Identity and company verification and a complete professional profile: your credibility is established from day one.",
+  "fr": "Vérification d’identité et d’entreprise, profil professionnel complet : votre crédibilité est établie dès le premier jour."
+ },
+ "Vérification refusée": {
+  "ar": "تم رفض التحقق",
+  "en": "Verification declined",
+  "fr": "Vérification refusée"
+ },
+ "Vérifier": {
+  "ar": "تحقّق",
+  "en": "Verify",
+  "fr": "Vérifier"
+ },
+ "Vérifier mon identité": {
+  "ar": "التحقق من هويتي",
+  "en": "Verify my identity",
+  "fr": "Vérifier mon identité"
+ },
+ "Vérifié": {
+  "ar": "موثَّق",
+  "en": "Verified",
+  "fr": "Vérifié"
+ },
+ "Vérifié, connecté.": {
+  "ar": "موثّقة ومتّصلة.",
+  "en": "Verified, connected.",
+  "fr": "Vérifié, connecté."
+ },
+ "Zéro outil manquant.": {
+  "ar": "لا أداة ناقصة.",
+  "en": "Zero missing tools.",
+  "fr": "Zéro outil manquant."
+ },
+ "a été rejetée.": {
+  "ar": "تم رفضه.",
+  "en": "was rejected.",
+  "fr": "a été rejetée."
+ },
+ "a été validée avec succès.": {
+  "ar": "تمت المصادقة عليها بنجاح.",
+  "en": "has been approved.",
+  "fr": "a été validée avec succès."
+ },
+ "au bon moment.": {
+  "ar": "في الوقت المناسب.",
+  "en": "at the right time.",
+  "fr": "au bon moment."
+ },
+ "au même endroit.": {
+  "ar": "في مكان واحد.",
+  "en": "in one place.",
+  "fr": "au même endroit."
+ },
+ "au premier contrat.": {
+  "ar": "إلى العقد الأول.",
+  "en": "to the first contract.",
+  "fr": "au premier contrat."
+ },
+ "avec la communauté.": {
+  "ar": "مع المجتمع.",
+  "en": "with the community.",
+  "fr": "avec la communauté."
+ },
+ "clients pilotes": {
+  "ar": "عملاء تجريبيين",
+  "en": "pilot customers",
+  "fr": "clients pilotes"
+ },
+ "cliquez pour parcourir": {
+  "ar": "انقر للتصفح",
+  "en": "click to browse",
+  "fr": "cliquez pour parcourir"
+ },
+ "compte pour le réseau, la marketplace et les événements": {
+  "ar": "حساب للشبكة والسوق والفعاليات",
+  "en": "account for the network, marketplace and events",
+  "fr": "compte pour le réseau, la marketplace et les événements"
+ },
+ "contact@entreprise.com": {
+  "ar": "contact@company.com",
+  "en": "contact@company.com",
+  "fr": "contact@entreprise.com"
+ },
+ "contact@entreprise.ma": {
+  "ar": "contact@company.ma",
+  "en": "contact@company.ma",
+  "fr": "contact@entreprise.ma"
+ },
+ "contacts investisseurs qualifiés": {
+  "ar": "جهة اتصال لمستثمرين مؤهلين",
+  "en": "qualified investor contacts",
+  "fr": "contacts investisseurs qualifiés"
+ },
+ "contrats signés": {
+  "ar": "عقود موقّعة",
+  "en": "contracts signed",
+  "fr": "contrats signés"
+ },
+ "de chiffre d’affaires": {
+  "ar": "من رقم المعاملات",
+  "en": "revenue",
+  "fr": "de chiffre d’affaires"
+ },
+ "de confiance.": {
+  "ar": "من الثقة.",
+  "en": "of trust.",
+  "fr": "de confiance."
+ },
+ "de coût d’acquisition": {
+  "ar": "من تكلفة الاستقطاب",
+  "en": "acquisition cost",
+  "fr": "de coût d’acquisition"
+ },
+ "de marge par litre": {
+  "ar": "من الهامش لكل لتر",
+  "en": "margin per litre",
+  "fr": "de marge par litre"
+ },
+ "deux minutes.": {
+  "ar": "دقيقتين.",
+  "en": "two minutes.",
+  "fr": "deux minutes."
+ },
+ "distributeurs contactés": {
+  "ar": "موزعًا تم التواصل معهم",
+  "en": "distributors contacted",
+  "fr": "distributeurs contactés"
+ },
+ "du profil": {
+  "ar": "من الملف الشخصي",
+  "en": "of the profile",
+  "fr": "du profil"
+ },
+ "délai moyen de premier rendez-vous": {
+  "ar": "متوسط مدة الموعد الأول",
+  "en": "average time to first meeting",
+  "fr": "délai moyen de premier rendez-vous"
+ },
+ "en opportunités.": {
+  "ar": "إلى فرص.",
+  "en": "into opportunities.",
+  "fr": "en opportunités."
+ },
+ "en vidéo": {
+  "ar": "بالفيديو",
+  "en": "on video",
+  "fr": "en vidéo"
+ },
+ "est en cours de vérification par notre équipe.": {
+  "ar": "قيد المراجعة من طرف فريقنا.",
+  "en": "is being reviewed by our team.",
+  "fr": "est en cours de vérification par notre équipe."
+ },
+ "est peut-être déjà membre.": {
+  "ar": "قد تكون عضوًا بالفعل.",
+  "en": "may already be a member.",
+  "fr": "est peut-être déjà membre."
+ },
+ "et +{n} compétence": {
+  "ar": "و+{n} مهارة",
+  "en": "and +{n} skill",
+  "fr": "et +{n} compétence"
+ },
+ "et +{n} compétences": {
+  "ar": "و+{n} مهارات",
+  "en": "and +{n} skills",
+  "fr": "et +{n} compétences"
+ },
+ "et créez des alertes sur les annonces qui vous intéressent": {
+  "ar": "وأنشئ تنبيهات على الإعلانات التي تهمك",
+  "en": "and create alerts on listings you are interested in",
+  "fr": "et créez des alertes sur les annonces qui vous intéressent"
+ },
+ "ex: networking, workshop...": {
+  "ar": "مثال: تواصل، ورشة...",
+  "en": "e.g. networking, workshop...",
+  "fr": "ex : networking, atelier..."
+ },
+ "faire grandir vos affaires.": {
+  "ar": "لتنمية أعمالك.",
+  "en": "grow your business.",
+  "fr": "faire grandir vos affaires."
+ },
+ "font avancer leurs projets.": {
+  "ar": "مشاريعهم إلى الأمام.",
+  "en": "move their projects forward.",
+  "fr": "font avancer leurs projets."
+ },
+ "fréquentes": {
+  "ar": "الشائعة",
+  "en": "questions",
+  "fr": "fréquentes"
+ },
+ "grandissent ensemble": {
+  "ar": "ينمون معًا",
+  "en": "grow together",
+  "fr": "grandissent ensemble"
+ },
+ "la page profil": {
+  "ar": "صفحة الملف الشخصي",
+  "en": "the profile page",
+  "fr": "la page profil"
+ },
+ "langues · FR · EN · AR": {
+  "ar": "لغات · FR · EN · AR",
+  "en": "languages · FR · EN · AR",
+  "fr": "langues · FR · EN · AR"
+ },
+ "lots vendus aux enchères": {
+  "ar": "وحدات بيعت بالمزاد",
+  "en": "units sold at auction",
+  "fr": "lots vendus aux enchères"
+ },
+ "marketplace": {
+  "ar": "السوق",
+  "en": "marketplace",
+  "fr": "marketplace"
+ },
+ "mentors actifs": {
+  "ar": "مرشدين نشطين",
+  "en": "active mentors",
+  "fr": "mentors actifs"
+ },
+ "notre équipe.": {
+  "ar": "فريقنا.",
+  "en": "our team.",
+  "fr": "notre équipe."
+ },
+ "nouveaux clients en 6 mois": {
+  "ar": "عميلًا جديدًا في 6 أشهر",
+  "en": "new clients in 6 months",
+  "fr": "nouveaux clients en 6 mois"
+ },
+ "nouveaux donneurs d’ordre": {
+  "ar": "زبناء جدد",
+  "en": "new clients",
+  "fr": "nouveaux donneurs d’ordre"
+ },
+ "ou": {
+  "ar": "أو",
+  "en": "or",
+  "fr": "ou"
+ },
+ "partenariats à l’export": {
+  "ar": "شراكات للتصدير",
+  "en": "export partnerships",
+  "fr": "partenariats à l’export"
+ },
+ "pour boucler le tour": {
+  "ar": "لإغلاق الجولة",
+  "en": "to close the round",
+  "fr": "pour boucler le tour"
+ },
+ "pour commencer la comparaison": {
+  "ar": "لبدء المقارنة",
+  "en": "to start comparing",
+  "fr": "pour commencer la comparaison"
+ },
+ "pour personnaliser votre fil d'actualité": {
+  "ar": "لتخصيص آخر منشوراتك",
+  "en": "to personalize your news feed",
+  "fr": "pour personnaliser votre fil d'actualité"
+ },
+ "pour tout votre business": {
+  "ar": "لكل أعمالك",
+  "en": "for your whole business",
+  "fr": "pour tout votre business"
+ },
+ "preview": {
+  "ar": "معاينة",
+  "en": "preview",
+  "fr": "aperçu"
+ },
+ "satisfaction des mises en relation": {
+  "ar": "الرضا عن العلاقات",
+  "en": "introduction satisfaction",
+  "fr": "satisfaction des mises en relation"
+ },
+ "secteur": {
+  "ar": "القطاع",
+  "en": "industry",
+  "fr": "secteur"
+ },
+ "seul compte": {
+  "ar": "حساب واحد",
+  "en": "single account",
+  "fr": "seul compte"
+ },
+ "voir moins": {
+  "ar": "عرض أقل",
+  "en": "see less",
+  "fr": "voir moins"
+ },
+ "vous@exemple.com": {
+  "ar": "you@example.com",
+  "en": "you@example.com",
+  "fr": "vous@exemple.com"
+ },
+ "www.entreprise.com": {
+  "ar": "www.company.com",
+  "en": "www.company.com",
+  "fr": "www.entreprise.com"
+ },
+ "{doc} manquant": {
+  "ar": "{doc} مفقود",
+  "en": "{doc} missing",
+  "fr": "{doc} manquant"
+ },
+ "{n} J'aime": {
+  "ar": "{n} إعجاب",
+  "en": "{n} likes",
+  "fr": "{n} J'aime"
+ },
+ "{n} an": {
+  "ar": "{n} سنة",
+  "en": "{n} yr",
+  "fr": "{n} an"
+ },
+ "{n} ans": {
+  "ar": "{n} سنوات",
+  "en": "{n} yrs",
+  "fr": "{n} ans"
+ },
+ "{n} commentaires": {
+  "ar": "{n} تعليقات",
+  "en": "{n} comments",
+  "fr": "{n} commentaires"
+ },
+ "{n} connexion": {
+  "ar": "{n} علاقة",
+  "en": "{n} connection",
+  "fr": "{n} connexion"
+ },
+ "{n} connexions": {
+  "ar": "{n} علاقات",
+  "en": "{n} connections",
+  "fr": "{n} connexions"
+ },
+ "{n} mois": {
+  "ar": "{n} أشهر",
+  "en": "{n} mos",
+  "fr": "{n} mois"
+ },
+ "{n} réponses": {
+  "ar": "{n} ردًّا",
+  "en": "{n} replies",
+  "fr": "{n} réponses"
+ },
+ "© 2026 The Communium": {
+  "ar": "© 2026 The Communium",
+  "en": "© 2026 The Communium",
+  "fr": "© 2026 The Communium"
+ },
+ "À l'instant": {
+  "ar": "الآن",
+  "en": "Just now",
+  "fr": "À l'instant"
+ },
+ "ÉLEVÉ": {
+  "ar": "مرتفع",
+  "en": "HIGH",
+  "fr": "ÉLEVÉ"
+ },
+ "Échanger": {
+  "ar": "تبادل",
+  "en": "Trade",
+  "fr": "Échanger"
+ },
+ "Échanges": {
+  "ar": "التواصل",
+  "en": "Conversations",
+  "fr": "Échanges"
+ },
+ "Échangez avec": {
+  "ar": "تحدّث مع",
+  "en": "Talk with",
+  "fr": "Échangez avec"
+ },
+ "Échec de l'envoi des documents KYB": {
+  "ar": "فشل إرسال وثائق KYB",
+  "en": "Failed to send KYB documents",
+  "fr": "Échec de l'envoi des documents KYB"
+ },
+ "Échos": {
+  "ar": "الأصداء",
+  "en": "Echoes",
+  "fr": "Échos"
+ },
+ "École ou Établissement": {
+  "ar": "المدرسة أو المؤسسة",
+  "en": "School or institution",
+  "fr": "École ou établissement"
+ },
+ "Éducation & Certificats": {
+  "ar": "التعليم والشهادات",
+  "en": "Education & certificates",
+  "fr": "Formation & certificats"
+ },
+ "Éducation & Formation": {
+  "ar": "التعليم والتكوين",
+  "en": "Education & training",
+  "fr": "Éducation & formation"
+ },
+ "Élevé": {
+  "ar": "مرتفع",
+  "en": "High",
+  "fr": "Élevé"
+ },
+ "Épinglé": {
+  "ar": "مثبّت",
+  "en": "Pinned",
+  "fr": "Épinglé"
+ },
+ "Équipement (ex: Vehicles, Work Stations)": {
+  "ar": "المعدات (مثال: مركبات، محطات عمل)",
+  "en": "Equipment (e.g. Vehicles, Work stations)",
+  "fr": "Équipement (ex : Véhicules, Postes de travail)"
+ },
+ "Équipements & Matériel": {
+  "ar": "المعدات والأدوات",
+  "en": "Equipment",
+  "fr": "Équipements & matériel"
+ },
+ "Étape 3/4": {
+  "ar": "الخطوة 3/4",
+  "en": "Step 3/4",
+  "fr": "Étape 3/4"
+ },
+ "Étapes": {
+  "ar": "الخطوات",
+  "en": "Steps",
+  "fr": "Étapes"
+ },
+ "État": {
+  "ar": "الحالة",
+  "en": "Condition",
+  "fr": "État"
+ },
+ "Événement": {
+  "ar": "فعالية",
+  "en": "Event",
+  "fr": "Événement"
+ },
+ "Événements": {
+  "ar": "الفعاليات",
+  "en": "Events",
+  "fr": "Événements"
+ },
+ "Événements & visio": {
+  "ar": "الفعاليات ومكالمات الفيديو",
+  "en": "Events & video calls",
+  "fr": "Événements & visio"
+ },
+ "Événements planifiés": {
+  "ar": "الفعاليات المخططة",
+  "en": "Planned events",
+  "fr": "Événements planifiés"
+ },
+ "à votre mesure.": {
+  "ar": "على مقاسك.",
+  "en": "tailored to you.",
+  "fr": "à votre mesure."
+ },
+ "…plus": {
+  "ar": "…المزيد",
+  "en": "…more",
+  "fr": "…plus"
+ },
+ "…voir plus": {
+  "ar": "…عرض المزيد",
+  "en": "…see more",
+  "fr": "…voir plus"
+ },
+ "★ Featured": {
+  "ar": "★ مميز",
+  "en": "★ Featured",
+  "fr": "★ À la une"
+ },
+ "⚠ Erreur lors de la publication. Vérifiez que vous êtes connecté.": {
+  "ar": "⚠ خطأ أثناء النشر. تأكد من أنك مسجل الدخول.",
+  "en": "⚠ Error while posting. Check that you are signed in.",
+  "fr": "⚠ Erreur lors de la publication. Vérifiez que vous êtes connecté."
+ },
+ "⚠ Une erreur est survenue. Vérifiez que vous êtes connecté et réessayez.": {
+  "ar": "⚠ حدث خطأ. تأكد من تسجيل الدخول وحاول مرة أخرى.",
+  "en": "⚠ Something went wrong. Check that you are signed in and try again.",
+  "fr": "⚠ Une erreur est survenue. Vérifiez que vous êtes connecté et réessayez."
+ },
+ "⚠️ Les mises sont définitives et ne peuvent pas être annulées": {
+  "ar": "⚠️ المزايدات نهائية ولا يمكن إلغاؤها",
+  "en": "⚠️ Bids are final and cannot be cancelled",
+  "fr": "⚠️ Les mises sont définitives et ne peuvent pas être annulées"
+ },
+ "⚠️ Non atteint": {
+  "ar": "⚠️ لم يتم بلوغه",
+  "en": "⚠️ Not reached",
+  "fr": "⚠️ Non atteint"
+ },
+ "⚡ Boosté": {
+  "ar": "⚡ مُروَّج",
+  "en": "⚡ Boosted",
+  "fr": "⚡ Boosté"
+ },
+ "✅ Atteint": {
+  "ar": "✅ تم بلوغه",
+  "en": "✅ Reached",
+  "fr": "✅ Atteint"
+ },
+ "✓ Sélectionné": {
+  "ar": "✓ تم الاختيار",
+  "en": "✓ Selected",
+  "fr": "✓ Sélectionné"
+ },
+ "✓ Vérifié": {
+  "ar": "✓ موثَّق",
+  "en": "✓ Verified",
+  "fr": "✓ Vérifié"
+ },
+ "✦ Plateforme B2B · B2C · Maroc": {
+  "ar": "✦ منصة B2B · B2C · المغرب",
+  "en": "✦ B2B · B2C platform · Morocco",
+  "fr": "✦ Plateforme B2B · B2C · Maroc"
+ },
+ "❌ Annulée": {
+  "ar": "❌ ملغى",
+  "en": "❌ Cancelled",
+  "fr": "❌ Annulée"
+ },
+ "🏁 Terminée": {
+  "ar": "🏁 منتهٍ",
+  "en": "🏁 Ended",
+  "fr": "🏁 Terminée"
+ },
+ "📅 Programmée": {
+  "ar": "📅 مبرمج",
+  "en": "📅 Scheduled",
+  "fr": "📅 Programmée"
+ },
+ "📌 Épinglé": {
+  "ar": "📌 مثبّت",
+  "en": "📌 Pinned",
+  "fr": "📌 Épinglé"
+ },
+ "🔨 Enchère": {
+  "ar": "🔨 مزاد",
+  "en": "🔨 Auction",
+  "fr": "🔨 Enchère"
+ },
+ "🔨 Enchère en cours": {
+  "ar": "🔨 مزاد جارٍ",
+  "en": "🔨 Auction in progress",
+  "fr": "🔨 Enchère en cours"
+ },
+ "🟢 En cours": {
+  "ar": "🟢 جارٍ",
+  "en": "🟢 Live",
+  "fr": "🟢 En cours"
+ }
+}

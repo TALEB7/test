@@ -1,0 +1,478 @@
+'use client';
+
+import { useState, useRef } from 'react';
+import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+import { useAuth, useUser } from '@/lib/auth-client';
+import { api } from '@/lib/api';
+import { getMediaUrl } from '@/lib/media-url';
+import Link from 'next/link';
+import { OnboardingBanner } from '@/components/layout/onboarding-banner';
+import {
+  Image, FileText, Calendar, Users, Briefcase,
+  ThumbsUp, MessageCircle, Share2, Eye,
+  TrendingUp, UserPlus, ChevronRight,
+  Award, ShoppingBag, GraduationCap,
+  X, Upload, Loader2, Check, Globe, Music, Film,
+} from 'lucide-react';
+import { useT } from '@/lib/i18n';
+
+// ─── Media type detection ──────────────────────────────────────────────────
+function detectMediaType(mimeType: string): 'photo' | 'video' | 'music' | 'document' {
+  if (mimeType.startsWith('image/')) return 'photo';
+  if (mimeType.startsWith('video/')) return 'video';
+  if (mimeType.startsWith('audio/')) return 'music';
+  return 'document';
+}
+
+type PostMode = 'photo' | 'video' | 'music' | 'article';
+
+interface ModeConfig {
+  label: string;
+  accept: string;
+  icon: any;
+  color: string;
+  folder: string;
+}
+
+const MODE_CONFIG: Record<PostMode, ModeConfig> = {
+  photo:   { label: 'Photo',   accept: 'image/*',                         icon: Image,    color: 'text-green-500',  folder: 'photos' },
+  video:   { label: 'Vidéo',   accept: 'video/*',                         icon: Film,     color: 'text-blue-500',   folder: 'videos' },
+  music:   { label: 'Musique', accept: 'audio/*',                         icon: Music,    color: 'text-purple-500', folder: 'music' },
+  article: { label: 'Article', accept: '.pdf,.doc,.docx,image/*,video/*', icon: FileText, color: 'text-orange-500', folder: 'documents' },
+};
+
+// ─── Create Post Modal ─────────────────────────────────────────────────────
+function CreatePostModal({
+  mode, avatarUrl, name, userId, onClose,
+}: {
+  mode: PostMode;
+  avatarUrl?: string | null;
+  name: string;
+  userId: string;
+  onClose: () => void;
+}) {
+  const { tr } = useT();
+  const qc = useQueryClient();
+  const fileRef = useRef<HTMLInputElement>(null);
+  const [text, setText] = useState('');
+  const [title, setTitle] = useState('');
+  const [previewUrl, setPreviewUrl] = useState<string | null>(null);
+  const [uploadedUrl, setUploadedUrl] = useState<string | null>(null);
+  const [uploadedMime, setUploadedMime] = useState<string | null>(null);
+  const [uploadedName, setUploadedName] = useState<string | null>(null);
+  const [uploading, setUploading] = useState(false);
+
+  const cfg = MODE_CONFIG[mode];
+
+  const { data: forums } = useQuery({
+    queryKey: ['forums-list'],
+    queryFn: () => api.get('/forums').then((r) => r.data as { id: string; slug: string }[]),
+    staleTime: 5 * 60 * 1000,
+  });
+  const generalForumId = forums?.find((f) => f.slug === 'general')?.id ?? forums?.[0]?.id;
+
+  const submit = useMutation({
+    mutationFn: () => api.post('/forums/posts', {
+      forumId: generalForumId,
+      authorId: userId,
+      title: mode === 'article' ? title || tr("Article sans titre") : text.slice(0, 60) || `${cfg.label} partagé(e)`,
+      content: text,
+      tags: [mode],
+      ...(uploadedUrl ? {
+        imageUrl: uploadedUrl,
+        fileType: uploadedMime || undefined,
+        fileName: uploadedName || undefined,
+      } : {}),
+    }),
+    onSuccess: () => {
+      qc.invalidateQueries({ queryKey: ['home-feed'] });
+      qc.invalidateQueries({ queryKey: ['profile-media'] });
+      onClose();
+    },
+    onError: (err: any) => {
+      console.error('Post creation failed:', err?.response?.data || err);
+    },
+  });
+
+  const handleFile = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    setUploadedName(file.name);
+    setUploadedMime(file.type);
+
+    if (file.type.startsWith('image/')) setPreviewUrl(URL.createObjectURL(file));
+    else if (file.type.startsWith('video/')) setPreviewUrl(URL.createObjectURL(file));
+
+    setUploading(true);
+    const formData = new FormData();
+    formData.append('files', file);
+    try {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000/api';
+      const res = await fetch(`${apiUrl}/uploads/${cfg.folder}`, { method: 'POST', body: formData });
+      const data = await res.json();
+      setUploadedUrl(data.urls?.[0] ?? data.url);
+    } catch { /* ignore */ }
+    setUploading(false);
+  };
+
+  const mediaType = uploadedMime ? detectMediaType(uploadedMime) : null;
+
+  return (
+    <div className="fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4">
+      <div className="bg-card w-full max-w-lg rounded-2xl shadow-2xl border border-border overflow-hidden">
+
+        {/* Header */}
+        <div className="flex items-center justify-between px-5 py-4 border-b border-border">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-full bg-accent overflow-hidden flex items-center justify-center">
+              {avatarUrl
+                ? <img src={avatarUrl} alt={name} className="w-full h-full object-cover" />
+                : <span className="font-bold text-primary">{name[0]}</span>}
+            </div>
+            <div>
+              <p className="text-sm font-bold text-foreground">{name}</p>
+              <div className="flex items-center gap-1 text-xs text-muted-foreground">
+                <Globe className="h-3 w-3" /> {tr("Public")}
+              </div>
+            </div>
+          </div>
+          <button onClick={onClose} className="p-1.5 rounded-lg hover:bg-accent transition">
+            <X className="h-5 w-5 text-muted-foreground" />
+          </button>
+        </div>
+
+        {/* Body */}
+        <div className="p-5 space-y-3">
+          {mode === 'article' && (
+            <input
+              value={title}
+              onChange={(e) => setTitle(e.target.value)}
+              placeholder={tr("Titre de l'article…")}
+              className="w-full text-base font-semibold bg-transparent border-b border-border pb-2 focus:outline-none focus:border-primary text-foreground placeholder:text-muted-foreground"
+            />
+          )}
+
+          <textarea
+            value={text}
+            onChange={(e) => setText(e.target.value)}
+            placeholder={
+              mode === 'photo' ? tr("Décrivez votre photo…") :
+              mode === 'video' ? tr("Décrivez votre vidéo…") :
+              mode === 'music' ? tr("Partagez votre musique…") :
+              tr("Rédigez votre article…")
+            }
+            rows={mode === 'article' ? 6 : 3}
+            className="w-full bg-transparent text-sm text-foreground placeholder:text-muted-foreground resize-none focus:outline-none"
+          />
+
+          {/* Image preview */}
+          {uploadedMime?.startsWith('image/') && previewUrl && (
+            <div className="relative rounded-xl overflow-hidden border border-border">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={previewUrl} alt={tr("preview")} className="w-full max-h-64 object-cover" />
+              <button onClick={() => { setPreviewUrl(null); setUploadedUrl(null); setUploadedMime(null); }}
+                className="absolute top-2 right-2 w-7 h-7 bg-black/60 rounded-full flex items-center justify-center">
+                <X className="h-4 w-4 text-white" />
+              </button>
+            </div>
+          )}
+
+          {/* Video preview */}
+          {uploadedMime?.startsWith('video/') && previewUrl && (
+            <div className="relative rounded-xl overflow-hidden border border-border">
+              <video src={previewUrl} controls className="w-full max-h-64" />
+              <button onClick={() => { setPreviewUrl(null); setUploadedUrl(null); setUploadedMime(null); }}
+                className="absolute top-2 right-2 w-7 h-7 bg-black/60 rounded-full flex items-center justify-center">
+                <X className="h-4 w-4 text-white" />
+              </button>
+            </div>
+          )}
+
+          {/* Audio indicator */}
+          {uploadedMime?.startsWith('audio/') && uploadedName && (
+            <div className="flex items-center gap-2 px-3 py-2 bg-purple-500/10 border border-purple-500/20 rounded-lg text-xs text-purple-400">
+              <Music className="h-4 w-4 shrink-0" />
+              <span className="truncate font-semibold">{uploadedName}</span>
+              {!uploading && uploadedUrl && <Check className="h-3 w-3 ml-auto" />}
+            </div>
+          )}
+
+          {/* Document/PDF indicator */}
+          {mediaType === 'document' && uploadedName && (
+            <div className="flex items-center gap-2 px-3 py-2 bg-muted rounded-lg text-xs text-foreground">
+              <FileText className="h-4 w-4 text-primary shrink-0" />
+              <span className="truncate">{uploadedName}</span>
+              {uploading && <Loader2 className="h-3 w-3 animate-spin ml-auto" />}
+              {!uploading && uploadedUrl && <Check className="h-3 w-3 text-green-500 ml-auto" />}
+            </div>
+          )}
+
+          {/* Archive hint */}
+          {uploadedUrl && mediaType && (
+            <p className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground">
+              → Sera archivé dans votre onglet{' '}
+              <span className="text-primary">
+                {mediaType === 'photo' ? 'Photos' : mediaType === 'video' ? tr("Vidéos") : mediaType === 'music' ? 'Musique' : 'Documents'}
+              </span>{' '}
+              {tr("du profil")}
+            </p>
+          )}
+
+          {submit.isError && (
+            <p className="text-xs text-red-500 bg-red-50 border border-red-200 rounded-lg px-3 py-2">
+              {tr("⚠ Erreur lors de la publication. Vérifiez que vous êtes connecté.")}
+            </p>
+          )}
+        </div>
+
+        {/* Footer */}
+        <div className="px-5 pb-5 flex items-center justify-between gap-3">
+          <button
+            onClick={() => fileRef.current?.click()}
+            disabled={uploading}
+            className="flex items-center gap-2 px-3 py-2 rounded-xl border border-border text-xs font-semibold text-muted-foreground hover:bg-accent hover:text-foreground transition disabled:opacity-50"
+          >
+            <cfg.icon className={`h-4 w-4 ${cfg.color}`} />
+            {uploadedUrl ? tr("Changer le fichier") : `Joindre ${cfg.label.toLowerCase()}`}
+          </button>
+          <input ref={fileRef} type="file" accept={cfg.accept} className="hidden" onChange={handleFile} />
+
+          <button
+            onClick={() => submit.mutate()}
+            disabled={submit.isPending || uploading || (!text.trim() && !uploadedUrl)}
+            className="flex items-center gap-2 px-5 py-2 bg-primary text-white text-sm font-bold rounded-xl hover:brightness-110 disabled:opacity-50 transition"
+          >
+            {submit.isPending ? <Loader2 className="h-4 w-4 animate-spin" /> : null}
+            Publier
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ─── Post composer bar ──────────────────────────────────────────────────────
+function PostComposer({ avatarUrl, name, userId }: { avatarUrl?: string | null; name: string; userId: string }) {
+  const { tr } = useT();
+  const [modal, setModal] = useState<PostMode | null>(null);
+
+  return (
+    <>
+      <div className="bg-card border border-border rounded-xl p-4">
+        <div className="flex items-center gap-3 mb-3">
+          <div className="w-10 h-10 rounded-full bg-accent border border-border overflow-hidden flex items-center justify-center shrink-0">
+            {avatarUrl
+              ? <img src={avatarUrl} alt={name} className="w-full h-full object-cover" />
+              : <span className="text-sm font-bold text-primary">{name[0]}</span>}
+          </div>
+          <button onClick={() => setModal('article')}
+            className="flex-1 px-4 py-2.5 rounded-full border border-border text-sm text-muted-foreground hover:bg-accent hover:border-foreground/30 transition text-left">
+            {tr("Partagez une publication…")}
+          </button>
+        </div>
+
+        <div className="flex gap-1">
+          {[
+            { icon: Image,    label: 'Photo',     color: 'text-green-500',  action: () => setModal('photo') },
+            { icon: Film,     label: tr("Vidéo"),     color: 'text-blue-500',   action: () => setModal('video') },
+            { icon: Music,    label: 'Musique',   color: 'text-purple-500', action: () => setModal('music') },
+            { icon: FileText, label: 'Article',   color: 'text-orange-500', action: () => setModal('article') },
+            { icon: Calendar, label: tr("Événement"), color: 'text-red-500',    action: () => { window.location.href = '/events'; } },
+            { icon: Users,    label: 'Groupe',    color: 'text-sky-500',    action: () => { window.location.href = '/groups'; } },
+          ].map(({ icon: Icon, label, color, action }) => (
+            <button key={label} onClick={action}
+              className="flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg text-xs font-semibold text-muted-foreground hover:bg-accent hover:text-foreground transition">
+              <Icon className={`h-4 w-4 ${color}`} />
+              <span className="hidden sm:inline">{tr(label)}</span>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {modal && (
+        <CreatePostModal mode={modal} avatarUrl={avatarUrl} name={name} userId={userId} onClose={() => setModal(null)} />
+      )}
+    </>
+  );
+}
+
+// ─── Feed item ─────────────────────────────────────────────────────────────
+function FeedItem({ item }: { item: any }) {
+  const { tr } = useT();
+  const icons: Record<string, string> = {
+    POST: '💬', LISTING: '🛍️', GROUP_JOIN: '👥',
+    EVENT: '📅', CONNECTION: '🤝', ACHIEVEMENT: '🏆',
+    AUCTION: '🔨', MENTORSHIP: '🎓',
+  };
+  const avatarUrl = getMediaUrl(item.user?.avatarUrl);
+  const name = `${item.user?.firstName || ''} ${item.user?.lastName || ''}`.trim() || 'Membre';
+
+  return (
+    <div className="bg-card border border-border rounded-xl p-4">
+      <div className="flex items-start gap-3 mb-3">
+        <div className="w-10 h-10 rounded-full bg-accent border border-border overflow-hidden flex items-center justify-center shrink-0">
+          {avatarUrl
+            ? <img src={avatarUrl} alt={name} className="w-full h-full object-cover" />
+            : <span className="text-sm font-bold text-primary">{name[0]}</span>}
+        </div>
+        <div className="flex-1 min-w-0">
+          <p className="text-sm font-semibold text-foreground">{name}</p>
+          <p className="text-xs text-muted-foreground">{formatTime(item.createdAt)}</p>
+        </div>
+        <span className="text-lg">{icons[item.action] || '📌'}</span>
+      </div>
+
+      <p className="text-sm text-foreground/80 leading-relaxed">
+        {item.body || item.title || item.description || tr("Nouvelle activité")}
+      </p>
+
+      {item.metadata?.imageUrl && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={getMediaUrl(item.metadata.imageUrl) || item.metadata.imageUrl}
+          alt=""
+          className="mt-3 w-full rounded-lg object-cover max-h-72"
+          onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+        />
+      )}
+
+      <div className="flex items-center gap-1 mt-3 pt-3 border-t border-border">
+        {[
+          { icon: ThumbsUp, label: "J'aime" },
+          { icon: MessageCircle, label: 'Commenter' },
+          { icon: Share2, label: 'Partager' },
+        ].map(({ icon: Icon, label }) => (
+          <button key={label}
+            className="flex-1 flex items-center justify-center gap-1.5 py-1.5 rounded-lg text-xs font-semibold text-muted-foreground hover:bg-accent hover:text-foreground transition">
+            <Icon className="h-4 w-4" />
+            <span className="hidden sm:inline">{tr(label)}</span>
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ─── Right panel ───────────────────────────────────────────────────────────
+function RightPanel({ stats }: { stats: any }) {
+  const { tr } = useT();
+  return (
+    <div className="space-y-3">
+      <div className="bg-card border border-border rounded-xl p-4">
+        <h3 className="text-sm font-bold text-foreground mb-3">{tr("Votre activité")}</h3>
+        <div className="space-y-2">
+          {[
+            { icon: Eye,           label: 'Vues profil',       value: stats?.profileViews ?? 0 },
+            { icon: TrendingUp,    label: 'Annonces actives',  value: stats?.listings ?? 0 },
+            { icon: GraduationCap, label: 'Sessions mentorat', value: stats?.mentorshipSessions ?? 0 },
+          ].map(({ icon: Icon, label, value }) => (
+            <div key={label} className="flex items-center justify-between">
+              <div className="flex items-center gap-2 text-xs text-muted-foreground">
+                <Icon className="h-4 w-4 text-primary" />{tr(label)}
+              </div>
+              <span className="text-xs font-bold text-primary">{value}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="bg-card border border-border rounded-xl p-4">
+        <h3 className="text-sm font-bold text-foreground mb-3">{tr("Explorer")}</h3>
+        <div className="space-y-1">
+          {[
+            { label: tr("Trouver un mentor"),    href: '/mentorship',       icon: GraduationCap },
+            { label: tr("Parcourir le marché"),  href: '/marketplace',      icon: ShoppingBag },
+            { label: tr("Rejoindre un groupe"),  href: '/groups',           icon: Users },
+            { label: tr("Créer une entreprise"), href: '/company-creation', icon: Briefcase },
+            { label: tr("Connecter des membres"),href: '/connections',      icon: UserPlus },
+          ].map(({ label, href, icon: Icon }) => (
+            <Link key={href} href={href}
+              className="flex items-center justify-between py-2 text-xs text-muted-foreground hover:text-foreground group transition">
+              <div className="flex items-center gap-2"><Icon className="h-4 w-4 text-primary" />{tr(label)}</div>
+              <ChevronRight className="h-3 w-3 opacity-0 group-hover:opacity-100 transition" />
+            </Link>
+          ))}
+        </div>
+      </div>
+
+
+      <p className="text-[10px] text-muted-foreground text-center px-2">
+        © 2026 The Communium ·{' '}
+        <Link href="/faq" className="hover:underline">{tr("Aide")}</Link> ·{' '}
+        <Link href="/contact" className="hover:underline">{tr("Contact")}</Link>
+      </p>
+    </div>
+  );
+}
+
+// ─── Helpers ───────────────────────────────────────────────────────────────
+function formatTime(date: string) {
+  if (!date) return '';
+  const diff = Date.now() - new Date(date).getTime();
+  const m = Math.floor(diff / 60000);
+  if (m < 1) return "À l'instant";
+  if (m < 60) return `Il y a ${m} min`;
+  const h = Math.floor(m / 60);
+  if (h < 24) return `Il y a ${h}h`;
+  return `Il y a ${Math.floor(h / 24)}j`;
+}
+
+// ─── Page ─────────────────────────────────────────────────────────────────
+export default function FeedPage() {
+  const { tr } = useT();
+  const { userId } = useAuth();
+  const { user } = useUser();
+
+  const { data: dashboard } = useQuery({
+    queryKey: ['dashboard', userId],
+    queryFn: () => api.get(`/analytics/dashboard/${userId}`).then((r) => r.data),
+    enabled: !!userId,
+  });
+
+  const { data: profile } = useQuery({
+    queryKey: ['my-profile', userId],
+    queryFn: () => api.get('/profiles/me').then((r) => r.data),
+    enabled: !!userId,
+    staleTime: 60000,
+  });
+
+  const { data: feed = [] } = useQuery({
+    queryKey: ['home-feed', userId],
+    queryFn: () => api.get('/activity-feed/global?limit=20').then((r) => r.data?.data || r.data || []),
+    enabled: !!userId,
+    staleTime: 30000,
+  });
+
+  const stats = { ...dashboard?.stats, profileViews: dashboard?.user?.profileViews };
+  const avatarUrl = getMediaUrl(profile?.avatarUrl);
+  const name = `${profile?.firstName || user?.firstName || ''} ${profile?.lastName || user?.lastName || ''}`.trim() || 'Membre';
+
+  return (
+    <div className="max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-4">
+        <div className="space-y-3 min-w-0">
+          <OnboardingBanner />
+          <PostComposer avatarUrl={avatarUrl} name={name} userId={userId || ''} />
+
+          {feed.length === 0 ? (
+            <div className="bg-card border border-border rounded-xl p-10 text-center">
+              <p className="text-muted-foreground text-sm">{tr("Aucune activité pour le moment.")}</p>
+              <p className="text-xs text-muted-foreground mt-1">{tr("Connectez-vous avec des membres pour voir leur actualité.")}</p>
+              <Link href="/connections" className="mt-4 inline-block text-xs font-semibold text-primary hover:underline">
+                {tr("Trouver des connexions →")}
+              </Link>
+            </div>
+          ) : (
+            feed.map((item: any) => <FeedItem key={item.id} item={item} />)
+          )}
+        </div>
+
+        <div className="hidden lg:block">
+          <div className="sticky top-20">
+            <RightPanel stats={stats} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
