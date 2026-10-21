@@ -63,11 +63,11 @@ export default function SearchPage() {
         .get('/search/listings', {
           params: {
             q: query || undefined,
-            category: category || undefined,
+            categoryId: category || undefined,
             city: city || undefined,
             minPrice: minPrice || undefined,
             maxPrice: maxPrice || undefined,
-            sort,
+            sortBy: sort,
           },
         })
         .then((r) => r.data),
@@ -104,8 +104,10 @@ export default function SearchPage() {
     onSuccess: () => queryClient.invalidateQueries({ queryKey: ['saved-searches'] }),
   });
 
-  const listings = listingResults?.data || [];
-  const users = globalResults?.users || [];
+  // Shapes returned by the backend: /search/listings → { listings, total, ... },
+  // /search → { users: { items, total }, ... }
+  const listings = listingResults?.listings || [];
+  const users = globalResults?.users?.items || [];
 
   return (
     <div className="max-w-6xl mx-auto space-y-6">
