@@ -218,15 +218,22 @@ export default function EditListingPage() {
                 required
               >
                 <option value="">{tr("Sélectionner une catégorie")}</option>
-                {categories?.map((cat: any) => (
-                  <optgroup key={cat.id} label={`${cat.icon || ''} ${cat.name}`}>
-                    {cat.children?.map((child: any) => (
-                      <option key={child.id} value={child.id}>
-                        {child.icon || ''} {child.name}
-                      </option>
-                    ))}
-                  </optgroup>
-                ))}
+                {categories?.map((cat: any) =>
+                  cat.children?.length ? (
+                    <optgroup key={cat.id} label={`${cat.icon || ''} ${cat.name}`}>
+                      {cat.children.map((child: any) => (
+                        <option key={child.id} value={child.id}>
+                          {child.icon || ''} {child.name}
+                        </option>
+                      ))}
+                    </optgroup>
+                  ) : (
+                    // A category without sub-categories is selectable itself
+                    <option key={cat.id} value={cat.id}>
+                      {cat.icon || ''} {cat.name}
+                    </option>
+                  ),
+                )}
               </select>
             </div>
           </CardContent>
