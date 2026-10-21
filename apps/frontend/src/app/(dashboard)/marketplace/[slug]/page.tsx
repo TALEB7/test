@@ -134,7 +134,7 @@ export default function ListingDetailPage() {
           sentiment={sentiment}
           sentimentLoading={sentimentLoading}
           reviewCount={reviewList.length}
-          listingCity={listing.city}
+          listingCity={listing.city ?? undefined}
           buyerCity={profile?.city}
         />
         <ListingSidebar

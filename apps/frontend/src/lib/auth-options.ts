@@ -100,11 +100,11 @@ export const authOptions: NextAuthOptions = {
               where: { id: token.id as string },
             });
             if (dbUser) {
-              token.firstName = dbUser.firstName;
-              token.lastName = dbUser.lastName;
+              token.firstName = dbUser.firstName ?? undefined;
+              token.lastName = dbUser.lastName ?? undefined;
               token.accountType = dbUser.accountType;
-              token.phone = dbUser.phone;
-              token.avatarUrl = dbUser.avatarUrl;
+              token.phone = dbUser.phone ?? undefined;
+              token.avatarUrl = dbUser.avatarUrl ?? undefined;
               token.role = dbUser.role;
             }
             const kyc = await prisma.kyc.findUnique({

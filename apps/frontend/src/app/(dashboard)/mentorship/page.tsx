@@ -149,7 +149,7 @@ export default function MentorshipPage() {
                     {/* Expertise tags */}
                     {mentor.expertise.length > 0 && (
                       <div className="flex flex-wrap gap-1">
-                        {mentor.expertise.slice(0, 3).map((e) => (
+                        {mentor.expertise.slice(0, 3).map((e: string) => (
                           <Badge key={e} variant="secondary" className="text-xs">{e}</Badge>
                         ))}
                       </div>
