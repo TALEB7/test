@@ -17,7 +17,12 @@ export const authOptions: NextAuthOptions = {
         if (!credentials?.email || !credentials?.password) return null;
 
         try {
-          const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000/api'}/auth/login`, {
+          // Runs server-side: on Vercel, BACKEND_URL is injected by the service binding
+          // (NEXT_PUBLIC_API_URL is the relative "/api" there, which fetch can't resolve).
+          const loginUrl = process.env.BACKEND_URL
+            ? new URL('api/auth/login', process.env.BACKEND_URL.replace(/\/?$/, '/')).toString()
+            : `${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000/api'}/auth/login`;
+          const res = await fetch(loginUrl, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({

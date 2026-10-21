@@ -22,11 +22,15 @@ const nextConfig = {
     ],
   },
   async rewrites() {
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000/api';
+    // On Vercel, NEXT_PUBLIC_API_URL is the relative "/api" and the top-level
+    // vercel.json rewrites route it to the backend service; proxying here would loop.
+    if (!/^https?:\/\//.test(apiUrl)) return { fallback: [] };
     return {
       fallback: [
         {
           source: '/api/:path*',
-          destination: `${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000/api'}/:path*`,
+          destination: `${apiUrl}/:path*`,
         },
       ],
     };

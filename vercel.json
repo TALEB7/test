@@ -1,0 +1,39 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "frontend": {
+      "root": "apps/frontend",
+      "framework": "nextjs",
+      "buildCommand": "pnpm --filter @communium/database generate && pnpm build",
+      "bindings": [
+        { "type": "service", "service": "backend", "format": "url", "env": "BACKEND_URL" }
+      ]
+    },
+    "backend": {
+      "root": "apps/backend",
+      "framework": "nestjs",
+      "buildCommand": "pnpm --filter @communium/database generate && pnpm build",
+      "bindings": [
+        { "type": "service", "service": "ai-service", "format": "url", "env": "AI_SERVICE_URL" }
+      ]
+    },
+    "ai-service": {
+      "root": "apps/ai-service",
+      "framework": "fastapi"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/auth/(session|csrf|providers|signin|signout|callback|_log|error)(.*)",
+      "destination": { "service": "frontend" }
+    },
+    {
+      "source": "/api/(.*)",
+      "destination": { "service": "backend" }
+    },
+    {
+      "source": "/(.*)",
+      "destination": { "service": "frontend" }
+    }
+  ]
+}
