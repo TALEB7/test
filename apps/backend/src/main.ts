@@ -19,14 +19,21 @@ async function bootstrap() {
     process.env.FRONTEND_URL,
   ].filter(Boolean) as string[];
 
-  app.enableCors({
-    origin: (origin, callback) => {
-      // Allow requests with no origin (mobile apps, curl, Postman)
-      if (!origin) return callback(null, true);
-      if (allowedOrigins.includes(origin)) return callback(null, true);
-      callback(new Error(`CORS: origin ${origin} not allowed`));
-    },
-    credentials: true,
+  app.enableCors((req: any, callback: (err: Error | null, options?: any) => void) => {
+    const origin = req.headers.origin as string | undefined;
+    // Same-origin requests are always allowed: on Vercel the frontend and this API share
+    // one domain, and every deployment also gets its own preview URL.
+    const host = (req.headers['x-forwarded-host'] || req.headers.host) as string | undefined;
+    let sameOrigin = false;
+    try {
+      sameOrigin = !!origin && !!host && new URL(origin).host === host;
+    } catch {
+      sameOrigin = false;
+    }
+    // Allow requests with no origin (mobile apps, curl, Postman)
+    const allowed = !origin || sameOrigin || allowedOrigins.includes(origin);
+    // A disallowed origin just gets no CORS headers (the browser blocks it) instead of a 500.
+    callback(null, { origin: allowed, credentials: true });
   });
 
   // Global prefix
