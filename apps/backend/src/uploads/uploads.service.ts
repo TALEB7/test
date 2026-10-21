@@ -2,6 +2,7 @@ import { Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import * as fs from 'fs';
 import * as path from 'path';
+import { uploadsRoot } from './uploads-root';
 
 @Injectable()
 export class UploadsService {
@@ -9,7 +10,7 @@ export class UploadsService {
   private readonly uploadDir: string;
 
   constructor(private readonly config: ConfigService) {
-    this.uploadDir = path.join(process.cwd(), 'uploads');
+    this.uploadDir = uploadsRoot();
     this.ensureUploadDir();
   }
 

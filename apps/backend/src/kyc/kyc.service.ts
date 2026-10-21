@@ -2,6 +2,7 @@ import { Injectable, Logger, NotFoundException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 import * as fs from 'fs';
 import * as path from 'path';
+import { uploadsRoot, storedUploadPath } from '../uploads/uploads-root';
 
 @Injectable()
 export class KycService {
@@ -9,7 +10,7 @@ export class KycService {
   private readonly uploadDir: string;
 
   constructor(private readonly prisma: PrismaService) {
-    this.uploadDir = path.join(process.cwd(), 'uploads', 'kyc');
+    this.uploadDir = path.join(uploadsRoot(), 'kyc');
     this.ensureKycUploadDir();
   }
 
@@ -58,7 +59,7 @@ export class KycService {
         
         fs.writeFileSync(dest, file.buffer);
         // Store relative path (like uploads/kyc/userId/filename) to match Next.js pattern
-        saved[field] = path.relative(process.cwd(), dest).replace(/\\/g, '/');
+        saved[field] = storedUploadPath(dest);
       }
     }
 
@@ -113,7 +114,7 @@ export class KycService {
         const dest = path.join(userDir, filename);
 
         fs.writeFileSync(dest, file.buffer);
-        saved[field] = path.relative(process.cwd(), dest).replace(/\\/g, '/');
+        saved[field] = storedUploadPath(dest);
       }
     }
 

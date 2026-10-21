@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
-import { ConfigModule, ConfigService } from '@nestjs/config';
+import { ConfigModule } from '@nestjs/config';
 import { ThrottlerModule } from '@nestjs/throttler';
 import { ServeStaticModule } from '@nestjs/serve-static';
-import * as path from 'path';
+import { uploadsRoot } from './uploads/uploads-root';
 import { PrismaModule } from './prisma/prisma.module';
 import { RedisModule } from './redis/redis.module';
 import { HealthController } from './health.controller';
@@ -76,14 +76,10 @@ import { ContentModule } from './content/content.module';
     // Uploads
     UploadsModule,
     ServeStaticModule.forRootAsync({
-      inject: [ConfigService],
-      useFactory: (config: ConfigService) => {
-        const relativePath = config.get('UPLOADS_DIR', 'uploads');
+      useFactory: () => {
         return [
           {
-            rootPath: path.isAbsolute(relativePath)
-              ? relativePath
-              : path.resolve(process.cwd(), relativePath),
+            rootPath: uploadsRoot(),
             serveRoot: '/api/uploads',
             serveStaticOptions: { index: false },
           },

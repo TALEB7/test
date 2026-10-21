@@ -11,6 +11,7 @@ import { ApiTags, ApiOperation, ApiConsumes, ApiBody } from '@nestjs/swagger';
 import { diskStorage } from 'multer';
 import { extname, join } from 'path';
 import { UploadsService } from './uploads.service';
+import { uploadsRoot } from './uploads-root';
 
 // Allowed MIME types
 const ALLOWED_IMAGE_MIMES = [
@@ -43,7 +44,7 @@ const storage = diskStorage({
   destination: (_req, _file, cb) => {
     // Default to 'listings', will be overridden by param
     const folder = (_req as any).params?.folder || 'listings';
-    const dest = join(process.cwd(), 'uploads', folder);
+    const dest = join(uploadsRoot(), folder);
     cb(null, dest);
   },
   filename: (_req, file, cb) => {
