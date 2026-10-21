@@ -1,6 +1,9 @@
-import { Controller, Get, Param, Post } from '@nestjs/common';
+import { Controller, Get, Param, Post, UseGuards } from '@nestjs/common';
 import { ApiTags, ApiOperation } from '@nestjs/swagger';
 import { CategoriesService } from './categories.service';
+import { JwtAuthGuard } from '../auth/jwt-auth.guard';
+import { RolesGuard } from '../common/guards/roles.guard';
+import { Roles } from '../common/decorators/roles.decorator';
 
 @ApiTags('categories')
 @Controller('categories')
@@ -26,7 +29,9 @@ export class CategoriesController {
   }
 
   @Post('seed')
-  @ApiOperation({ summary: 'Seed default marketplace categories' })
+  @UseGuards(JwtAuthGuard, RolesGuard)
+  @Roles('ADMIN')
+  @ApiOperation({ summary: 'Seed default marketplace categories (admin only)' })
   seed() {
     return this.categoriesService.seed();
   }
